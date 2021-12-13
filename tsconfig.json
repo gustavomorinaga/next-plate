@@ -1,0 +1,38 @@
+{
+	"compilerOptions": {
+		"target": "ES2021",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"strict": false,
+		"forceConsistentCasingInFileNames": true,
+		"noEmit": true,
+		"esModuleInterop": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"jsx": "preserve",
+		"baseUrl": ".",
+		"paths": {
+			"@docs/*": ["./docs/*"],
+			"@icons/*": ["./public/assets/icons/*"],
+			"@images/*": ["./public/assets/images/*"],
+			"@sounds/*": ["./public/assets/sounds/*"],
+			"@videos/*": ["./public/assets/videos/*"],
+			"@animations": ["./src/animations"],
+			"@animations/*": ["./src/animations/*"],
+			"@components/*": ["./src/components/*"],
+			"@hooks/*": ["./src/hooks/*"],
+			"@interfaces/*": ["./src/interfaces/*"],
+			"@motionComponents/*": ["./src/motionComponents/*"],
+			"@pages/*": ["./src/pages/*"],
+			"@scripts/*": ["./src/scripts/*"],
+			"@services/*": ["./src/services/*"],
+			"@styles/*": ["./src/styles/*"]
+		},
+		"incremental": true
+	},
+	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+	"exclude": ["node_modules"]
+}
