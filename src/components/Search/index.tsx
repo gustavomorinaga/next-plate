@@ -1,3 +1,11 @@
+import {
+	HStack,
+	IconButton,
+	Input,
+	InputGroup,
+	InputLeftElement,
+} from '@chakra-ui/react';
+
 // --- Motion Components ---
 import { MotionBox } from '@motionComponents/MotionBox';
 
@@ -11,23 +19,34 @@ export default function SearchComponent({
 	placeholder,
 }): JSX.Element {
 	return (
-		<MotionBox>
-			<form>
-				<label>
-					<FiGithub />
-					<input
+		<MotionBox w="full">
+			<HStack spacing={2} w="full" p={2}>
+				<InputGroup size="lg" variant="outline" borderColor="gray.600">
+					<InputLeftElement
+						pointerEvents="none"
+						children={<FiGithub size="1.5rem" color="white" />}
+					/>
+					<Input
 						type="text"
 						name="login"
 						id="login"
+						color="white"
+						bg="gray.600"
+						focusBorderColor="purple.500"
 						value={login}
 						placeholder={placeholder}
 						onChange={handleChangeLogin}
 					/>
-				</label>
-				<button onClick={handleSearchLogin} aria-label="Search">
-					<FiSearch />
-				</button>
-			</form>
+				</InputGroup>
+
+				<IconButton
+					aria-label="Search"
+					icon={<FiSearch />}
+					size="lg"
+					colorScheme="purple"
+					onClick={handleSearchLogin}
+				/>
+			</HStack>
 		</MotionBox>
 	);
 }

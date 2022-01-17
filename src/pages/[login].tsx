@@ -8,8 +8,11 @@ import { IUser } from '@interfaces/IUser';
 // --- Hooks ---
 import { useFetch } from '@hooks/useFetch';
 
+// --- Chakra-UI---
+import { Alert, AlertIcon, Center, Spinner } from '@chakra-ui/react';
+
 // --- Motion Components ---
-import { MotionContainer } from '@motionComponents/MotionContainer';
+import { MotionBox } from '@motionComponents/MotionBox';
 
 // --- Components ---
 import UserComponent from '@components/User';
@@ -24,20 +27,34 @@ const UserPage: NextPage = () => {
 	const { data, error } = useFetch<IUser>(login ? `users/${login}` : null);
 
 	return (
-		<MotionContainer
+		<MotionBox
+			w="full"
+			h="100vh"
 			initial="initial"
 			animate="animate"
 			exit="exit"
 			variants={slide}
-			style={{ height: '100%' }}
 		>
 			<NextSeo
-				title={login && !error ? `👤 ${login}` : !error ? 'Loading...' : 'Erro!'}
+				title={login && !error ? `👤 ${login}` : !error ? 'Loading...' : 'Not Found!'}
 				description="A short description goes here."
 			/>
 
-			<UserComponent user={data} error={error} />
-		</MotionContainer>
+			{(!data || error) && (
+				<Center w="full" h="full">
+					{error && (
+						<Alert w="md" borderRadius="xl" status="error">
+							<AlertIcon />
+							Profile not found! Search another profile!
+						</Alert>
+					)}
+
+					{!data && !error && <Spinner color="white" size="xl" />}
+				</Center>
+			)}
+
+			{data && <UserComponent user={data} />}
+		</MotionBox>
 	);
 };
 

@@ -3,6 +3,9 @@ import { useRouter } from 'next/router';
 import { useState } from 'react';
 import { NextSeo } from 'next-seo';
 
+// --- Chakra-UI ---
+import { Center } from '@chakra-ui/react';
+
 // --- Components ---
 import SearchComponent from '@components/Search';
 
@@ -26,23 +29,26 @@ const HomePage: NextPage = () => {
 
 	return (
 		<MotionContainer
+			w="full"
+			h="100vh"
 			initial="initial"
 			animate="animate"
 			exit="exit"
 			variants={slide}
-			style={{ height: '100%' }}
 		>
 			<NextSeo
 				title="🔍 Search GitHub Profile..."
 				description="A short description goes here."
 			/>
 
-			<SearchComponent
-				login={login}
-				handleChangeLogin={handleChangeLogin}
-				handleSearchLogin={handleSearchLogin}
-				placeholder="Search GitHub Profile..."
-			/>
+			<Center w="full" h="full">
+				<SearchComponent
+					login={login}
+					handleChangeLogin={handleChangeLogin}
+					handleSearchLogin={handleSearchLogin}
+					placeholder="Search GitHub Profile..."
+				/>
+			</Center>
 		</MotionContainer>
 	);
 };

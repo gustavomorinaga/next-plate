@@ -13,5 +13,4 @@ export interface IUser {
 
 export interface IUser_Page {
 	user: IUser;
-	error: any;
 }

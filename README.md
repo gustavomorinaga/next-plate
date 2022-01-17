@@ -61,16 +61,16 @@ This is a complete template all you need for your next react projects, with all 
 
 This app features all the latest tools and good practices in web development!
 
-- ⚛️ [Next.js](https://nextjs.org/) – A complete React framework for hybrid and server rendering
-- ❇️ [SWR](https://swr.vercel.app/) – A React Hooks library for data fetching
+- ⚛️ [Next.js](https://nextjs.org) – A complete React framework for hybrid and server rendering
+- ❇️ [SWR](https://swr.vercel.app) – A React Hooks library for data fetching
 - 🔄 [Axios](https://github.com/axios/axios) – Promise based HTTP client for the browser and Node.js
-- 🎞️ [Framer Motion](https://www.framer.com/motion/) – A production-ready motion library for React
-- 👓 [Sass](https://sass-lang.com/) – A powerful and professional CSS extension language
-- ✨ [React Icons](https://react-icons.github.io/react-icons/) – A collection of popular icons to React projects
-- 🎨 [Tailwind CSS](https://tailwindcss.com/) – A utility-first CSS framework packed with classes
+- 🎞️ [Framer Motion](https://www.framer.com/motion) – A production-ready motion library for React
+- 👓 [Sass](https://sass-lang.com) – A powerful and professional CSS extension language
+- ✨ [React Icons](https://react-icons.github.io/react-icons) – A collection of popular icons to React projects
+- 🎨 [Chakra-UI](https://chakra-ui.com) – a simple, modular and accessible component library that gives you the building blocks to build your React applications
 - 🐺 [Husky](https://github.com/typicode/husky) – Modern native Git hooks made easy
 - 💩 [lint-staged](https://github.com/okonet/lint-staged) – Run linters against staged git files and don't let 💩 slip into your code base
-- 📓 [commitlint](https://commitlint.js.org/#/) – Helps your team adhering to a commit convention
+- 📓 [commitlint](https://commitlint.js.org) – Helps your team adhering to a commit convention
 - 📱 [next-pwa](https://github.com/shadowwalker/next-pwa) – A PWA plugin for Next.js
 - 📈 [next-seo](https://github.com/garmeeh/next-seo) – A plugin that makes managing your SEO easier in Next.js projects
 
