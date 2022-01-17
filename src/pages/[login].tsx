@@ -12,7 +12,7 @@ import { useFetch } from '@hooks/useFetch';
 import { Alert, AlertIcon, Center, Spinner } from '@chakra-ui/react';
 
 // --- Motion Components ---
-import { MotionBox } from '@motionComponents/MotionBox';
+import { MotionBox } from '@components/Motion/MotionBox';
 
 // --- Components ---
 import UserComponent from '@components/User';

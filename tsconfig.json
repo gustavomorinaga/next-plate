@@ -25,7 +25,6 @@
 			"@components/*": ["./src/components/*"],
 			"@hooks/*": ["./src/hooks/*"],
 			"@interfaces/*": ["./src/interfaces/*"],
-			"@motionComponents/*": ["./src/motionComponents/*"],
 			"@pages/*": ["./src/pages/*"],
 			"@scripts/*": ["./src/scripts/*"],
 			"@services/*": ["./src/services/*"],

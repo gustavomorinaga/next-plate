@@ -10,7 +10,7 @@ import { Center } from '@chakra-ui/react';
 import SearchComponent from '@components/Search';
 
 // --- Motion Components ---
-import { MotionContainer } from '@motionComponents/MotionContainer';
+import { MotionContainer } from '@components/Motion/MotionContainer';
 
 // -- Animations --
 import { slide } from '@animations';

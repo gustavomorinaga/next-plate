@@ -7,7 +7,7 @@ import {
 } from '@chakra-ui/react';
 
 // --- Motion Components ---
-import { MotionBox } from '@motionComponents/MotionBox';
+import { MotionBox } from '@components/Motion/MotionBox';
 
 // --- Icons ---
 import { FiGithub, FiSearch } from 'react-icons/fi';

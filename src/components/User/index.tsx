@@ -14,7 +14,7 @@ import {
 import { IUser_Page } from '@interfaces/IUser';
 
 // --- Motion Components ---
-import { MotionBox } from '@motionComponents/MotionBox';
+import { MotionBox } from '@components/Motion/MotionBox';
 
 // --- Icons ---
 import { FiBook, FiGithub, FiMapPin, FiUsers } from 'react-icons/fi';

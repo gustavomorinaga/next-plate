@@ -1,9 +1,9 @@
 {
-	"name": "reactsetup",
+	"name": "chakra-plate",
 	"version": "1.2.0",
 	"private": true,
 	"author": "Gustavo Matheus <gustavo.morinaga27@gmail.com>",
-	"description": "Template for React, with Next.js, SWR, Axios, TypeScript, ESLint, Prettier, Framer Motion, Tailwind and Sass",
+	"description": "Template for React, with Next.js, SWR, Axios, TypeScript, ESLint, Prettier, Framer Motion, Chakra-UI and Sass",
 	"husky": {
 		"hooks": {
 			"pre-commit": "lint-staged"
