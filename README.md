@@ -3,7 +3,7 @@
 <!-- markdownlint-disable MD041 -->
 
 <h1 align="center">
-  Next.js Template
+  Next-Plate
 </h1>
 
 <!-- Banner Section
@@ -22,7 +22,7 @@
 <br>
 <p align="center">
   <a href="https://vercel.com" target="_blank" rel="noopener">
-    <img src="./public/powered-by-vercel.svg" width="175" alt="Powered by Vercel" />
+    <img src="./public/images/powered-by-vercel.svg" width="175" alt="Powered by Vercel" />
   </a>
   <br>
   <br>

@@ -6,10 +6,7 @@ const runtimeCaching = require('next-pwa/cache');
 
 const nextConfig = {
 	esModule: true,
-	env: {
-		API_BASE_URL: process.env.API_BASE_URL,
-	},
-	extends: [],
+	// extends: [],
 	images: {
 		formats: ['image/avif', 'image/webp'],
 		domains: ['avatars.githubusercontent.com'],

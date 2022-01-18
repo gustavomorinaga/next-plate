@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const api = axios.create({
-	baseURL: process.env.API_BASE_URL,
+	baseURL: 'https://api.github.com',
 });
 
 export const fetcher = async <Data = any>(url: string): Promise<Data> =>
