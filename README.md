@@ -51,7 +51,7 @@
 
 <!-- Link Demo Section -->
 
-## 🚀 [Demo](https://reactsetup-sigma.vercel.app)
+## 🚀 [Demo](https://next-plate.vercel.app)
 
 ## ❔ About
 
