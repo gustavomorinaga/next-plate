@@ -42,7 +42,7 @@ export default function UserComponent({ user }: IUser_Page): JSX.Element {
 				whileDrag={{ opacity: 0.5 }}
 			>
 				<Stack direction={['column', 'row']} spacing={2}>
-					<Center h="fit-content">
+					<Center h="fit-content" marginTop={[-14, 0]}>
 						<Avatar
 							size="xl"
 							borderWidth="medium"

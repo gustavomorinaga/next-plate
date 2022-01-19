@@ -27,6 +27,7 @@
 		"@emotion/styled": "11",
 		"@fontsource/rubik": "^4.5.0",
 		"axios": "^0.24.0",
+		"formik": "^2.2.9",
 		"framer-motion": "5",
 		"next": "^12.0.8",
 		"next-compose-plugins": "^2.2.1",
@@ -38,7 +39,8 @@
 		"react-icons": "^4.3.1",
 		"sass": "^1.48.0",
 		"sharp": "^0.29.3",
-		"swr": "^1.1.2"
+		"swr": "^1.1.2",
+		"yup": "^0.32.11"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^16",

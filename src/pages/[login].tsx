@@ -9,7 +9,7 @@ import { IUser } from '@interfaces/IUser';
 import { useFetch } from '@hooks/useFetch';
 
 // --- Chakra-UI---
-import { Alert, AlertIcon, Center, Spinner } from '@chakra-ui/react';
+import { Alert, AlertIcon, Button, Center, Spinner } from '@chakra-ui/react';
 
 // --- Motion Components ---
 import { MotionBox } from '@components/Motion/MotionBox';
@@ -17,44 +17,62 @@ import { MotionBox } from '@components/Motion/MotionBox';
 // --- Components ---
 import UserComponent from '@components/User';
 
+// --- Icons ---
+import { FiArrowLeft } from 'react-icons/fi';
+
 // -- Animations --
 import { slide } from '@animations';
 
 const UserPage: NextPage = () => {
-	const { query } = useRouter();
-	const { login } = query;
+	const router = useRouter();
+	const { login } = router.query;
 
 	const { data, error } = useFetch<IUser>(login ? `users/${login}` : null);
 
 	return (
-		<MotionBox
-			w="full"
-			h="100vh"
-			initial="initial"
-			animate="animate"
-			exit="exit"
-			variants={slide}
-		>
+		<>
 			<NextSeo
 				title={login && !error ? `👤 ${login}` : !error ? 'Loading...' : 'Not Found!'}
 				description="A short description goes here."
 			/>
 
-			{(!data || error) && (
-				<Center w="full" h="full">
-					{error && (
-						<Alert w="md" borderRadius="xl" status="error">
-							<AlertIcon />
-							Profile not found! Search another profile!
-						</Alert>
-					)}
+			<MotionBox
+				w="full"
+				h="100vh"
+				initial="initial"
+				animate="animate"
+				exit="exit"
+				variants={slide}
+			>
+				<Button
+					colorScheme="purple"
+					leftIcon={<FiArrowLeft size="1.5rem" />}
+					onClick={() => router.push('/')}
+					position="absolute"
+					top={[4, 10]}
+					left={[4, 10]}
+					zIndex="overlay"
+					boxShadow="xl"
+				>
+					Go Back
+				</Button>
 
-					{!data && !error && <Spinner color="white" size="xl" />}
-				</Center>
-			)}
+				{(!data || error) && (
+					<Center w="full" h="full">
+						{error && (
+							<Alert w="md" borderRadius="xl" status="error">
+								<AlertIcon />
+								Profile not found! Search another profile!
+							</Alert>
+						)}
 
-			{data && <UserComponent user={data} />}
-		</MotionBox>
+						{!data && !error && <Spinner color="white" size="xl" />}
+					</Center>
+				)}
+
+				{data && <UserComponent user={data} />}
+			</MotionBox>
+		</>
 	);
 };
 

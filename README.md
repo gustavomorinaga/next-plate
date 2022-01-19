@@ -18,11 +18,11 @@
 
 ---
 
-<!-- Badges Section
+<!-- Badges Section -->
 <br>
 <p align="center">
-  <a href="https://vercel.com" target="_blank" rel="noopener">
-    <img src="./public/images/powered-by-vercel.svg" width="175" alt="Powered by Vercel" />
+  <!-- <a href="https://vercel.com" target="_blank" rel="noopener">
+    <img src="./public/assets/images/powered-by-vercel.svg" width="175" alt="Powered by Vercel" />
   </a>
   <br>
   <br>
@@ -30,14 +30,13 @@
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
   </a>
   <br>
-  <br>
+  <br> -->
   <a href="https://forthebadge.com">
     <img src="https://forthebadge.com/images/badges/validated-html5.svg" alt="Validated HTML5" />
     <img src="https://forthebadge.com/images/badges/powered-by-coffee.svg" alt="Powered by Coffee" />
     <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Made with TypeScript" />
   </a>
 </p>
--->
 
 <!-- Desktop/Mobile GIF Demo Section
 <div align="center">
@@ -61,16 +60,30 @@ This is a complete template all you need for your next react projects, with all 
 
 This app features all the latest tools and good practices in web development!
 
+### Framework
+
 - ⚛️ [Next.js](https://nextjs.org) – A complete React framework for hybrid and server rendering
+
+### Data
+
 - ❇️ [SWR](https://swr.vercel.app) – A React Hooks library for data fetching
 - 🔄 [Axios](https://github.com/axios/axios) – Promise based HTTP client for the browser and Node.js
-- 🎞️ [Framer Motion](https://www.framer.com/motion) – A production-ready motion library for React
-- 👓 [Sass](https://sass-lang.com) – A powerful and professional CSS extension language
-- ✨ [React Icons](https://react-icons.github.io/react-icons) – A collection of popular icons to React projects
+
+### Design System and Styles
+
 - 🎨 [Chakra-UI](https://chakra-ui.com) – a simple, modular and accessible component library that gives you the building blocks to build your React applications
+- 🎞️ [Framer Motion](https://www.framer.com/motion) – A production-ready motion library for React
+- ✨ [React Icons](https://react-icons.github.io/react-icons) – A collection of popular icons to React projects
+- 👓 [Sass](https://sass-lang.com) – A powerful and professional CSS extension language
+
+### Project Code Helpers
+
 - 🐺 [Husky](https://github.com/typicode/husky) – Modern native Git hooks made easy
 - 💩 [lint-staged](https://github.com/okonet/lint-staged) – Run linters against staged git files and don't let 💩 slip into your code base
 - 📓 [commitlint](https://commitlint.js.org) – Helps your team adhering to a commit convention
+
+### Additional Plugins
+
 - 📱 [next-pwa](https://github.com/shadowwalker/next-pwa) – A PWA plugin for Next.js
 - 📈 [next-seo](https://github.com/garmeeh/next-seo) – A plugin that makes managing your SEO easier in Next.js projects
 
@@ -80,9 +93,8 @@ This app features all the latest tools and good practices in web development!
 2. Configure your new project with a name and other options
 3. Clone this generated repository to your local machine
 4. Move yourself to the project using `cd reactsetup`
-5. Create a new file `.env.local` and add line `API_BASE_URL="http://api.github.com"`
-6. Run `yarn` to install all dependencies
-7. Run `yarn start` or `yarn dev`
+5. Run `yarn install` to install all dependencies
+6. Run `yarn build` and `yarn start` to start production build, or `yarn dev` to start developing
 
 👨‍💻 Good Hacking!
 

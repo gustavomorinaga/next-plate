@@ -4,11 +4,6 @@ import { ColorModeScript } from '@chakra-ui/react';
 import theme from '../../theme';
 
 class MyDocument extends Document<DocumentProps> {
-	static async getInitialProps(ctx: any) {
-		const initialProps = await Document.getInitialProps(ctx);
-		return { ...initialProps };
-	}
-
 	render(): JSX.Element {
 		return (
 			<Html lang="en">
