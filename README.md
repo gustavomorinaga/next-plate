@@ -76,6 +76,11 @@ This app features all the latest tools and good practices in web development!
 - ✨ [React Icons](https://react-icons.github.io/react-icons) – A collection of popular icons to React projects
 - 👓 [Sass](https://sass-lang.com) – A powerful and professional CSS extension language
 
+### Form Validations
+
+- 📃 [Formik](https://formik.org/) – the world's most popular open source form library for React and React Native
+- 🚨 [Yup](https://github.com/jquense/yup) – a schema builder for runtime value parsing and validation
+
 ### Project Code Helpers
 
 - 🐺 [Husky](https://github.com/typicode/husky) – Modern native Git hooks made easy
