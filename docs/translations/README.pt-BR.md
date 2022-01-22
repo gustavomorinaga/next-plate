@@ -85,13 +85,15 @@ Este projeto apresenta todas as ferramentas e boas práticas mais recentes em de
 - ✨ [React Icons](https://react-icons.github.io/react-icons) – Uma coleção de ícones populares para projetos React
 - 👓 [Sass](https://sass-lang.com) – Uma linguagem de extensão CSS poderosa e profissional
 
-### Validadores de Formulário
+### Validação de Formulários
 
 - 📃 [Formik](https://formik.org/) – A biblioteca de formulários de código aberto mais popular do mundo para React e React Native
 - 🚨 [Yup](https://github.com/jquense/yup) – Um construtor de schema para análise e validação de valor em tempo de execução
 
 ### Padrões de Projeto
 
+- ⛔ [ESLint](https://eslint.org) – Encontre e corrija problemas em seus códigos JavaScript
+- 🎀 [Prettier](https://prettier.io) – Um formatador opinativo de código, com suporte a várias linguagens e editores de código
 - 🐺 [Husky](https://github.com/typicode/husky) – Git Hooks nativo e moderno de forma fácil
 - 💩 [lint-staged](https://github.com/okonet/lint-staged) – Execute linters em arquivos git e não deixe 💩 entrar em sua base de código
 - 📓 [commitlint](https://commitlint.js.org) – Ajuda sua equipe a aderir a uma convenção de commit

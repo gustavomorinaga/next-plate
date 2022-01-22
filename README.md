@@ -85,13 +85,15 @@ This project features all the latest tools and good practices in web development
 - ✨ [React Icons](https://react-icons.github.io/react-icons) – A collection of popular icons to React projects
 - 👓 [Sass](https://sass-lang.com) – A powerful and professional CSS extension language
 
-### Form Validators
+### Form Validation
 
 - 📃 [Formik](https://formik.org/) – the world's most popular open source form library for React and React Native
 - 🚨 [Yup](https://github.com/jquense/yup) – a schema builder for runtime value parsing and validation
 
 ### Design Patterns
 
+- ⛔ [ESLint](https://eslint.org) – Find and fix problems in your JavaScript code
+- 🎀 [Prettier](https://prettier.io) – An opinionated code formatter, supporting multiple languages and code editors
 - 🐺 [Husky](https://github.com/typicode/husky) – Modern native Git hooks made easy
 - 💩 [lint-staged](https://github.com/okonet/lint-staged) – Run linters against staged git files and don't let 💩 slip into your code base
 - 📓 [commitlint](https://commitlint.js.org) – Helps your team adhering to a commit convention
