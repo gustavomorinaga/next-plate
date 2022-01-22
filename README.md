@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD014 -->
 <!-- markdownlint-disable MD026 -->
 <!-- markdownlint-disable MD033 -->
 <!-- markdownlint-disable MD041 -->
@@ -13,13 +14,12 @@
   <br>
 </p> -->
 <p align="center">
-  A super template for React with Next.js and other incredible tools
+  A super template for Next.js with a pack of incredible tools
 </p>
 
 ---
 
 <!-- Badges Section -->
-<br>
 <p align="center">
   <!-- <a href="https://vercel.com" target="_blank" rel="noopener">
     <img src="./public/assets/images/powered-by-vercel.svg" width="175" alt="Powered by Vercel" />
@@ -27,7 +27,7 @@
   <br>
   <br>
   <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License MIT">
   </a>
   <br>
   <br> -->
@@ -43,10 +43,9 @@
   <img src="#" alt="Demo Desktop" width="600px" height="300px">
   <img src="#" alt="Demo Mobile" height="300px">
 </div>
+-->
 
 ---
-
--->
 
 <!-- Link Demo Section -->
 
@@ -54,7 +53,7 @@
 
 ## ❔ About
 
-This is a complete template all you need for your next react projects, with all the Best Practices of JAMStack. Customize and enjoy!
+This is a complete template all you need for your next react projects, with all the best practices of JAMStack. Customize and enjoy!
 
 ## 🌟 Features
 
@@ -64,7 +63,7 @@ This app features all the latest tools and good practices in web development!
 
 - ⚛️ [Next.js](https://nextjs.org) – A complete React framework for hybrid and server rendering
 
-### Data
+### Data Fetching
 
 - ❇️ [SWR](https://swr.vercel.app) – A React Hooks library for data fetching
 - 🔄 [Axios](https://github.com/axios/axios) – Promise based HTTP client for the browser and Node.js
@@ -76,12 +75,12 @@ This app features all the latest tools and good practices in web development!
 - ✨ [React Icons](https://react-icons.github.io/react-icons) – A collection of popular icons to React projects
 - 👓 [Sass](https://sass-lang.com) – A powerful and professional CSS extension language
 
-### Form Validations
+### Form Validators
 
 - 📃 [Formik](https://formik.org/) – the world's most popular open source form library for React and React Native
 - 🚨 [Yup](https://github.com/jquense/yup) – a schema builder for runtime value parsing and validation
 
-### Project Code Helpers
+### Design Patterns
 
 - 🐺 [Husky](https://github.com/typicode/husky) – Modern native Git hooks made easy
 - 💩 [lint-staged](https://github.com/okonet/lint-staged) – Run linters against staged git files and don't let 💩 slip into your code base
@@ -92,14 +91,79 @@ This app features all the latest tools and good practices in web development!
 - 📱 [next-pwa](https://github.com/shadowwalker/next-pwa) – A PWA plugin for Next.js
 - 📈 [next-seo](https://github.com/garmeeh/next-seo) – A plugin that makes managing your SEO easier in Next.js projects
 
-## ▶️ Get Started
+## ▶️ Getting Started
 
-1. Click on **Use this template** button beside the Code button
-2. Configure your new project with a name and other options
-3. Clone this generated repository to your local machine
-4. Move yourself to the project using `cd reactsetup`
-5. Run `yarn install` to install all dependencies
-6. Run `yarn build` and `yarn start` to start production build, or `yarn dev` to start developing
+### Creating a new repository on GitHub
+
+1. Click on "**Use this template**" button
+2. Configure your new repository and click on "**Create repository from template**" button
+3. Now you can clone the generated repository to your local machine:
+
+   ```bash
+    $ git clone https://github.com/gmatthewsfeuer/<name-of-your-generated-repository>.git
+   ```
+
+4. Move yourself to the root of the project
+
+   ```bash
+   $ cd <name-of-your-generated-repository>
+   ```
+
+5. Install all dependencies of the project
+
+   - NPM
+
+   ```bash
+   $ npm install
+   ```
+
+   - Yarn
+
+   ```bash
+   $ yarn install
+   ```
+
+6. Run to start developing
+
+   - NPM
+
+   ```bash
+   $ npm run dev
+   ```
+
+   - Yarn
+
+   ```bash
+   $ yarn dev
+   ```
+
+7. Make a production build to deploy the project
+
+   - NPM
+
+   ```bash
+   $ npm run build
+   ```
+
+   - Yarn
+
+   ```bash
+   $ yarn build
+   ```
+
+8. Run the production build
+
+   - NPM
+
+   ```bash
+   $ npm start
+   ```
+
+   - Yarn
+
+   ```bash
+   $ yarn start
+   ```
 
 👨‍💻 Good Hacking!
 
