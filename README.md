@@ -10,7 +10,7 @@
 <!-- Banner Section
 <p align="center">
   <br>
-  <img src="#" alt="Logotipo do Projeto" />
+  <img src="#" alt="Project Logo" />
   <br>
 </p> -->
 <p align="center">
@@ -47,17 +47,27 @@
 
 ---
 
+<!-- Translations Section -->
+
+## 🌎 Translations
+
+- [Português Brasileiro](docs/translations/README.pt-BR.md)
+
 <!-- Link Demo Section -->
 
 ## 🚀 [Demo](https://next-plate.vercel.app)
 
-## ❔ About
+## 📖 Introduction
 
-This is a complete template all you need for your next react projects, with all the best practices of JAMStack. Customize and enjoy!
+This is a complete template all you need for your next react projects, with all the best practices of JAMStack.
+
+This template have a bunch of folders, code examples and configurations. Feel free to edit or remove them.
+
+Customize and enjoy!
 
 ## 🌟 Features
 
-This app features all the latest tools and good practices in web development!
+This project features all the latest tools and good practices in web development!
 
 ### Framework
 
