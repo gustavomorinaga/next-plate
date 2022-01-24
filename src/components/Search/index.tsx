@@ -26,7 +26,7 @@ export default function SearchComponent({ handleSearchLogin }): JSX.Element {
 			>
 				{formik => (
 					<form onSubmit={formik.handleSubmit}>
-						<HStack spacing={2} w="full" alignItems="flex-start" p={2}>
+						<HStack spacing="2" w="full" alignItems="flex-start" py="2">
 							<InputGroupFieldComponent
 								type="text"
 								name="login"

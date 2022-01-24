@@ -25,7 +25,7 @@ const HomePage: NextPage = () => {
 		<>
 			<NextSeo
 				title="🔍 Search GitHub Profile..."
-				description="A short description goes here."
+				description="This is a Next.js template"
 			/>
 
 			<MotionContainer

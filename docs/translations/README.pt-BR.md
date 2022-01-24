@@ -21,20 +21,20 @@
 
 <!-- Seção de Distintivos -->
 <p align="center">
-  <!-- <a href="https://vercel.com" target="_blank" rel="noopener">
-    <img src="./public/assets/images/powered-by-vercel.svg" width="175" alt="Powered by Vercel" />
+  <a href="https://vercel.com" target="_blank" rel="noopener">
+    <img src="../../public/assets/images/powered-by-vercel.svg" width="175" alt="Powered by Vercel" />
   </a>
-  <br>
+  <!-- <br>
   <br>
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License MIT">
   </a>
-  <br>
   <br> -->
+  <br>
   <a href="https://forthebadge.com">
-    <img src="https://forthebadge.com/images/badges/validated-html5.svg" alt="Validated HTML5" />
-    <img src="https://forthebadge.com/images/badges/powered-by-coffee.svg" alt="Powered by Coffee" />
-    <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Made with TypeScript" />
+    <img src="https://forthebadge.com/images/badges/open-source.svg" alt="Open Source" />
+    <img src="https://forthebadge.com/images/badges/made-with-typescript.svg" alt="Made with TypeScript" />
+    <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Built with Love" />
   </a>
 </p>
 
@@ -100,8 +100,9 @@ Este projeto apresenta todas as ferramentas e boas práticas mais recentes em de
 
 ### Plugins Adicionais
 
+- 🗃️ [next-compose-plugins](https://github.com/cyrilwanner/next-compose-plugins) – Fornece uma API mais limpa para ativar e configurar plugins para Next.js
 - 📱 [next-pwa](https://github.com/shadowwalker/next-pwa) – Um plugin de PWA para Next.js
-- 📈 [next-seo](https://github.com/garmeeh/next-seo) – Um plug-in que facilita o gerenciamento do SEO de seus projetos em Next.js
+- 📈 [next-seo](https://github.com/garmeeh/next-seo) – Um plugin que facilita o gerenciamento do SEO de seus projetos em Next.js
 
 ## ▶️ Começando
 

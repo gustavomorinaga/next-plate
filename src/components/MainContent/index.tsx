@@ -21,22 +21,24 @@ export default function MainContentComponent({ children }): JSX.Element {
 				placeItems="center"
 				position="absolute"
 				zIndex="overlay"
-				bottom={5}
+				bottom="5"
+				px="1.5"
 			>
 				<Link
 					href="https://github.com/gmatthewsfeuer/next-plate"
 					isExternal
 					display="flex"
 					alignItems="center"
-					gap={2}
+					gap="2"
 					bgColor={bgColor}
-					py={2}
-					px={4}
+					py="2"
+					px="4"
 					borderRadius="xl"
 					fontSize="sm"
+					lineHeight="normal"
 				>
 					This is a template for Next.js. Check out the repo and create your own projects
-					from this template{' '}
+					from this template
 					<Text as={FiExternalLink} fontSize={{ base: '2.5rem', md: 'inherit' }} />
 				</Link>
 			</Box>

@@ -32,7 +32,7 @@ export default function UserComponent({ user }: IUser_Page): JSX.Element {
 		<MotionBox w="full" h="full" display="grid" placeItems="center" ref={constraintsRef}>
 			<MotionBox
 				maxW="2xl"
-				p={4}
+				p="4"
 				bgColor="gray.600"
 				borderWidth="thin"
 				borderColor="gray.700"
@@ -44,7 +44,7 @@ export default function UserComponent({ user }: IUser_Page): JSX.Element {
 				whileHover={zoom}
 				whileDrag={{ opacity: 0.5 }}
 			>
-				<Stack direction={['column', 'row']} spacing={2}>
+				<Stack direction={['column', 'row']} spacing="4">
 					<Center h="fit-content" marginTop={[-14, 0]}>
 						<Avatar
 							size="xl"
@@ -72,7 +72,7 @@ export default function UserComponent({ user }: IUser_Page): JSX.Element {
 								w={{ base: 'full', md: 'fit-content' }}
 								display="flex"
 								alignItems="center"
-								gap={1}
+								gap="1"
 								justifyContent={{ base: 'center', md: 'left' }}
 								color="gray.300"
 								_hover={{ color: 'white' }}
@@ -85,16 +85,16 @@ export default function UserComponent({ user }: IUser_Page): JSX.Element {
 							<WrapItem>
 								<Flex color="white">
 									<Center
-										gap={1}
+										gap="1"
 										bgColor="green.400"
 										borderWidth="thin"
 										borderColor="green.500"
 										borderRadius="md"
-										px={2}
+										px="2"
 										h="6"
 									>
 										<FiUsers />
-										<HStack divider={<Text mx={1}>·</Text>}>
+										<HStack divider={<Text mx="1">·</Text>}>
 											<HStack>
 												<Text fontSize="sm">
 													<Text as="strong">{user.followers}</Text> followers
@@ -112,12 +112,12 @@ export default function UserComponent({ user }: IUser_Page): JSX.Element {
 							<WrapItem>
 								<Flex color="white">
 									<Center
-										gap={1}
+										gap="1"
 										bgColor="yellow.400"
 										borderWidth="thin"
 										borderColor="yellow.500"
 										borderRadius="md"
-										px={2}
+										px="2"
 										h="6"
 									>
 										<FiBook />
@@ -131,12 +131,12 @@ export default function UserComponent({ user }: IUser_Page): JSX.Element {
 								<WrapItem>
 									<Flex color="white">
 										<Center
-											gap={1}
+											gap="1"
 											bgColor="blue.400"
 											borderWidth="thin"
 											borderColor="blue.500"
 											borderRadius="md"
-											px={2}
+											px="2"
 											h="6"
 										>
 											<FiMapPin />

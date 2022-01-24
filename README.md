@@ -21,20 +21,20 @@
 
 <!-- Badges Section -->
 <p align="center">
-  <!-- <a href="https://vercel.com" target="_blank" rel="noopener">
+  <a href="https://vercel.com" target="_blank" rel="noopener">
     <img src="./public/assets/images/powered-by-vercel.svg" width="175" alt="Powered by Vercel" />
   </a>
-  <br>
+  <!-- <br>
   <br>
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License MIT">
   </a>
-  <br>
   <br> -->
+  <br>
   <a href="https://forthebadge.com">
-    <img src="https://forthebadge.com/images/badges/validated-html5.svg" alt="Validated HTML5" />
-    <img src="https://forthebadge.com/images/badges/powered-by-coffee.svg" alt="Powered by Coffee" />
-    <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Made with TypeScript" />
+    <img src="https://forthebadge.com/images/badges/open-source.svg" alt="Open Source" />
+    <img src="https://forthebadge.com/images/badges/made-with-typescript.svg" alt="Made with TypeScript" />
+    <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Built with Love" />
   </a>
 </p>
 
@@ -59,7 +59,7 @@
 
 ## 📖 Introduction
 
-This is a complete template all you need for your next react projects, with all the best practices of JAMStack.
+This is a complete template with all you need for your next React projects and all the best practices of JAMStack.
 
 This template have a bunch of folders, code examples and configurations. Feel free to edit or remove them.
 
@@ -78,17 +78,17 @@ This project features all the latest tools and good practices in web development
 - ❇️ [SWR](https://swr.vercel.app) – A React Hooks library for data fetching
 - 🔄 [Axios](https://github.com/axios/axios) – Promise based HTTP client for the browser and Node.js
 
-### Design System and Styles
+### Design System and Animations
 
-- 🎨 [Chakra-UI](https://chakra-ui.com) – a simple, modular and accessible component library that gives you the building blocks to build your React applications
+- 🎨 [Chakra-UI](https://chakra-ui.com) – A simple, modular and accessible component library that gives you the building blocks to build your React applications
 - 🎞️ [Framer Motion](https://www.framer.com/motion) – A production-ready motion library for React
 - ✨ [React Icons](https://react-icons.github.io/react-icons) – A collection of popular icons to React projects
 - 👓 [Sass](https://sass-lang.com) – A powerful and professional CSS extension language
 
 ### Form Validation
 
-- 📃 [Formik](https://formik.org/) – the world's most popular open source form library for React and React Native
-- 🚨 [Yup](https://github.com/jquense/yup) – a schema builder for runtime value parsing and validation
+- 📃 [Formik](https://formik.org/) – The world's most popular open source form library for React and React Native
+- 🚨 [Yup](https://github.com/jquense/yup) – A schema builder for runtime value parsing and validation
 
 ### Design Patterns
 
@@ -100,6 +100,7 @@ This project features all the latest tools and good practices in web development
 
 ### Additional Plugins
 
+- 🗃️ [next-compose-plugins](https://github.com/cyrilwanner/next-compose-plugins) – Provides a cleaner API for enabling and configuring plugins for Next.js
 - 📱 [next-pwa](https://github.com/shadowwalker/next-pwa) – A PWA plugin for Next.js
 - 📈 [next-seo](https://github.com/garmeeh/next-seo) – A plugin that makes managing your SEO easier in Next.js projects
 

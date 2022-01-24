@@ -33,7 +33,7 @@ const UserPage: NextPage = () => {
 		<>
 			<NextSeo
 				title={login && !error ? `👤 ${login}` : !error ? 'Loading...' : 'Not Found!'}
-				description="A short description goes here."
+				description="Searching a GitHub profile..."
 			/>
 
 			<MotionBox
