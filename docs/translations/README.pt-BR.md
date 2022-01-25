@@ -14,7 +14,7 @@
   <br>
 </p> -->
 <p align="center">
-  Um super template para Next.js com pacote de ferramentas incríveis
+  🦸‍♀️ Um super modelo de projeto para Next.js com pacote de ferramentas incríveis
 </p>
 
 ---
@@ -61,7 +61,7 @@
 
 Este projeto é um modelo completo que você precisa para o seus próximos projetos de React, com todas as boas práticas da JAMStack.
 
-Este modelo possui muitas pastas, exemplos de código e configurações. Sinta-se livre para editar ou excluí-las.
+Este modelo possui muitas pastas, exemplos de código e configurações. Sinta-se livre para editá-las ou excluí-las, incluindo este README!
 
 Customize e divirta-se!
 

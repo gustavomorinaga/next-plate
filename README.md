@@ -14,7 +14,7 @@
   <br>
 </p> -->
 <p align="center">
-  A super template for Next.js with a pack of incredible tools
+  🦸‍♀️ A super template for Next.js with a pack of incredible tools
 </p>
 
 ---
@@ -61,7 +61,7 @@
 
 This is a complete template with all you need for your next React projects and all the best practices of JAMStack.
 
-This template have a bunch of folders, code examples and configurations. Feel free to edit or remove them.
+This template have a bunch of folders, code examples and configurations. Feel free to edit or remove them, including this README!
 
 Customize and enjoy!
 
