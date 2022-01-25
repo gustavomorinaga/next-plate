@@ -98,6 +98,10 @@ This project features all the latest tools and good practices in web development
 - 💩 [lint-staged](https://github.com/okonet/lint-staged) – Run linters against staged git files and don't let 💩 slip into your code base
 - 📓 [commitlint](https://commitlint.js.org) – Helps your team adhering to a commit convention
 
+### Analysis
+
+- 🕵🏻‍♂️ [why-did-you-render](https://github.com/welldone-software/why-did-you-render) – Notify you about potentially avoidable re-renders
+
 ### Additional Plugins
 
 - 🗃️ [next-compose-plugins](https://github.com/cyrilwanner/next-compose-plugins) – Provides a cleaner API for enabling and configuring plugins for Next.js
