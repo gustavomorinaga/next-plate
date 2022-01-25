@@ -36,6 +36,3 @@ yarn-error.log*
 # pwa
 public/*.js
 public/*.map
-
-# husky
-/.husky/
