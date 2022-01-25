@@ -10,7 +10,3 @@ export interface IUser {
 	public_repos: number;
 	url: string;
 }
-
-export interface IUser_Page {
-	user: IUser;
-}

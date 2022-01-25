@@ -1,3 +1,4 @@
+import { useRef } from 'react';
 import { NextPage } from 'next';
 import { useRouter } from 'next/router';
 import dynamic from 'next/dynamic';
@@ -10,7 +11,7 @@ import { IUser } from '@interfaces/IUser';
 import { useFetch } from '@hooks/useFetch';
 
 // --- Chakra-UI---
-import { Alert, AlertIcon, Center, Spinner } from '@chakra-ui/react';
+import { Alert, AlertIcon, Spinner } from '@chakra-ui/react';
 
 // --- Motion Components ---
 import { MotionBox } from '@components/Motion/MotionBox';
@@ -25,6 +26,8 @@ import { slide } from '@animations';
 const UserPage: NextPage = () => {
 	const router = useRouter();
 	const { login } = router.query;
+
+	const constraintsRef = useRef(null);
 
 	const { data, error } = useFetch<IUser>(login ? `users/${login}` : null);
 
@@ -45,20 +48,24 @@ const UserPage: NextPage = () => {
 			>
 				<GoBackButtonComponent pageRedirection="/" />
 
-				{(!data || error) && (
-					<Center w="full" h="full">
-						{error && (
-							<Alert w="md" borderRadius="xl" status="error">
-								<AlertIcon />
-								Profile not found! Search another profile!
-							</Alert>
-						)}
+				<MotionBox
+					w="full"
+					h="full"
+					display="grid"
+					placeItems="center"
+					ref={constraintsRef}
+				>
+					{error && (
+						<Alert w="md" borderRadius="xl" status="error">
+							<AlertIcon />
+							Profile not found! Search another profile!
+						</Alert>
+					)}
 
-						{!data && !error && <Spinner color="white" size="xl" />}
-					</Center>
-				)}
+					{!data && !error && <Spinner color="white" size="xl" />}
 
-				{data && <UserComponent user={data} />}
+					{data && <UserComponent user={data} constraintsRef={constraintsRef} />}
+				</MotionBox>
 			</MotionBox>
 		</>
 	);

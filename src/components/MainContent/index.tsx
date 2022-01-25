@@ -19,18 +19,10 @@ export default function MainContentComponent({ children }): JSX.Element {
 	return (
 		<Box bgColor={bgColor} bgImage={`url("${HERO_PATTERN}")`} overflow="hidden">
 			<ThemeButtonComponent />
+
 			{children}
-			<Box
-				w="full"
-				display="grid"
-				placeItems="center"
-				position="absolute"
-				zIndex="overlay"
-				bottom="5"
-				px="1.5"
-			>
-				<InfoLinkComponent bgColor={bgColor} />
-			</Box>
+
+			<InfoLinkComponent bgColor={bgColor} />
 		</Box>
 	);
 }
