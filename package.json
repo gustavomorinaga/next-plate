@@ -4,18 +4,25 @@
 	"private": true,
 	"author": "Gustavo Matheus <gustavo.morinaga27@gmail.com>",
 	"description": "A super template for Next.js with a pack of incredible tools",
+	"lint-staged": {
+		"src/**/*.+(js|jsx|ts|tsx|json)": [
+			"eslint --cache --fix",
+			"git add"
+		],
+		"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+			"prettier --write",
+			"git add"
+		]
+	},
 	"husky": {
 		"hooks": {
 			"pre-commit": "lint-staged"
-		},
-		"lint-staged": {
-			"*.{js,jsx,ts,tsx}": "yarn run lint:fix"
 		}
 	},
 	"scripts": {
 		"dev": "next dev",
 		"lint": "next lint",
-		"lint:fix": "eslint --cache --fix \"src/**/*.{js,jsx,ts,tsx}\"",
+		"lint:fix": "eslint --cache --fix \"src/**/*.{js,jsx,ts,tsx,json}\"",
 		"prepare": "husky install",
 		"pre-commit": "yarn lint",
 		"build": "next build",
