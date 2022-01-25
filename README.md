@@ -128,57 +128,33 @@ This project features all the latest tools and good practices in web development
 
 5. Install all dependencies of the project
 
-   - NPM
-
    ```bash
    $ npm install
-   ```
-
-   - Yarn
-
-   ```bash
+   # or
    $ yarn install
    ```
 
 6. Run to start developing
 
-   - NPM
-
    ```bash
    $ npm run dev
-   ```
-
-   - Yarn
-
-   ```bash
+   # or
    $ yarn dev
    ```
 
 7. Make a production build to deploy the project
 
-   - NPM
-
    ```bash
    $ npm run build
-   ```
-
-   - Yarn
-
-   ```bash
+   # or
    $ yarn build
    ```
 
 8. Run the production build
 
-   - NPM
-
    ```bash
    $ npm start
-   ```
-
-   - Yarn
-
-   ```bash
+   # or
    $ yarn start
    ```
 

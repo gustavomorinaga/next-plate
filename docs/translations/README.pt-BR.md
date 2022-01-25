@@ -128,57 +128,33 @@ Este projeto apresenta todas as ferramentas e boas práticas mais recentes em de
 
 5. Instale as dependências do projeto
 
-   - NPM
-
    ```bash
    $ npm install
-   ```
-
-   - Yarn
-
-   ```bash
+   # ou
    $ yarn install
    ```
 
 6. Comece a desenvolver
 
-   - NPM
-
    ```bash
    $ npm run dev
-   ```
-
-   - Yarn
-
-   ```bash
+   # ou
    $ yarn dev
    ```
 
 7. Gere um pacote de produção para implantar
 
-   - NPM
-
    ```bash
    $ npm run build
-   ```
-
-   - Yarn
-
-   ```bash
+   # ou
    $ yarn build
    ```
 
 8. Rode o pacote de produção
 
-   - NPM
-
    ```bash
    $ npm start
-   ```
-
-   - Yarn
-
-   ```bash
+   # ou
    $ yarn start
    ```
 
