@@ -52,6 +52,7 @@ export default function UserComponent({ user }: IUser_Page): JSX.Element {
 							borderColor="purple.400"
 							src={user.avatar_url}
 							alt={user.name}
+							name={user.name}
 						/>
 					</Center>
 					<Stack>

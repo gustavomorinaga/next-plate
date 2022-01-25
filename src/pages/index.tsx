@@ -1,12 +1,13 @@
 import { NextPage } from 'next';
 import { useRouter } from 'next/router';
+import dynamic from 'next/dynamic';
 import { NextSeo } from 'next-seo';
 
 // --- Chakra-UI ---
 import { Center } from '@chakra-ui/react';
 
 // --- Components ---
-import SearchComponent from '@components/Search';
+const SearchComponent = dynamic(() => import('@components/Search'));
 
 // --- Motion Components ---
 import { MotionContainer } from '@components/Motion/MotionContainer';
