@@ -5,7 +5,6 @@ import { NextSeo } from 'next-seo';
 
 // --- Chakra-UI ---
 import { Center } from '@chakra-ui/react';
-s;
 
 // --- Components ---
 const SearchComponent = dynamic(() => import('@components/Search'));

@@ -6,7 +6,7 @@
 	"description": "A super template for Next.js with a pack of incredible tools",
 	"lint-staged": {
 		"src/**/*.+(js|jsx|ts|tsx|json)": [
-			"eslint --cache --fix"
+			"eslint --fix"
 		],
 		"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
 			"prettier --write"
@@ -20,7 +20,7 @@
 	"scripts": {
 		"dev": "next dev",
 		"lint": "next lint",
-		"lint:fix": "eslint --cache --fix \"src/**/*.{js,jsx,ts,tsx,json}\"",
+		"lint:fix": "eslint --fix \"src/**/*.{js,jsx,ts,tsx,json}\"",
 		"prepare": "husky install",
 		"pre-commit": "yarn lint",
 		"build": "next build",
