@@ -6,12 +6,10 @@
 	"description": "A super template for Next.js with a pack of incredible tools",
 	"lint-staged": {
 		"src/**/*.+(js|jsx|ts|tsx|json)": [
-			"eslint --cache --fix",
-			"git add"
+			"eslint --cache --fix"
 		],
 		"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
-			"prettier --write",
-			"git add"
+			"prettier --write"
 		]
 	},
 	"husky": {
