@@ -7,12 +7,4 @@ export default {
 		description: '🦸‍♀️ A super template for Next.js with a pack of incredible tools',
 		image: 'https://next-plate.vercel.app/assets/images/banner.jpg',
 	},
-	twitter: {
-		domain: 'https://next-plate.vercel.app',
-		title: 'Next-Plate',
-		description: '🦸‍♀️ A super template for Next.js with a pack of incredible tools',
-		creator: '@GustavoMorinaga',
-		image: 'https://next-plate.vercel.app/assets/images/banner.jpg',
-		alt: 'Banner of Next-Plate website',
-	},
 };
