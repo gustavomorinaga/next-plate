@@ -57,13 +57,24 @@
 
 ## 🚀 [Demo](https://next-plate.vercel.app)
 
+Deploy your own copy of this template in just a few clicks!
+
+<div>
+ <a href="https://vercel.com/import/project?template=https://github.com/gmatthewsfeuer/next-plate" title="Deploy to Vercel">
+  <img src="https://vercel.com/button" alt="Deploy to Vercel" />
+ </a>
+ <a href="https://app.netlify.com/start/deploy?repository=https://github.com/gmatthewsfeuer/next-plate" title="Deploy to Netlify">
+  <img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />
+ </a>
+</div>
+
 ## 📖 Introduction
 
-This is a complete template with all you need for your next React projects and all the best practices of JAMStack.
+This is a **complete template** with all you need for your **next React projects** and all the **best practices** of **[JAMStack](https://jamstack.org)**.
 
 This template have a bunch of folders, code examples and configurations. Feel free to edit or remove them, including this README!
 
-Customize and enjoy!
+**Customize and enjoy!**
 
 ## 🌟 Features
 
@@ -158,12 +169,16 @@ This project features all the latest tools and good practices in web development
    $ yarn start
    ```
 
-👨‍💻 Good Hacking!
+### 👨‍💻 Good Hacking!
 
-## ❤️ Thanks for your attention!
+### ❤️ Thanks for your attention!
 
-<!-- License Section
-### License
+### ⭐ Give a star to maintain this project!
 
-This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
--->
+<!-- License Section -->
+
+## License
+
+Although you don't have to, if you reuse this template for your projects I would appreciate it if you would credit me and provide a link to my GitHub profile in the footer of your project. Thanks!
+
+This project is licensed under the **MIT License** - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.

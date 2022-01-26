@@ -57,13 +57,24 @@
 
 ## 🚀 [Demonstração](https://next-plate.vercel.app)
 
+Faça deploy da sua própria cópia deste modelo com apenas alguns cliques!
+
+<div>
+ <a href="https://vercel.com/import/project?template=https://github.com/gmatthewsfeuer/next-plate" title="Deploy na Vercel">
+  <img src="https://vercel.com/button" alt="Deploy to Vercel" />
+ </a>
+ <a href="https://app.netlify.com/start/deploy?repository=https://github.com/gmatthewsfeuer/next-plate" title="Deploy na Netlify">
+  <img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />
+ </a>
+</div>
+
 ## 📖 Introdução
 
-Este projeto é um modelo completo que você precisa para o seus próximos projetos de React, com todas as boas práticas da JAMStack.
+Este projeto é um **modelo completo** que você precisa para o seus **próximos projetos de React**, com todas as **boas práticas** da **[JAMStack](https://jamstack.org)**.
 
 Este modelo possui muitas pastas, exemplos de código e configurações. Sinta-se livre para editá-las ou excluí-las, incluindo este README!
 
-Customize e divirta-se!
+**Customize e divirta-se!**
 
 ## 🌟 Recursos
 
@@ -158,12 +169,16 @@ Este projeto apresenta todas as ferramentas e boas práticas mais recentes em de
    $ yarn start
    ```
 
-👨‍💻 Bom Hackeamento!
+### 👨‍💻 Bom Hackeamento!
 
-## ❤️ Obrigado pela atenção!
+### ❤️ Obrigado pela atenção!
 
-<!-- Seção de Licença
-### Licença
+### ⭐ Dê uma estrela para manter o projeto!
 
-Este projeto está licenciado sob a Licença MIT - veja a página [LICENÇA](https://opensource.org/licenses/MIT) para mais detalhes.
--->
+<!-- Seção de Licença -->
+
+## Licença
+
+Embora você não precise, se você reutilizar este modelo para os seus projetos, eu agradeceria se você me desse o crédito e fornecesse um link para meu perfil do GitHub no rodapé do seu projeto. Obrigado!
+
+Este projeto está licenciado sob a **Licença MIT** - veja a página [LICENÇA](https://opensource.org/licenses/MIT) para mais detalhes.
