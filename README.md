@@ -51,7 +51,7 @@
 
 ## 🌎 Translations
 
-- [Português Brasileiro](docs/translations/README.pt-BR.md)
+- [Português Brasileiro](public/docs/translations/README.pt-BR.md)
 
 <!-- Link Demo Section -->
 
@@ -117,7 +117,7 @@ This project features all the latest tools and good practices in web development
 3. Now you can clone the generated repository to your local machine:
 
    ```bash
-    $ git clone https://github.com/gmatthewsfeuer/<name-of-your-generated-repository>.git
+    $ git clone https://github.com/<your-github-login>/<name-of-your-generated-repository>.git
    ```
 
 4. Move yourself to the root of the project

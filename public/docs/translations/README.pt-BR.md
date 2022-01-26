@@ -22,7 +22,7 @@
 <!-- Seção de Distintivos -->
 <p align="center">
   <a href="https://vercel.com" target="_blank" rel="noopener">
-    <img src="../../public/assets/images/powered-by-vercel.svg" width="175" alt="Powered by Vercel" />
+    <img src="../../assets/images/powered-by-vercel.svg" width="175" alt="Powered by Vercel" />
   </a>
   <!-- <br>
   <br>
@@ -51,7 +51,7 @@
 
 ## 🌎 Traduções
 
-- [English](../../README.md)
+- [English](../../../README.md)
 
 <!-- Seção do Link de Demonstração -->
 
@@ -117,7 +117,7 @@ Este projeto apresenta todas as ferramentas e boas práticas mais recentes em de
 3. Agora você consegue clonar o repositório criado para a sua máquina local
 
    ```bash
-    $ git clone https://github.com/gmatthewsfeuer/<name-of-your-generated-repository>.git
+    $ git clone https://github.com/<seu-login-do-github>/<nome-do-seu-repositorio-gerado>.git
    ```
 
 4. Entre para a raiz do projeto

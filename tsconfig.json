@@ -15,7 +15,7 @@
 		"jsx": "preserve",
 		"baseUrl": ".",
 		"paths": {
-			"@docs/*": ["./docs/*"],
+			"@docs/*": ["./public/docs/*"],
 			"@icons/*": ["./public/assets/icons/*"],
 			"@images/*": ["./public/assets/images/*"],
 			"@sounds/*": ["./public/assets/sounds/*"],
