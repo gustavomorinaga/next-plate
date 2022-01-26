@@ -7,12 +7,10 @@
   Next-Plate
 </h1>
 
-<!-- Seção do Banner
+<!-- Seção do Banner -->
 <p align="center">
-  <br>
-  <img src="#" alt="Logotipo do Projeto" />
-  <br>
-</p> -->
+  <img src="../../assets/images/banner.jpg" alt="Next-Plante Banner" width="512px" />
+</p>
 <h3 align="center">
   🦸‍♀️ Um super modelo de projeto para Next.js com pacote de ferramentas incríveis
 </h3>
@@ -24,12 +22,10 @@
   <a href="https://vercel.com" target="_blank" rel="noopener">
     <img src="../../assets/images/powered-by-vercel.svg" width="175" alt="Powered by Vercel" />
   </a>
-  <!-- <br>
   <br>
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License MIT">
   </a>
-  <br> -->
   <br>
   <a href="https://forthebadge.com">
     <img src="https://forthebadge.com/images/badges/open-source.svg" alt="Open Source" />
@@ -38,12 +34,11 @@
   </a>
 </p>
 
-<!-- GIF Desktop/Mobile de Demonstração
+<!-- Desktop/Mobile GIF Demo Section -->
 <div align="center">
-  <img src="#" alt="Demo Desktop" width="600px" height="300px">
-  <img src="#" alt="Demo Mobile" height="300px">
+  <img src="../demo/demo_desktop.gif" alt="Demo Desktop" width="600px" height="300px">
+  <img src="../demo/demo_mobile.gif" alt="Demo Mobile" height="300px">
 </div>
--->
 
 ---
 
