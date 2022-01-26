@@ -13,9 +13,9 @@
   <img src="#" alt="Logotipo do Projeto" />
   <br>
 </p> -->
-<p align="center">
+<h3 align="center">
   🦸‍♀️ Um super modelo de projeto para Next.js com pacote de ferramentas incríveis
-</p>
+</h3>
 
 ---
 
@@ -173,7 +173,7 @@ Este projeto apresenta todas as ferramentas e boas práticas mais recentes em de
 
 ## 📜 Licença
 
-Embora você não precise, se você reutilizar este modelo para os seus projetos, eu agradeceria se você me desse o crédito e fornecesse um link para meu perfil do GitHub no rodapé do seu projeto. Obrigado!
+Embora você não precise, se você reutilizar este modelo para os seus projetos, eu agradeceria se você <u>me desse o crédito e fornecesse um link para meu perfil do GitHub no rodapé do seu projeto</u>. Obrigado!
 
 Este projeto está licenciado sob a **Licença MIT** - veja a página [LICENÇA](https://opensource.org/licenses/MIT) para mais detalhes.
 
