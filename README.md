@@ -169,16 +169,18 @@ This project features all the latest tools and good practices in web development
    $ yarn start
    ```
 
-### 👨‍💻 Good Hacking!
-
-### ❤️ Thanks for your attention!
-
-### ⭐ Give a star to maintain this project!
-
 <!-- License Section -->
 
-## License
+## 📜 License
 
 Although you don't have to, if you reuse this template for your projects I would appreciate it if you would credit me and provide a link to my GitHub profile in the footer of your project. Thanks!
 
 This project is licensed under the **MIT License** - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
+
+---
+
+### ⭐ Give a star to maintain this project!
+
+### ❤️ Thanks for your attention!
+
+### 👨‍💻 Good Hacking!

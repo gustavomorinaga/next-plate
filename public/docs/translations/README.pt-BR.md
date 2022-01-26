@@ -169,16 +169,18 @@ Este projeto apresenta todas as ferramentas e boas práticas mais recentes em de
    $ yarn start
    ```
 
-### 👨‍💻 Bom Hackeamento!
-
-### ❤️ Obrigado pela atenção!
-
-### ⭐ Dê uma estrela para manter o projeto!
-
 <!-- Seção de Licença -->
 
-## Licença
+## 📜 Licença
 
 Embora você não precise, se você reutilizar este modelo para os seus projetos, eu agradeceria se você me desse o crédito e fornecesse um link para meu perfil do GitHub no rodapé do seu projeto. Obrigado!
 
 Este projeto está licenciado sob a **Licença MIT** - veja a página [LICENÇA](https://opensource.org/licenses/MIT) para mais detalhes.
+
+---
+
+### ⭐ Dê uma estrela para manter o projeto!
+
+### ❤️ Obrigado pela atenção!
+
+### 👨‍💻 Bom Hackeamento!
