@@ -173,7 +173,7 @@ This project features all the latest tools and good practices in web development
 
 ## 📜 License
 
-Although you don't have to, if you reuse this template for your projects I would appreciate it if you would <u>credit me and provide a link to my GitHub profile in the footer of your project</u>. Thanks!
+Although you don't have to, if you reuse this template for your projects I would appreciate it if you would **credit me and provide a link to my GitHub profile in the footer of your project**. Thanks!
 
 This project is licensed under the **MIT License** - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
 
