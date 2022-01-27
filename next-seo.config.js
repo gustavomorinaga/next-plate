@@ -5,6 +5,13 @@ export default {
 		url: 'https://next-plate.vercel.app',
 		site_name: 'Next-Plate',
 		description: '🦸‍♀️ A super template for Next.js with a pack of incredible tools',
-		image: 'https://next-plate.vercel.app/assets/images/banner.jpg',
+		images: [
+			{
+				url: 'https://next-plate.vercel.app/assets/images/banner.jpg',
+				width: 512,
+				height: 256,
+				alt: 'Og Image Alt 2',
+			},
+		],
 	},
 };
