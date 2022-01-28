@@ -77,42 +77,42 @@ This project features all the latest tools and good practices in web development
 
 ### Framework
 
-- ⚛️ [Next.js](https://nextjs.org) – A complete React framework for hybrid and server rendering
+- ⚛️ **[Next.js](https://nextjs.org)** – A complete React framework for hybrid and server rendering
 
 ### Data Fetching
 
-- ❇️ [SWR](https://swr.vercel.app) – A React Hooks library for data fetching
-- 🔄 [Axios](https://github.com/axios/axios) – Promise based HTTP client for the browser and Node.js
+- ❇️ **[SWR](https://swr.vercel.app)** – A React Hooks library for data fetching
+- 🔄 **[Axios](https://github.com/axios/axios)** – Promise based HTTP client for the browser and Node.js
 
 ### Design System and Animations
 
-- 🎨 [Chakra-UI](https://chakra-ui.com) – A simple, modular and accessible component library that gives you the building blocks to build your React applications
-- 🎞️ [Framer Motion](https://www.framer.com/motion) – A production-ready motion library for React
-- ✨ [React Icons](https://react-icons.github.io/react-icons) – A collection of popular icons to React projects
-- 👓 [Sass](https://sass-lang.com) – A powerful and professional CSS extension language
+- 🎨 **[Chakra-UI](https://chakra-ui.com)** – A simple, modular and accessible component library that gives you the building blocks to build your React applications
+- 🎞️ **[Framer Motion](https://www.framer.com/motion)** – A production-ready motion library for React
+- ✨ **[React Icons](https://react-icons.github.io/react-icons)** – A collection of popular icons to React projects
+- 👓 **[Sass](https://sass-lang.com)** – A powerful and professional CSS extension language
 
 ### Form Validation
 
-- 📃 [Formik](https://formik.org/) – The world's most popular open source form library for React and React Native
-- 🚨 [Yup](https://github.com/jquense/yup) – A schema builder for runtime value parsing and validation
+- 📃 **[Formik](https://formik.org/)** – The world's most popular open source form library for React and React Native
+- 🚨 **[Yup](https://github.com/jquense/yup)** – A schema builder for runtime value parsing and validation
 
 ### Design Patterns
 
-- ⛔ [ESLint](https://eslint.org) – Find and fix problems in your JavaScript code
-- 🎀 [Prettier](https://prettier.io) – An opinionated code formatter, supporting multiple languages and code editors
-- 🐺 [Husky](https://github.com/typicode/husky) – Modern native Git hooks made easy
-- 💩 [lint-staged](https://github.com/okonet/lint-staged) – Run linters against staged git files and don't let 💩 slip into your code base
-- 📓 [commitlint](https://commitlint.js.org) – Helps your team adhering to a commit convention
+- ⛔ **[ESLint](https://eslint.org)** – Find and fix problems in your JavaScript code
+- 🎀 **[Prettier](https://prettier.io)** – An opinionated code formatter, supporting multiple languages and code editors
+- 🐺 **[Husky](https://github.com/typicode/husky)** – Modern native Git hooks made easy
+- 💩 **[lint-staged](https://github.com/okonet/lint-staged)** – Run linters against staged git files and don't let 💩 slip into your code base
+- 📓 **[commitlint](https://commitlint.js.org)** – Helps your team adhering to a commit convention
 
 ### Analysis
 
-- 🕵🏻‍♂️ [why-did-you-render](https://github.com/welldone-software/why-did-you-render) – Notify you about potentially avoidable re-renders
+- 🕵🏻‍♂️ **[why-did-you-render](https://github.com/welldone-software/why-did-you-render)** – Notify you about potentially avoidable re-renders
 
 ### Additional Plugins
 
-- 🗃️ [next-compose-plugins](https://github.com/cyrilwanner/next-compose-plugins) – Provides a cleaner API for enabling and configuring plugins for Next.js
-- 📱 [next-pwa](https://github.com/shadowwalker/next-pwa) – A PWA plugin for Next.js
-- 📈 [next-seo](https://github.com/garmeeh/next-seo) – A plugin that makes managing your SEO easier in Next.js projects
+- 🗃️ **[next-compose-plugins](https://github.com/cyrilwanner/next-compose-plugins)** – Provides a cleaner API for enabling and configuring plugins for Next.js
+- 📱 **[next-pwa](https://github.com/shadowwalker/next-pwa)** – A PWA plugin for Next.js
+- 📈 **[next-seo](https://github.com/garmeeh/next-seo)** – A plugin that makes managing your SEO easier in Next.js projects
 
 ## ▶️ Getting Started
 
@@ -170,7 +170,7 @@ This project features all the latest tools and good practices in web development
 
 Although you don't have to, if you reuse this template for your projects I would appreciate it if you would **credit me and provide a link to my GitHub profile in the footer of your project**. Thanks!
 
-This project is licensed under the **MIT License** - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) page for details.
 
 ---
 
