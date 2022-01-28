@@ -77,42 +77,42 @@ Este projeto apresenta todas as ferramentas e boas práticas mais recentes em de
 
 ### Framework
 
-- ⚛️ [Next.js](https://nextjs.org) – Um framework React para renderizações híbridas e de servidor
+- ⚛️ **[Next.js](https://nextjs.org)** – Um framework React para renderizações híbridas e de servidor
 
 ### Requisição de Dados
 
-- ❇️ [SWR](https://swr.vercel.app) – Uma biblioteca de React Hooks para busca de dados
-- 🔄 [Axios](https://github.com/axios/axios) – Cliente HTTP baseado em Promise para o navegador e Node.js
+- ❇️ **[SWR](https://swr.vercel.app)** – Uma biblioteca de React Hooks para busca de dados
+- 🔄 **[Axios](https://github.com/axios/axios)** – Cliente HTTP baseado em Promise para o navegador e Node.js
 
 ### Design System e Estilização
 
-- 🎨 [Chakra-UI](https://chakra-ui.com) – Uma biblioteca de componentes simples, modular e acessível que fornece os blocos de construção para construir seus aplicativos React
-- 🎞️ [Framer Motion](https://www.framer.com/motion) – Uma biblioteca de animações pronta para produção para React
-- ✨ [React Icons](https://react-icons.github.io/react-icons) – Uma coleção de ícones populares para projetos React
-- 👓 [Sass](https://sass-lang.com) – Uma linguagem de extensão CSS poderosa e profissional
+- 🎨 **[Chakra-UI](https://chakra-ui.com)** – Uma biblioteca de componentes simples, modular e acessível que fornece os blocos de construção para construir seus aplicativos React
+- 🎞️ **[Framer Motion](https://www.framer.com/motion)** – Uma biblioteca de animações pronta para produção para React
+- ✨ **[React Icons](https://react-icons.github.io/react-icons)** – Uma coleção de ícones populares para projetos React
+- 👓 **[Sass](https://sass-lang.com)** – Uma linguagem de extensão CSS poderosa e profissional
 
 ### Validação de Formulários
 
-- 📃 [Formik](https://formik.org/) – A biblioteca de formulários de código aberto mais popular do mundo para React e React Native
-- 🚨 [Yup](https://github.com/jquense/yup) – Um construtor de schema para análise e validação de valor em tempo de execução
+- 📃 **[Formik](https://formik.org/)** – A biblioteca de formulários de código aberto mais popular do mundo para React e React Native
+- 🚨 **[Yup](https://github.com/jquense/yup)** – Um construtor de schema para análise e validação de valor em tempo de execução
 
 ### Padrões de Projeto
 
-- ⛔ [ESLint](https://eslint.org) – Encontre e corrija problemas em seus códigos JavaScript
-- 🎀 [Prettier](https://prettier.io) – Um formatador opinativo de código, com suporte a várias linguagens e editores de código
-- 🐺 [Husky](https://github.com/typicode/husky) – Git Hooks nativo e moderno de forma fácil
-- 💩 [lint-staged](https://github.com/okonet/lint-staged) – Execute linters em arquivos git e não deixe 💩 entrar em sua base de código
-- 📓 [commitlint](https://commitlint.js.org) – Ajuda sua equipe a aderir a uma convenção de commit
+- ⛔ **[ESLint](https://eslint.org)** – Encontre e corrija problemas em seus códigos JavaScript
+- 🎀 **[Prettier](https://prettier.io)** – Um formatador opinativo de código, com suporte a várias linguagens e editores de código
+- 🐺 **[Husky](https://github.com/typicode/husky)** – Git Hooks nativo e moderno de forma fácil
+- 💩 **[lint-staged](https://github.com/okonet/lint-staged)** – Execute linters em arquivos git e não deixe 💩 entrar em sua base de código
+- 📓 **[commitlint](https://commitlint.js.org)** – Ajuda sua equipe a aderir a uma convenção de commit
 
 ### Análises
 
-- 🕵🏻‍♂️ [why-did-you-render](https://github.com/welldone-software/why-did-you-render) – Te notifica sobre re-renderizações potencialmente evitáveis
+- 🕵🏻‍♂️ **[why-did-you-render](https://github.com/welldone-software/why-did-you-render)** – Te notifica sobre re-renderizações potencialmente evitáveis
 
 ### Plugins Adicionais
 
-- 🗃️ [next-compose-plugins](https://github.com/cyrilwanner/next-compose-plugins) – Fornece uma API mais limpa para ativar e configurar plugins para Next.js
-- 📱 [next-pwa](https://github.com/shadowwalker/next-pwa) – Um plugin de PWA para Next.js
-- 📈 [next-seo](https://github.com/garmeeh/next-seo) – Um plugin que facilita o gerenciamento do SEO de seus projetos em Next.js
+- 🗃️ **[next-compose-plugins](https://github.com/cyrilwanner/next-compose-plugins)** – Fornece uma API mais limpa para ativar e configurar plugins para Next.js
+- 📱 **[next-pwa](https://github.com/shadowwalker/next-pwa)** – Um plugin de PWA para Next.js
+- 📈 **[next-seo](https://github.com/garmeeh/next-seo)** – Um plugin que facilita o gerenciamento do SEO de seus projetos em Next.js
 
 ## ▶️ Começando
 
@@ -170,7 +170,7 @@ Este projeto apresenta todas as ferramentas e boas práticas mais recentes em de
 
 Embora você não precise, se você reutilizar este modelo para os seus projetos, **eu agradeceria se você me desse o crédito e fornecesse um link para meu perfil do GitHub no rodapé do seu projeto**. Obrigado!
 
-Este projeto está licenciado sob a **Licença MIT** - veja a página [LICENÇA](https://opensource.org/licenses/MIT) para mais detalhes.
+Este projeto está licenciado sob a **Licença MIT** - veja a página [LICENÇA](../../../LICENSE) para mais detalhes.
 
 ---
 
