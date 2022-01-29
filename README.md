@@ -19,11 +19,11 @@
 
 <!-- Badges Section -->
 <p align="center">
-  <a href="https://vercel.com" target="_blank" rel="noopener">
+  <a href="https://vercel.com" title="Open Vercel Website">
     <img src="./public/assets/images/powered-by-vercel.svg" width="175" alt="Powered by Vercel" />
   </a>
   <br>
-  <a href="https://opensource.org/licenses/MIT">
+  <a href="./LICENSE" title="Show the MIT License">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License MIT">
   </a>
   <br>
@@ -36,8 +36,8 @@
 
 <!-- Desktop/Mobile GIF Demo Section -->
 <div align="center">
-  <img src="./public/docs/demo/demo_desktop.gif" alt="Demo Desktop" width="600px" height="300px">
-  <img src="./public/docs/demo/demo_mobile.gif" alt="Demo Mobile" height="300px">
+  <img src="./public/docs/demo/demo_desktop.gif" title="Desktop Version" alt="Demo Desktop" width="600px" height="300px">
+  <img src="./public/docs/demo/demo_mobile.gif" title="Mobile Version" alt="Demo Mobile" height="300px">
 </div>
 
 ---
@@ -89,7 +89,6 @@ This project features all the latest tools and good practices in web development
 - 🎨 **[Chakra-UI](https://chakra-ui.com)** – A simple, modular and accessible component library that gives you the building blocks to build your React applications
 - 🎞️ **[Framer Motion](https://www.framer.com/motion)** – A production-ready motion library for React
 - ✨ **[React Icons](https://react-icons.github.io/react-icons)** – A collection of popular icons to React projects
-- 👓 **[Sass](https://sass-lang.com)** – A powerful and professional CSS extension language
 
 ### Form Validation
 

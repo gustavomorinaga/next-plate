@@ -10,7 +10,7 @@ export default {
 				url: 'https://next-plate.vercel.app/assets/images/banner.jpg',
 				width: 512,
 				height: 256,
-				alt: 'Og Image Alt 2',
+				alt: 'Next-Plate Banner Image',
 			},
 		],
 	},
