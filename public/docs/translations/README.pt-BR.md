@@ -19,11 +19,11 @@
 
 <!-- Seção de Distintivos -->
 <p align="center">
-  <a href="https://vercel.com" target="_blank" rel="noopener">
+  <a href="https://vercel.com" title="Abrir Website da Vercel">
     <img src="../../assets/images/powered-by-vercel.svg" width="175" alt="Powered by Vercel" />
   </a>
   <br>
-  <a href="https://opensource.org/licenses/MIT">
+  <a href="../../../LICENSE" title="Mostrar a Licença MIT">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License MIT">
   </a>
   <br>
