@@ -43,7 +43,7 @@ export default function UserComponent({ user, constraintsRef }): JSX.Element {
 					<Avatar
 						size="xl"
 						borderWidth="medium"
-						borderColor="purple.400"
+						borderColor="purple.300"
 						src={user.avatar_url}
 						alt={user.name}
 						name={user.name}
@@ -55,7 +55,7 @@ export default function UserComponent({ user, constraintsRef }): JSX.Element {
 							<Heading
 								size="lg"
 								lineHeight="none"
-								color="purple.400"
+								color="purple.300"
 								textAlign={{ base: 'center', sm: 'left' }}
 							>
 								{user.name}
@@ -81,9 +81,9 @@ export default function UserComponent({ user, constraintsRef }): JSX.Element {
 							<Flex color="white">
 								<Center
 									gap="1"
-									bgColor="green.400"
+									bgColor="green.600"
 									borderWidth="thin"
-									borderColor="green.500"
+									borderColor="green.700"
 									borderRadius="md"
 									px="2"
 									h="6"
@@ -108,9 +108,9 @@ export default function UserComponent({ user, constraintsRef }): JSX.Element {
 							<Flex color="white">
 								<Center
 									gap="1"
-									bgColor="yellow.400"
+									bgColor="yellow.600"
 									borderWidth="thin"
-									borderColor="yellow.500"
+									borderColor="yellow.700"
 									borderRadius="md"
 									px="2"
 									h="6"
@@ -127,9 +127,9 @@ export default function UserComponent({ user, constraintsRef }): JSX.Element {
 								<Flex color="white">
 									<Center
 										gap="1"
-										bgColor="blue.400"
+										bgColor="blue.600"
 										borderWidth="thin"
-										borderColor="blue.500"
+										borderColor="blue.700"
 										borderRadius="md"
 										px="2"
 										h="6"

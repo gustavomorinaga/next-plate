@@ -31,12 +31,12 @@ const UserPage: NextPage = () => {
 
 	const { data, error } = useFetch<IUser>(login ? `users/${login}` : null);
 
+	const handleLogin = () =>
+		login && !error ? `👤 ${login} profile` : !error ? 'Loading...' : 'Not Found!';
+
 	return (
 		<>
-			<NextSeo
-				title={login && !error ? `👤 ${login}` : !error ? 'Loading...' : 'Not Found!'}
-				description="Searching a GitHub profile..."
-			/>
+			<NextSeo title={handleLogin()} description={handleLogin()} />
 
 			<MotionBox
 				w="full"
