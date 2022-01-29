@@ -24,10 +24,7 @@ const HomePage: NextPage = () => {
 
 	return (
 		<>
-			<NextSeo
-				title="🔍 Search GitHub Profile..."
-				description="This is a Next.js template"
-			/>
+			<NextSeo title="Next-Plate" />
 
 			<MotionContainer
 				w="full"

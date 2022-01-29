@@ -8,7 +8,6 @@ class MyDocument extends Document<DocumentProps> {
 		return (
 			<Html lang="en">
 				<Head>
-					<meta name="theme-color" content="#a78bfa" />
 					<link rel="manifest" href="./site.webmanifest" />
 					<link
 						href="./assets/icons/icon-16x16.png"
