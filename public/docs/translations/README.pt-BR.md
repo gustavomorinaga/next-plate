@@ -36,8 +36,8 @@
 
 <!-- Desktop/Mobile GIF Demo Section -->
 <div align="center">
-  <img src="../demo/demo_desktop.gif" alt="Demo Desktop" width="600px" height="300px">
-  <img src="../demo/demo_mobile.gif" alt="Demo Mobile" height="300px">
+  <img src="../demo/demo_desktop.gif" title="Versão Desktop" alt="Demo Desktop" width="600px" height="300px">
+  <img src="../demo/demo_mobile.gif" title="Versão Mobile" alt="Demo Mobile" height="300px">
 </div>
 
 ---
@@ -89,7 +89,6 @@ Este projeto apresenta todas as ferramentas e boas práticas mais recentes em de
 - 🎨 **[Chakra-UI](https://chakra-ui.com)** – Uma biblioteca de componentes simples, modular e acessível que fornece os blocos de construção para construir seus aplicativos React
 - 🎞️ **[Framer Motion](https://www.framer.com/motion)** – Uma biblioteca de animações pronta para produção para React
 - ✨ **[React Icons](https://react-icons.github.io/react-icons)** – Uma coleção de ícones populares para projetos React
-- 👓 **[Sass](https://sass-lang.com)** – Uma linguagem de extensão CSS poderosa e profissional
 
 ### Validação de Formulários
 
