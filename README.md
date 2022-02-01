@@ -115,53 +115,65 @@ This project features all the latest tools and good practices in web development
 
 ## ▶️ Getting Started
 
-### Creating a new repository on GitHub
+### 📙 Creating a New Repository on GitHub
 
 1. Click on "**Use this template**" button
 2. Configure your new repository and click on "**Create repository from template**" button
 3. Now you can clone the generated repository to your local machine:
 
-   ```bash
-    $ git clone https://github.com/<your-github-login>/<name-of-your-generated-repository>.git
-   ```
+```bash
+ $ git clone https://github.com/<your-github-login>/<name-of-your-generated-repository>.git
+```
 
-4. Move yourself to the root of the project
+### ⚙️ Installation
 
-   ```bash
-   $ cd <name-of-your-generated-repository>
-   ```
+Before you can start developing your super application, you need to install the project's dependencies.
 
-5. Install all dependencies of the project
+Move yourself to the root of the project:
 
-   ```bash
-   $ npm install
-   # or
-   $ yarn install
-   ```
+```bash
+$ cd <name-of-your-generated-repository>
+```
 
-6. Run to start developing
+Install all dependencies of the project:
 
-   ```bash
-   $ npm run dev
-   # or
-   $ yarn dev
-   ```
+```bash
+$ npm install
+# or
+$ yarn install
+```
 
-7. Make a production build to deploy the project
+### ⌨️ Development
 
-   ```bash
-   $ npm run build
-   # or
-   $ yarn build
-   ```
+Once all dependencies have been installed, you can run the local development server:
 
-8. Run the production build
+```bash
+$ npm run dev
+# or
+$ yarn dev
+```
 
-   ```bash
-   $ npm start
-   # or
-   $ yarn start
-   ```
+Now just code!
+
+### 🖥️ Production
+
+After applying the changes, you can generate a build to test and/or deploy to your production environment.
+
+Make a production build:
+
+```bash
+$ npm run build
+# or
+$ yarn build
+```
+
+And then run the build:
+
+```bash
+$ npm start
+# or
+$ yarn start
+```
 
 <!-- License Section -->
 
