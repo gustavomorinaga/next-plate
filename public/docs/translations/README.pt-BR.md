@@ -115,53 +115,65 @@ Este projeto apresenta todas as ferramentas e boas práticas mais recentes em de
 
 ## ▶️ Começando
 
-### Criando um novo repositório no GitHub
+### 📙 Criando um Novo Repositório no GitHub
 
 1. Clique no botão "**Use this template**" ("Usar este modelo/template")
 2. Configure o seu novo repositório e clique no botão "**Create repository from template**" ("Criar repositório a partir do modelo/template")
-3. Agora você consegue clonar o repositório criado para a sua máquina local
+3. Agora você consegue clonar o repositório criado para a sua máquina local:
 
-   ```bash
-    $ git clone https://github.com/<seu-login-do-github>/<nome-do-seu-repositorio-gerado>.git
-   ```
+```bash
+$ git clone https://github.com/<seu-login-do-github>/<nome-do-seu-repositorio-gerado>.git
+```
 
-4. Entre para a raiz do projeto
+### ⚙️ Instalação
 
-   ```bash
-   $ cd <name-of-your-generated-repository>
-   ```
+Antes de você poder começar a desenvolver sua super aplicação, você precisa instalar todas as dependências do projeto.
 
-5. Instale as dependências do projeto
+Entre na raiz do projeto:
 
-   ```bash
-   $ npm install
-   # ou
-   $ yarn install
-   ```
+```bash
+$ cd <name-of-your-generated-repository>
+```
 
-6. Comece a desenvolver
+Instale as dependências do projeto:
 
-   ```bash
-   $ npm run dev
-   # ou
-   $ yarn dev
-   ```
+```bash
+$ npm install
+# ou
+$ yarn install
+```
 
-7. Gere um pacote de produção para implantar
+### ⌨️ Desenvolvimento
 
-   ```bash
-   $ npm run build
-   # ou
-   $ yarn build
-   ```
+Depois que todas as dependências foram instaladas corretamente, você pode iniciar o servidor local de desenvolvimento:
 
-8. Rode o pacote de produção
+```bash
+$ npm run dev
+# ou
+$ yarn dev
+```
 
-   ```bash
-   $ npm start
-   # ou
-   $ yarn start
-   ```
+Agora é só codar!
+
+### 🖥️ Produção
+
+Após aplicar as alterações, você pode gerar um pacote para testar e/ou enviar para o seu ambiente de produção.
+
+Gere o pacote de produção:
+
+```bash
+$ npm run build
+# ou
+$ yarn build
+```
+
+E em seguida rode o pacote:
+
+```bash
+$ npm start
+# ou
+$ yarn start
+```
 
 <!-- Seção de Licença -->
 
