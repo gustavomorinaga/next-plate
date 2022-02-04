@@ -64,6 +64,8 @@ Deploy your own copy of this template in just a few clicks!
  </a>
 </div>
 
+<!-- Introduction Section -->
+
 ## 📖 Introduction
 
 This is a **complete template** with all you need for your **next React projects** and all the **best practices** of **[JAMStack](https://jamstack.org)**.
@@ -71,6 +73,8 @@ This is a **complete template** with all you need for your **next React projects
 This template have a bunch of folders, code examples and configurations. Feel free to edit or remove them, including this README!
 
 **Customize and enjoy!**
+
+<!-- Features Section -->
 
 ## 🌟 Features
 
@@ -106,13 +110,15 @@ This project features all the latest tools and good practices in web development
 
 ### Analysis
 
-- 🕵🏻‍♂️ **[why-did-you-render](https://github.com/welldone-software/why-did-you-render)** – Notify you about potentially avoidable re-renders
+- 🕵🏻‍♂️ **[why-did-you-render](https://github.com/welldone-software/why-did-you-render)** (optional) – Notify you about potentially avoidable re-renders
 
 ### Additional Plugins
 
 - 🗃️ **[next-compose-plugins](https://github.com/cyrilwanner/next-compose-plugins)** – Provides a cleaner API for enabling and configuring plugins for Next.js
 - 📱 **[next-pwa](https://github.com/shadowwalker/next-pwa)** – A PWA plugin for Next.js
 - 📈 **[next-seo](https://github.com/garmeeh/next-seo)** – A plugin that makes managing your SEO easier in Next.js projects
+
+<!-- Procedures Section -->
 
 ## ▶️ Getting Started
 
@@ -126,7 +132,7 @@ This project features all the latest tools and good practices in web development
  $ git clone https://github.com/<your-github-login>/<name-of-your-generated-repository>.git
 ```
 
-### ⚙️ Installation
+### 🛠️ Installation
 
 Before you can start developing your super application, you need to install the project's dependencies.
 
@@ -176,6 +182,31 @@ $ npm start
 $ yarn start
 ```
 
+### ⚙️ Configurations
+
+<details>
+ <summary>Why Did You Render</summary>
+
+ <h4>How to Activate</h4>
+
+Put the `babel.config.js` file (located in the path `src/scripts`) in the project root.
+
+Uncomment the `wdyr` import line on `pages/_app.tsx`.
+
+That's it! Now you can monitore React re-renders!
+
+ <h4>How to Uninstall</h4>
+
+Just delete the `babel.config.js` and `wdyr.ts` files, remove `wdyr` import line on `pages/_app.tsx` and uninstall it:
+
+```bash
+$ npm uninstall @welldone-software/why-did-you-render
+# or
+$ yarn remove @welldone-software/why-did-you-render
+```
+
+</details>
+
 <!-- License Section -->
 
 ## 📜 License
@@ -183,6 +214,8 @@ $ yarn start
 Although you don't have to, if you reuse this template for your projects I would appreciate it if you would **credit me and provide a link to my GitHub profile in the footer of your project**. Thanks!
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) page for details.
+
+<!-- Acknowledgment Section -->
 
 ---
 

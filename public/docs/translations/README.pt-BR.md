@@ -64,6 +64,8 @@ Faça deploy da sua própria cópia deste modelo com apenas alguns cliques!
  </a>
 </div>
 
+<!-- Seção de Introdução -->
+
 ## 📖 Introdução
 
 Este projeto é um **modelo completo** que você precisa para o seus **próximos projetos de React**, com todas as **boas práticas** da **[JAMStack](https://jamstack.org)**.
@@ -71,6 +73,8 @@ Este projeto é um **modelo completo** que você precisa para o seus **próximos
 Este modelo possui muitas pastas, exemplos de código e configurações. Sinta-se livre para editá-las ou excluí-las, incluindo este README!
 
 **Customize e divirta-se!**
+
+<!-- Seção de Recursos -->
 
 ## 🌟 Recursos
 
@@ -106,13 +110,15 @@ Este projeto apresenta todas as ferramentas e boas práticas mais recentes em de
 
 ### Análises
 
-- 🕵🏻‍♂️ **[why-did-you-render](https://github.com/welldone-software/why-did-you-render)** – Te notifica sobre re-renderizações potencialmente evitáveis
+- 🕵🏻‍♂️ **[why-did-you-render](https://github.com/welldone-software/why-did-you-render)** (opcional) – Te notifica sobre re-renderizações potencialmente evitáveis
 
 ### Plugins Adicionais
 
 - 🗃️ **[next-compose-plugins](https://github.com/cyrilwanner/next-compose-plugins)** – Fornece uma API mais limpa para ativar e configurar plugins para Next.js
 - 📱 **[next-pwa](https://github.com/shadowwalker/next-pwa)** – Um plugin de PWA para Next.js
 - 📈 **[next-seo](https://github.com/garmeeh/next-seo)** – Um plugin que facilita o gerenciamento do SEO de seus projetos em Next.js
+
+<!-- Seção de Procedimentos -->
 
 ## ▶️ Começando
 
@@ -126,7 +132,7 @@ Este projeto apresenta todas as ferramentas e boas práticas mais recentes em de
 $ git clone https://github.com/<seu-login-do-github>/<nome-do-seu-repositorio-gerado>.git
 ```
 
-### ⚙️ Instalação
+### 🛠️ Instalação
 
 Antes de você poder começar a desenvolver sua super aplicação, você precisa instalar todas as dependências do projeto.
 
@@ -176,6 +182,31 @@ $ npm start
 $ yarn start
 ```
 
+### ⚙️ Configurações
+
+<details>
+ <summary>Why Did You Render</summary>
+
+ <h4>Como Ativar</h4>
+
+Coloque o arquivo `babel.config.js` (localizado no caminho `src/scripts`) na raiz do projeto.
+
+Descomente a linha de importação do `wdyr` em `pages/_app.tsx`.
+
+É isso! Agora você pode monitorar as re-renderizações do React!
+
+ <h4>Como Desinstalar</h4>
+
+Apenas deleta os arquivos `babel.config.js` e `wdyr.ts`, remova a linha de importação `wdyr` em `pages/_app.tsx` e desinstale:
+
+```bash
+$ npm uninstall @welldone-software/why-did-you-render
+# or
+$ yarn remove @welldone-software/why-did-you-render
+```
+
+</details>
+
 <!-- Seção de Licença -->
 
 ## 📜 Licença
@@ -183,6 +214,8 @@ $ yarn start
 Embora você não precise, se você reutilizar este modelo para os seus projetos, **eu agradeceria se você me desse o crédito e fornecesse um link para meu perfil do GitHub no rodapé do seu projeto**. Obrigado!
 
 Este projeto está licenciado sob a **Licença MIT** - veja a página [LICENÇA](../../../LICENSE) para mais detalhes.
+
+<!-- Seção de Agradecimentos -->
 
 ---
 

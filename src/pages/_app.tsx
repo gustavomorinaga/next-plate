@@ -5,8 +5,8 @@ import { DefaultSeo } from 'next-seo';
 import { ChakraProvider } from '@chakra-ui/react';
 import theme from '../../theme';
 
-// --- Analysis ---
-import '@scripts/wdyr';
+// --- Analysis (optional) ---
+// import '@scripts/wdyr';
 
 // --- Configs ---
 import SEO from '../../next-seo.config';
