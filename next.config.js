@@ -6,11 +6,11 @@ const runtimeCaching = require('next-pwa/cache');
 
 const nextConfig = {
 	esModule: true,
-	images: {
-		formats: ['image/avif', 'image/webp'],
-		domains: ['avatars.githubusercontent.com'],
-	},
 	swcMinify: true,
+	// images: {
+	// 	formats: ['image/avif', 'image/webp'],
+	// 	domains: ['avatars.githubusercontent.com'],
+	// },
 	// extends: [],
 };
 
