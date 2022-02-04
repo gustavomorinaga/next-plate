@@ -2,7 +2,7 @@ import React from 'react';
 import * as NextImage from 'next/image';
 
 import { ChakraProvider, CSSReset } from '@chakra-ui/react';
-import theme from '../theme';
+import theme from '../src/styles/theme';
 
 import { addDecorator } from '@storybook/react';
 import { initialize, mswDecorator } from 'msw-storybook-addon';

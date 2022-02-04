@@ -29,7 +29,9 @@
 			"@pages/*": ["./src/pages/*"],
 			"@scripts/*": ["./src/scripts/*"],
 			"@services/*": ["./src/services/*"],
-			"@styles/*": ["./src/styles/*"]
+			"@stories/*": ["./src/stories/*"],
+			"@styles/*": ["./src/styles/*"],
+			"@utils/*": ["./src/utils/*"]
 		},
 		"incremental": true
 	},
