@@ -182,7 +182,7 @@ $ npm start
 $ yarn start
 ```
 
-### ⚙️ Configurações
+### ⚙️ Configurações Extras
 
 <details>
  <summary>Why Did You Render</summary>
