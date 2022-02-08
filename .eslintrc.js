@@ -5,14 +5,8 @@ module.exports = {
 		node: true,
 		jest: true,
 	},
-	extends: [
-		'next',
-		'plugin:@next/next/recommended',
-		'next/core-web-vitals',
-		'prettier',
-		'plugin:storybook/recommended',
-	],
-	plugins: ['prettier', '@typescript-eslint'],
+	extends: ['next', 'plugin:@next/next/recommended', 'next/core-web-vitals', 'prettier'],
+	plugins: ['prettier', '@typescript-eslint', 'testing-library'],
 	parser: '@typescript-eslint/parser',
 	parserOptions: {
 		ecmaFeatures: {
@@ -23,6 +17,16 @@ module.exports = {
 	},
 	rules: {
 		'prettier/prettier': 'error',
-		'react/no-children-prop': 0,
+		'react/no-children-prop': 'off',
+		'no-mixed-operators': ['error', { allowSamePrecedence: false }],
 	},
+	overrides: [
+		{
+			files: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'],
+			extends: ['plugin:jest/recommended', 'plugin:testing-library/react'],
+			rules: {
+				'jest/no-commented-out-tests': 'off',
+			},
+		},
+	],
 };
