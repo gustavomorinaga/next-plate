@@ -49,7 +49,7 @@
 
 <!-- Link Demo Section -->
 
-## 🚀 [Demo 🠪](https://next-plate.vercel.app)
+## 🚀 [Demo →](https://next-plate.vercel.app)
 
 Deploy your own copy of this template in just a few clicks!
 
