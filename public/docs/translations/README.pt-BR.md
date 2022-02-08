@@ -27,11 +27,9 @@
     <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License MIT">
   </a>
   <br>
-  <a href="https://forthebadge.com">
-    <img src="https://forthebadge.com/images/badges/open-source.svg" alt="Open Source" />
-    <img src="https://forthebadge.com/images/badges/made-with-typescript.svg" alt="Made with TypeScript" />
-    <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Built with Love" />
-  </a>
+  <img src="https://forthebadge.com/images/badges/open-source.svg" alt="Open Source" />
+  <img src="https://forthebadge.com/images/badges/made-with-typescript.svg" alt="Made with TypeScript" />
+  <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Built with Love" />
 </p>
 
 <!-- Desktop/Mobile GIF Demo Section -->
@@ -46,11 +44,12 @@
 
 ## 🌎 Traduções
 
-- [English](../../../README.md)
+<kbd>[<img title="English" alt="English" src="https://flagicons.lipis.dev/flags/4x3/us.svg" width="22">](../../../README.md)</kbd>
+<kbd>[<img title="Português Brasileiro" alt="Português Brasileiro" src="https://flagicons.lipis.dev/flags/4x3/br.svg" width="22">](./README.pt-BR.md)</kbd>
 
 <!-- Seção do Link de Demonstração -->
 
-## 🚀 [Demonstração](https://next-plate.vercel.app)
+## 🚀 [Demonstração 🠪](https://next-plate.vercel.app)
 
 Faça deploy da sua própria cópia deste modelo com apenas alguns cliques!
 
@@ -63,6 +62,8 @@ Faça deploy da sua própria cópia deste modelo com apenas alguns cliques!
  </a>
 </div>
 
+<!-- Seção de Introdução -->
+
 ## 📖 Introdução
 
 Este projeto é um **modelo completo** que você precisa para o seus **próximos projetos de React**, com todas as **boas práticas** da **[JAMStack](https://jamstack.org)**.
@@ -70,6 +71,8 @@ Este projeto é um **modelo completo** que você precisa para o seus **próximos
 Este modelo possui muitas pastas, exemplos de código e configurações. Sinta-se livre para editá-las ou excluí-las, incluindo este README!
 
 **Customize e divirta-se!**
+
+<!-- Seção de Recursos -->
 
 ## 🌟 Recursos
 
@@ -95,6 +98,11 @@ Este projeto apresenta todas as ferramentas e boas práticas mais recentes em de
 - 📃 **[Formik](https://formik.org/)** – A biblioteca de formulários de código aberto mais popular do mundo para React e React Native
 - 🚨 **[Yup](https://github.com/jquense/yup)** – Um construtor de schema para análise e validação de valor em tempo de execução
 
+### Tests
+
+- 🃏 **[Jest](https://jestjs.io)** – Um poderoso Framework de Testes em JavaScript com um foco na simplicidade
+- 🐙 **[Testing Library](https://testing-library.com)** – Utilitários de teste simples e completos que incentivam boas práticas de teste
+
 ### Padrões de Projeto
 
 - ⛔ **[ESLint](https://eslint.org)** – Encontre e corrija problemas em seus códigos JavaScript
@@ -105,13 +113,15 @@ Este projeto apresenta todas as ferramentas e boas práticas mais recentes em de
 
 ### Análises
 
-- 🕵🏻‍♂️ **[why-did-you-render](https://github.com/welldone-software/why-did-you-render)** – Te notifica sobre re-renderizações potencialmente evitáveis
+- 🕵🏻‍♂️ **[why-did-you-render](https://github.com/welldone-software/why-did-you-render)** (opcional) – Te notifica sobre re-renderizações potencialmente evitáveis
 
 ### Plugins Adicionais
 
 - 🗃️ **[next-compose-plugins](https://github.com/cyrilwanner/next-compose-plugins)** – Fornece uma API mais limpa para ativar e configurar plugins para Next.js
 - 📱 **[next-pwa](https://github.com/shadowwalker/next-pwa)** – Um plugin de PWA para Next.js
 - 📈 **[next-seo](https://github.com/garmeeh/next-seo)** – Um plugin que facilita o gerenciamento do SEO de seus projetos em Next.js
+
+<!-- Seção de Procedimentos -->
 
 ## ▶️ Começando
 
@@ -125,7 +135,7 @@ Este projeto apresenta todas as ferramentas e boas práticas mais recentes em de
 $ git clone https://github.com/<seu-login-do-github>/<nome-do-seu-repositorio-gerado>.git
 ```
 
-### ⚙️ Instalação
+### 🛠️ Instalação
 
 Antes de você poder começar a desenvolver sua super aplicação, você precisa instalar todas as dependências do projeto.
 
@@ -175,6 +185,31 @@ $ npm start
 $ yarn start
 ```
 
+### ⚙️ Configurações Extras
+
+<details>
+ <summary>Why Did You Render</summary>
+
+ <h4>Como Ativar</h4>
+
+Coloque o arquivo `babel.config.js` (localizado no caminho `src/scripts`) na raiz do projeto.
+
+Descomente a linha de importação do `wdyr` em `pages/_app.tsx`.
+
+É isso! Agora você pode monitorar as re-renderizações do React!
+
+ <h4>Como Desinstalar</h4>
+
+Apenas deleta os arquivos `babel.config.js` e `wdyr.ts`, remova a linha de importação `wdyr` em `pages/_app.tsx` e desinstale:
+
+```bash
+$ npm uninstall @welldone-software/why-did-you-render
+# or
+$ yarn remove @welldone-software/why-did-you-render
+```
+
+</details>
+
 <!-- Seção de Licença -->
 
 ## 📜 Licença
@@ -182,6 +217,8 @@ $ yarn start
 Embora você não precise, se você reutilizar este modelo para os seus projetos, **eu agradeceria se você me desse o crédito e fornecesse um link para meu perfil do GitHub no rodapé do seu projeto**. Obrigado!
 
 Este projeto está licenciado sob a **Licença MIT** - veja a página [LICENÇA](../../../LICENSE) para mais detalhes.
+
+<!-- Seção de Agradecimentos -->
 
 ---
 

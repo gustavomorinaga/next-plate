@@ -24,7 +24,10 @@ const HomePage: NextPage = () => {
 
 	return (
 		<>
-			<NextSeo title="Next-Plate" />
+			<NextSeo
+				title="Next-Plate"
+				description="🦸‍♀️ A super template for Next.js with a pack of incredible tools"
+			/>
 
 			<MotionContainer
 				w="full"

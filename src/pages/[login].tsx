@@ -29,7 +29,9 @@ const UserPage: NextPage = () => {
 
 	const constraintsRef = useRef(null);
 
-	const { data, error } = useFetch<IUser>(login ? `users/${login}` : null);
+	const { data, error } = useFetch<IUser>(login ? `users/${login}` : null, {
+		refreshInterval: 30,
+	});
 
 	const handleLogin = () =>
 		login && !error ? `👤 ${login} profile` : !error ? 'Loading...' : 'Not Found!';
