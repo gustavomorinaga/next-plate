@@ -27,11 +27,9 @@
     <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License MIT">
   </a>
   <br>
-  <a href="https://forthebadge.com">
-    <img src="https://forthebadge.com/images/badges/open-source.svg" alt="Open Source" />
-    <img src="https://forthebadge.com/images/badges/made-with-typescript.svg" alt="Made with TypeScript" />
-    <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Built with Love" />
-  </a>
+  <img src="https://forthebadge.com/images/badges/open-source.svg" alt="Open Source" />
+  <img src="https://forthebadge.com/images/badges/made-with-typescript.svg" alt="Made with TypeScript" />
+  <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Built with Love" />
 </p>
 
 <!-- Desktop/Mobile GIF Demo Section -->
@@ -51,7 +49,7 @@
 
 <!-- Link Demo Section -->
 
-## 🚀 [Demo](https://next-plate.vercel.app)
+## 🚀 [Demo 🠪](https://next-plate.vercel.app)
 
 Deploy your own copy of this template in just a few clicks!
 
@@ -99,6 +97,11 @@ This project features all the latest tools and good practices in web development
 
 - 📃 **[Formik](https://formik.org/)** – The world's most popular open source form library for React and React Native
 - 🚨 **[Yup](https://github.com/jquense/yup)** – A schema builder for runtime value parsing and validation
+
+### Tests
+
+- 🃏 **[Jest](https://jestjs.io)** – A delightful JavaScript Testing Framework with a focus on simplicity
+- 🐙 **[Testing Library](https://testing-library.com)** – Simple and complete testing utilities that encourage good testing practices
 
 ### Design Patterns
 

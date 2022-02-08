@@ -27,11 +27,9 @@
     <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License MIT">
   </a>
   <br>
-  <a href="https://forthebadge.com">
-    <img src="https://forthebadge.com/images/badges/open-source.svg" alt="Open Source" />
-    <img src="https://forthebadge.com/images/badges/made-with-typescript.svg" alt="Made with TypeScript" />
-    <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Built with Love" />
-  </a>
+  <img src="https://forthebadge.com/images/badges/open-source.svg" alt="Open Source" />
+  <img src="https://forthebadge.com/images/badges/made-with-typescript.svg" alt="Made with TypeScript" />
+  <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Built with Love" />
 </p>
 
 <!-- Desktop/Mobile GIF Demo Section -->
@@ -51,7 +49,7 @@
 
 <!-- Seção do Link de Demonstração -->
 
-## 🚀 [Demonstração](https://next-plate.vercel.app)
+## 🚀 [Demonstração 🠪](https://next-plate.vercel.app)
 
 Faça deploy da sua própria cópia deste modelo com apenas alguns cliques!
 
@@ -99,6 +97,11 @@ Este projeto apresenta todas as ferramentas e boas práticas mais recentes em de
 
 - 📃 **[Formik](https://formik.org/)** – A biblioteca de formulários de código aberto mais popular do mundo para React e React Native
 - 🚨 **[Yup](https://github.com/jquense/yup)** – Um construtor de schema para análise e validação de valor em tempo de execução
+
+### Tests
+
+- 🃏 **[Jest](https://jestjs.io)** – Um poderoso Framework de Testes em JavaScript com um foco na simplicidade
+- 🐙 **[Testing Library](https://testing-library.com)** – Utilitários de teste simples e completos que incentivam boas práticas de teste
 
 ### Padrões de Projeto
 
