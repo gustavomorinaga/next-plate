@@ -45,7 +45,6 @@ export default function UserComponent({ user, constraintsRef }): JSX.Element {
 						borderWidth="medium"
 						borderColor="purple.300"
 						src={user.avatar_url}
-						alt={user.name}
 						name={user.name}
 					/>
 				</Center>
