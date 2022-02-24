@@ -95,7 +95,7 @@ Este projeto apresenta todas as ferramentas e boas práticas mais recentes em de
 
 ### Validação de Formulários
 
-- 📃 **[Formik](https://formik.org/)** – A biblioteca de formulários de código aberto mais popular do mundo para React e React Native
+- 📋 **[React Hook Form](https://react-hook-form.com)** – Formulários performáticos, flexíveis e extensíveis com validação fácil de usar
 - 🚨 **[Yup](https://github.com/jquense/yup)** – Um construtor de schema para análise e validação de valor em tempo de execução
 
 ### Testes

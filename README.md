@@ -95,7 +95,7 @@ This project features all the latest tools and good practices in web development
 
 ### Form Validation
 
-- 📃 **[Formik](https://formik.org/)** – The world's most popular open source form library for React and React Native
+- 📋 **[React Hook Form](https://react-hook-form.com)** – Performant, flexible and extensible forms with easy-to-use validation
 - 🚨 **[Yup](https://github.com/jquense/yup)** – A schema builder for runtime value parsing and validation
 
 ### Tests
