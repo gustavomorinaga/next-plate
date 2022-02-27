@@ -1,3 +1,5 @@
+import dynamic from 'next/dynamic';
+
 // --- Chakra-UI ---
 import {
 	FormControl,
@@ -11,7 +13,7 @@ import {
 } from '@chakra-ui/react';
 
 // --- Motion Components ---
-import { MotionBox } from '@components/Motion/MotionBox';
+const MotionBox = dynamic(() => import('@components/Motion/MotionBox'));
 
 // --- Form and Validations ---
 import { useForm } from 'react-hook-form';

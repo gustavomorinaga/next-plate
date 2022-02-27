@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { NextPage } from 'next';
 import { useRouter } from 'next/router';
 import dynamic from 'next/dynamic';
@@ -14,7 +14,7 @@ import { useFetch } from '@hooks/useFetch';
 import { Alert, AlertIcon, Spinner } from '@chakra-ui/react';
 
 // --- Motion Components ---
-import { MotionBox } from '@components/Motion/MotionBox';
+import MotionBox from '@components/Motion/MotionBox';
 
 // --- Components ---
 const GoBackButtonComponent = dynamic(() => import('@components/GoBackButton'));
@@ -22,8 +22,11 @@ const UserComponent = dynamic(() => import('@components/User'));
 
 // -- Animations --
 import { slide } from '@animations';
+import useUserStore from '@stores/user';
 
 const UserPage: NextPage = () => {
+	const { addUser, userExists } = useUserStore(state => state);
+
 	const router = useRouter();
 	const { login } = router.query;
 
@@ -32,6 +35,12 @@ const UserPage: NextPage = () => {
 	const { data, error } = useFetch<IUser>(login ? `users/${login}` : null, {
 		refreshInterval: 30,
 	});
+
+	useEffect(() => {
+		if (data && !userExists(login as string)) addUser(data);
+
+		return () => {};
+	}, [addUser, data, login, userExists]);
 
 	const handleLogin = () =>
 		login && !error ? `👤 ${login} profile` : !error ? 'Loading...' : 'Not Found!';

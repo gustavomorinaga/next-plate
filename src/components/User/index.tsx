@@ -1,3 +1,5 @@
+import dynamic from 'next/dynamic';
+
 // --- Chakra-UI ---
 import {
 	Avatar,
@@ -14,7 +16,7 @@ import {
 } from '@chakra-ui/react';
 
 // --- Motion Components ---
-import { MotionBox } from '@components/Motion/MotionBox';
+const MotionBox = dynamic(() => import('@components/Motion/MotionBox'));
 
 // --- Icons ---
 import { FiBook, FiGithub, FiMapPin, FiUsers } from 'react-icons/fi';
@@ -49,7 +51,7 @@ export default function UserComponent({ user, constraintsRef }): JSX.Element {
 					/>
 				</Center>
 				<Stack>
-					<Stack spacing={1}>
+					<Stack spacing="1">
 						{user.name && (
 							<Heading
 								size="lg"
