@@ -27,6 +27,7 @@ export default function UserItemComponent({
 		justifyContent: 'flex-start',
 		cursor: 'pointer',
 		padding: '2',
+		transition: 'background-color 0.1s ease-in-out',
 		_hover: {
 			backgroundColor: useColorModeValue('gray.100', 'gray.600'),
 		},
