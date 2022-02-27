@@ -18,6 +18,7 @@ export default function GoBackButtonComponent({ pageRedirection }): JSX.Element 
 			top={[4, 10]}
 			left={[4, 10]}
 			zIndex="overlay"
+			borderRadius="xl"
 			boxShadow="xl"
 		>
 			Go Back

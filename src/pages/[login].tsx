@@ -25,7 +25,7 @@ import { slide } from '@animations';
 import useUserStore from '@stores/user';
 
 const UserPage: NextPage = () => {
-	const { addUser, userExists } = useUserStore(state => state);
+	const { addUser } = useUserStore(state => state);
 
 	const router = useRouter();
 	const { login } = router.query;
@@ -37,10 +37,10 @@ const UserPage: NextPage = () => {
 	});
 
 	useEffect(() => {
-		if (data && !userExists(login as string)) addUser(data);
+		if (data) addUser(data);
 
 		return () => {};
-	}, [addUser, data, login, userExists]);
+	}, [addUser, data, login]);
 
 	const handleLogin = () =>
 		login && !error ? `👤 ${login} profile` : !error ? 'Loading...' : 'Not Found!';

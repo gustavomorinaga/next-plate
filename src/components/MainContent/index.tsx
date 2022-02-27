@@ -19,6 +19,7 @@ export default function MainContentComponent({ children }): JSX.Element {
 	const buttonStyleProps: any = {
 		color: useColorModeValue('gray.50', 'gray.600'),
 		bgColor: useColorModeValue('gray.600', 'gray.50'),
+		borderRadius: 'xl',
 		boxShadow: 'xl',
 		_hover: { backgroundColor: useColorModeValue('gray.700', 'gray.200') },
 	};

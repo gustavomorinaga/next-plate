@@ -9,4 +9,6 @@ export interface IUser {
 	name: string;
 	public_repos: number;
 	url: string;
+
+	timestamp?: number;
 }

@@ -54,7 +54,7 @@ export default function SearchHistoryComponent({ styleProps }): JSX.Element {
 					</PopoverTrigger>
 
 					<Portal>
-						<PopoverContent>
+						<PopoverContent borderRadius="xl" overflow="hidden">
 							<PopoverArrow />
 							<PopoverCloseButton />
 
@@ -68,7 +68,7 @@ export default function SearchHistoryComponent({ styleProps }): JSX.Element {
 									{users.length &&
 										users.map(user => (
 											<UserItemComponent
-												key={user.login}
+												key={`${user.login}_${user.timestamp}`}
 												user={user}
 												handleClosePopover={onClose}
 												refPopover={initRef}

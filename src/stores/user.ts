@@ -7,19 +7,40 @@ interface State {
 	users: IUser[];
 
 	addUser: (user: IUser) => void;
-	userExists: (login: string) => boolean;
+	getUser: (login: string) => IUser;
+	getUserIndex: (login: string) => number;
+	removeUser: (login: string) => void;
 }
 
 const useUserStore = create<State>((set, get) => ({
 	users: [],
 
 	addUser: (user: IUser) => {
-		set(state => ({ users: [...state.users, user] }));
+		const userExists = !!get().getUser(user.login);
+		if (userExists) get().removeUser(user.login);
+
+		user.timestamp = Date.now();
+		set(state => ({ users: [user, ...state.users] }));
 	},
-	userExists: (login: string) => {
+	getUser: (login: string) => {
 		const users = get().users;
-		const userExists = users.find(user => user.login === login);
-		return !!userExists;
+		const user = users.find(user => user.login === login);
+
+		return user;
+	},
+	getUserIndex: (login: string) => {
+		const users = get().users;
+		const userIndex = users.findIndex(user => user.login === login);
+
+		return userIndex;
+	},
+	removeUser: (login: string) => {
+		const userIndex = get().getUserIndex(login);
+
+		const users = get().users;
+		users.splice(userIndex, 1);
+
+		set(() => ({ users: [...users] }));
 	},
 }));
 
