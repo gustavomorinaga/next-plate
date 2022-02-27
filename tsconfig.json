@@ -1,86 +1,40 @@
 {
-  "compilerOptions": {
-    "target": "ES2021",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "types": [
-      "node",
-      "jest",
-      "@testing-library/jest-dom"
-    ],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": false,
-    "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
-    "baseUrl": ".",
-    "paths": {
-      "@docs/*": [
-        "./public/docs/*"
-      ],
-      "@icons/*": [
-        "./public/assets/icons/*"
-      ],
-      "@images/*": [
-        "./public/assets/images/*"
-      ],
-      "@sounds/*": [
-        "./public/assets/sounds/*"
-      ],
-      "@videos/*": [
-        "./public/assets/videos/*"
-      ],
-      "@animations": [
-        "./src/animations"
-      ],
-      "@animations/*": [
-        "./src/animations/*"
-      ],
-      "@components/*": [
-        "./src/components/*"
-      ],
-      "@hooks/*": [
-        "./src/hooks/*"
-      ],
-      "@interfaces/*": [
-        "./src/interfaces/*"
-      ],
-      "@pages/*": [
-        "./src/pages/*"
-      ],
-      "@scripts/*": [
-        "./src/scripts/*"
-      ],
-      "@services/*": [
-        "./src/services/*"
-      ],
-      "@stories/*": [
-        "./src/stories/*"
-      ],
-      "@styles/*": [
-        "./src/styles/*"
-      ],
-      "@utils/*": [
-        "./src/utils/*"
-      ]
-    },
-    "incremental": true
-  },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+	"compilerOptions": {
+		"target": "ES2021",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"types": ["node", "jest", "@testing-library/jest-dom"],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"strict": false,
+		"forceConsistentCasingInFileNames": true,
+		"noEmit": true,
+		"esModuleInterop": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"jsx": "preserve",
+		"baseUrl": ".",
+		"paths": {
+			"@docs/*": ["./public/docs/*"],
+			"@icons/*": ["./public/assets/icons/*"],
+			"@images/*": ["./public/assets/images/*"],
+			"@sounds/*": ["./public/assets/sounds/*"],
+			"@videos/*": ["./public/assets/videos/*"],
+			"@animations": ["./src/animations"],
+			"@animations/*": ["./src/animations/*"],
+			"@components/*": ["./src/components/*"],
+			"@hooks/*": ["./src/hooks/*"],
+			"@interfaces/*": ["./src/interfaces/*"],
+			"@pages/*": ["./src/pages/*"],
+			"@scripts/*": ["./src/scripts/*"],
+			"@services/*": ["./src/services/*"],
+			"@stores/*": ["./src/stores/*"],
+			"@styles/*": ["./src/styles/*"],
+			"@utils/*": ["./src/utils/*"]
+		},
+		"incremental": true
+	},
+	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+	"exclude": ["node_modules"]
 }

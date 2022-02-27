@@ -1,9 +1,13 @@
 import dynamic from 'next/dynamic';
 
 // --- Chakra-UI ---
-import { Box, useColorMode, useColorModeValue } from '@chakra-ui/react';
+import { Box, Flex, useColorMode, useColorModeValue } from '@chakra-ui/react';
+
+// --- Styles ---
+import { HERO_PATTERN } from '@styles/bgImages';
 
 // --- Components ---
+const SearchHistoryComponent = dynamic(() => import('@components/SearchHistory'));
 const ThemeButtonComponent = dynamic(() => import('@components/ThemeButton'));
 const InfoLinkComponent = dynamic(() => import('@components/InfoLink'));
 
@@ -12,13 +16,31 @@ export default function MainContentComponent({ children }): JSX.Element {
 
 	const bgColor = useColorModeValue('gray.50', 'gray.900');
 
-	const HERO_PATTERN = `data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23374151' fill-opacity='${
-		colorMode === 'light' ? '0.1' : '0.4'
-	}' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E`;
+	const buttonStyleProps: any = {
+		color: useColorModeValue('gray.50', 'gray.600'),
+		bgColor: useColorModeValue('gray.600', 'gray.50'),
+		boxShadow: 'xl',
+		_hover: { backgroundColor: useColorModeValue('gray.700', 'gray.200') },
+	};
 
 	return (
-		<Box bgColor={bgColor} bgImage={`url("${HERO_PATTERN}")`} overflow="hidden">
-			<ThemeButtonComponent />
+		<Box
+			bgColor={bgColor}
+			bgImage={`url("${HERO_PATTERN(colorMode)}")`}
+			overflow="hidden"
+		>
+			<Flex
+				gap={4}
+				height=""
+				position="absolute"
+				top={[4, 10]}
+				right={[4, 10]}
+				zIndex="overlay"
+			>
+				<SearchHistoryComponent styleProps={buttonStyleProps} />
+
+				<ThemeButtonComponent styleProps={buttonStyleProps} />
+			</Flex>
 
 			{children}
 

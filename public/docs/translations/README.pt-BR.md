@@ -44,7 +44,7 @@
 
 ## 🌎 Traduções
 
-<kbd>[<img title="English" alt="English" src="https://flagicons.lipis.dev/flags/4x3/us.svg" width="22">](../../../README.md)</kbd>
+<kbd>[<img title="English" alt="English" src="https://flagicons.lipis.dev/flags/4x3/us.svg" width="22">](./README.en-US.md)</kbd>
 <kbd>[<img title="Português Brasileiro" alt="Português Brasileiro" src="https://flagicons.lipis.dev/flags/4x3/br.svg" width="22">](./README.pt-BR.md)</kbd>
 
 <!-- Seção do Link de Demonstração -->
@@ -86,6 +86,10 @@ Este projeto apresenta todas as ferramentas e boas práticas mais recentes em de
 
 - ❇️ **[SWR](https://swr.vercel.app)** – Uma biblioteca de React Hooks para busca de dados
 - 🔄 **[Axios](https://github.com/axios/axios)** – Cliente HTTP baseado em Promise para o navegador e Node.js
+
+### Gerenciamento de Estado
+
+- 🐻 **[Zustand](https://zustand-demo.pmnd.rs)** – Uma solução de gerenciamento de estado de bearbones pequena, rápida e escalável usando princípios de fluxo simplificados
 
 ### Design System e Estilização
 
