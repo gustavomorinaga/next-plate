@@ -23,7 +23,7 @@ import * as Yup from 'yup';
 // --- Icons ---
 import { FiGithub, FiSearch } from 'react-icons/fi';
 
-const validationSchema = Yup.object({
+const validationSchema = Yup.object().shape({
 	login: Yup.string().required('Login is required!'),
 });
 
@@ -32,7 +32,7 @@ export default function SearchComponent({ handleSearchLogin }): JSX.Element {
 		handleSubmit,
 		register,
 		formState: { errors, isSubmitting },
-	} = useForm({ resolver: yupResolver(validationSchema) });
+	} = useForm({ resolver: yupResolver(validationSchema), mode: 'onTouched' });
 
 	const onSubmit = ({ login }) =>
 		new Promise(() => setTimeout(() => handleSearchLogin(login), 500));
