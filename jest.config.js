@@ -22,7 +22,7 @@ const customJestConfig = {
 		'@/pages/(.*)$': '<rootDir>/src/pages/$1',
 		'@/scripts/(.*)$': '<rootDir>/src/scripts/$1',
 		'@/services/(.*)$': '<rootDir>/src/services/$1',
-		'@/stories/(.*)$': '<rootDir>/src/stories/$1',
+		'@/stores/(.*)$': '<rootDir>/src/stores/$1',
 		'@/styles/(.*)$': '<rootDir>/src/styles/$1',
 		'@/utils/(.*)$': '<rootDir>/src/utils/$1',
 	},
