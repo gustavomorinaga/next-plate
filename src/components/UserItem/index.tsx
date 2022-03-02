@@ -29,31 +29,20 @@ export default function UserItemComponent({
 	handleClosePopover,
 	refPopover,
 }: UserItemProps): JSX.Element {
-	const boxStyleProps: any = {
-		w: 'full',
-		display: 'flex',
-		justifyContent: 'flex-start',
-		cursor: 'pointer',
-		padding: '2',
-		transition: 'background-color 0.1s ease-in-out',
-		_hover: {
-			backgroundColor: useColorModeValue('gray.100', 'gray.600'),
-		},
-	};
-
-	const loginStyleProps: any = {
-		w: 'fit-content',
-		display: 'flex',
-		alignItems: 'center',
-		gap: '1',
-		color: useColorModeValue('gray.500', 'gray.300'),
-	};
-
 	return (
 		<NextLink href={`/${user.login}`} passHref>
 			<Box
 				className="user__item"
-				{...boxStyleProps}
+				w="full"
+				display="flex"
+				justifyContent="flex-start"
+				cursor="pointer"
+				padding="2"
+				overflow="hidden"
+				transition="background-color 0.1s ease-in-out"
+				_hover={{
+					backgroundColor: useColorModeValue('gray.100', 'gray.600'),
+				}}
 				onClick={handleClosePopover}
 				ref={refPopover}
 				title={new Date(user.timestamp).toLocaleString()}
@@ -66,6 +55,7 @@ export default function UserItemComponent({
 							borderColor="purple.300"
 							src={user.avatar_url}
 							name={user.name}
+							ignoreFallback
 						/>
 					</GridItem>
 
@@ -76,7 +66,13 @@ export default function UserItemComponent({
 									{user.name}
 								</Text>
 							)}
-							<Text {...loginStyleProps}>
+							<Text
+								w="fit-content"
+								display="flex"
+								alignItems="center"
+								gap="1"
+								color={useColorModeValue('gray.500', 'gray.300')}
+							>
 								<FiGithub />
 								{user.login}
 							</Text>

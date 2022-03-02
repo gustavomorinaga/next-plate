@@ -48,6 +48,7 @@ export default function UserComponent({ user, constraintsRef }): JSX.Element {
 						borderColor="purple.300"
 						src={user.avatar_url}
 						name={user.name}
+						ignoreFallback
 					/>
 				</Center>
 				<Stack>

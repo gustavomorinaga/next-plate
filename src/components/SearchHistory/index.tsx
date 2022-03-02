@@ -32,13 +32,9 @@ export default function SearchHistoryComponent({ styleProps }): JSX.Element {
 
 	const initRef = useRef();
 
-	const emptyUsersStyleProps: any = {
-		w: 'full',
-		px: '3',
-		py: '2',
+	const emptyUsersListText = {
 		color: useColorModeValue('gray.500', 'gray.300'),
 		bgColor: useColorModeValue('gray.100', 'gray.600'),
-		align: 'center',
 	};
 
 	return (
@@ -62,7 +58,9 @@ export default function SearchHistoryComponent({ styleProps }): JSX.Element {
 							<PopoverBody maxH="sm" overflow="overlay" padding="0">
 								<VStack divider={<StackDivider />} spacing={0}>
 									{!users.length && (
-										<Text {...emptyUsersStyleProps}>It&apos;s empty here...</Text>
+										<Text w="full" px="3" py="2" align="center" {...emptyUsersListText}>
+											It&apos;s empty here...
+										</Text>
 									)}
 
 									{users.length &&

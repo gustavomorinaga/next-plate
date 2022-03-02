@@ -57,7 +57,7 @@ const UserPage: NextPage = () => {
 				exit="exit"
 				variants={slide}
 			>
-				<GoBackButtonComponent pageRedirection="/" />
+				<GoBackButtonComponent path="/" />
 
 				<MotionBox
 					w="full"

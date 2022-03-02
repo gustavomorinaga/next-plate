@@ -18,8 +18,12 @@ import { slide } from '@animations';
 const HomePage: NextPage = () => {
 	const router = useRouter();
 
-	const handleSearchLogin = (login: string) => {
-		login && router.push(`/${login.trim()}`, undefined, { shallow: true });
+	const handleSearchLogin = (login?: string) => {
+		login &&
+			router.push({
+				pathname: '/[login]',
+				query: { login },
+			});
 	};
 
 	return (
