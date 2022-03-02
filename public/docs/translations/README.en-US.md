@@ -35,7 +35,7 @@
 <!-- Desktop/Mobile GIF Demo Section -->
 <div align="center">
   <img src="./public/docs/demo/demo_desktop.gif" title="Desktop Version" alt="Demo Desktop" width="655px">
-  <img src="./public/docs/demo/demo_mobile.gif" title="Mobile Version" alt="Demo Mobile" height="300px">
+  <img src="./public/docs/demo/demo_mobile.gif" title="Mobile Version" alt="Demo Mobile" height="303px">
 </div>
 
 ---
