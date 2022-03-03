@@ -9,7 +9,7 @@
 
 <!-- Banner Section -->
 <p align="center">
-  <img src="./public/assets/images/banner.jpg" alt="Next-Plate Banner" width="512px" />
+  <img src="../../assets/images/banner.jpg" alt="Next-Plate Banner" width="512px" />
 </p>
 <h3 align="center">
   🦸‍♀️ A super template for Next.js with a pack of incredible tools
@@ -20,7 +20,7 @@
 <!-- Badges Section -->
 <p align="center">
   <a href="https://vercel.com" title="Open Vercel Website">
-    <img src="./public/assets/images/powered-by-vercel.svg" width="175" alt="Powered by Vercel" />
+    <img src="../../assets/images/powered-by-vercel.svg" width="175" alt="Powered by Vercel" />
   </a>
   <br>
   <a href="./LICENSE" title="Show the MIT License">
@@ -34,8 +34,8 @@
 
 <!-- Desktop/Mobile GIF Demo Section -->
 <div align="center">
-  <img src="./public/docs/demo/demo_desktop.gif" title="Desktop Version" alt="Demo Desktop" width="655px">
-  <img src="./public/docs/demo/demo_mobile.gif" title="Mobile Version" alt="Demo Mobile" height="303px">
+  <img src="../demo/demo_desktop.gif" title="Desktop Version" alt="Demo Desktop" width="655px">
+  <img src="../demo/demo_mobile.gif" title="Mobile Version" alt="Demo Mobile" height="303px">
 </div>
 
 ---
