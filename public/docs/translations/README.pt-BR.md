@@ -147,7 +147,7 @@ Antes de você poder começar a desenvolver sua super aplicação, você precisa
 Entre na raiz do projeto:
 
 ```bash
-$ cd <name-of-your-generated-repository>
+$ cd <nome-do-seu-repositorio-gerado>
 ```
 
 Instale as dependências do projeto:
