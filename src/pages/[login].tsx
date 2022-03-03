@@ -26,6 +26,8 @@ const UserComponent = dynamic(() => import('@components/User'));
 import { slide } from '@animations';
 import useUserStore from '@stores/user';
 
+const MINUTES_TO_REFETCH_DATA = 5 * 60 * 1000; // 5 minutes
+
 export default function UserPage() {
 	const { addUser } = useUserStore(state => state);
 
@@ -36,7 +38,14 @@ export default function UserPage() {
 
 	// --- Using React Query ---
 	//
-	const { data: user, isLoading, isError } = useUser(login as string, { retry: false });
+	const {
+		data: user,
+		isLoading,
+		isError,
+	} = useUser(login as string, {
+		refetchInterval: MINUTES_TO_REFETCH_DATA,
+		retry: false,
+	});
 
 	// --- Using SWR ---
 	//
