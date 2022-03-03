@@ -3,6 +3,7 @@ import dynamic from 'next/dynamic';
 // --- Chakra-UI ---
 import {
 	Avatar,
+	Badge,
 	Center,
 	Divider,
 	Flex,
@@ -80,66 +81,65 @@ export default function UserComponent({ user, constraintsRef }): JSX.Element {
 					</Stack>
 					<Wrap justify={{ base: 'center', sm: 'left' }}>
 						<WrapItem>
-							<Flex color="white">
-								<Center
-									gap="1"
-									bgColor="green.600"
-									borderWidth="thin"
-									borderColor="green.700"
-									borderRadius="md"
-									px="2"
-									h="6"
-								>
-									<FiUsers />
-									<HStack divider={<Text mx="1">·</Text>}>
-										<HStack>
-											<Text fontSize="sm">
-												<Text as="strong">{user.followers}</Text> followers
+							<Badge
+								variant="solid"
+								colorScheme="green"
+								display="flex"
+								alignItems="center"
+								gap="1"
+								borderRadius="md"
+							>
+								<FiUsers />
+								<HStack divider={<Text mx="1">·</Text>}>
+									<HStack>
+										<Text fontSize="sm">
+											<Text as="strong">{user.followers}</Text>
+											<Text as="span" textTransform="none" fontWeight="normal" ml="1">
+												followers
 											</Text>
-										</HStack>
-										<HStack>
-											<Text fontSize="sm">
-												<Text as="strong">{user.following}</Text> following
-											</Text>
-										</HStack>
+										</Text>
 									</HStack>
-								</Center>
-							</Flex>
+									<HStack>
+										<Text fontSize="sm">
+											<Text as="strong">{user.following}</Text>
+											<Text as="span" textTransform="none" fontWeight="normal" ml="1">
+												following
+											</Text>
+										</Text>
+									</HStack>
+								</HStack>
+							</Badge>
 						</WrapItem>
 						<WrapItem>
-							<Flex color="white">
-								<Center
-									gap="1"
-									bgColor="yellow.600"
-									borderWidth="thin"
-									borderColor="yellow.700"
-									borderRadius="md"
-									px="2"
-									h="6"
-								>
-									<FiBook />
-									<Text as="strong" fontSize="sm">
-										{user.public_repos}
-									</Text>
-								</Center>
-							</Flex>
+							<Badge
+								variant="solid"
+								colorScheme="yellow"
+								display="flex"
+								alignItems="center"
+								gap="1"
+								borderRadius="md"
+							>
+								<FiBook />
+								<Text as="strong" fontSize="sm">
+									{user.public_repos}
+								</Text>
+							</Badge>
 						</WrapItem>
 						{user.location && (
 							<WrapItem>
-								<Flex color="white">
-									<Center
-										gap="1"
-										bgColor="blue.600"
-										borderWidth="thin"
-										borderColor="blue.700"
-										borderRadius="md"
-										px="2"
-										h="6"
-									>
-										<FiMapPin />
-										<Text fontSize="sm">{user.location}</Text>
-									</Center>
-								</Flex>
+								<Badge
+									variant="solid"
+									colorScheme="blue"
+									display="flex"
+									alignItems="center"
+									gap="1"
+									borderRadius="md"
+								>
+									<FiMapPin />
+									<Text fontSize="sm" textTransform="none" fontWeight="normal">
+										{user.location}
+									</Text>
+								</Badge>
 							</WrapItem>
 						)}
 					</Wrap>

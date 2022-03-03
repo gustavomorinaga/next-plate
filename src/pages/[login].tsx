@@ -43,6 +43,7 @@ export default function UserPage() {
 		isLoading,
 		isError,
 	} = useUser(login as string, {
+		enabled: !!login,
 		refetchInterval: MINUTES_TO_REFETCH_DATA,
 		retry: false,
 	});
