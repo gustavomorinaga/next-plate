@@ -1,6 +1,6 @@
 {
 	"name": "next-plate",
-	"version": "1.4.0",
+	"version": "1.6.0",
 	"private": true,
 	"author": "Gustavo Matheus <gustavo.morinaga27@gmail.com>",
 	"description": "A super template for Next.js with a pack of incredible tools",
@@ -45,8 +45,8 @@
 		"react-dom": "^17.0.2",
 		"react-hook-form": "^7.27.1",
 		"react-icons": "^4.3.1",
+		"react-query": "^3.34.16",
 		"sharp": "^0.30.1",
-		"swr": "^1.2.2",
 		"yup": "^0.32.11",
 		"zustand": "^3.7.1"
 	},

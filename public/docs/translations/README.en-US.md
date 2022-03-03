@@ -84,7 +84,8 @@ This project features all the latest tools and good practices in web development
 
 ### Data Fetching
 
-- ❇️ **[SWR](https://swr.vercel.app)** – A React Hooks library for data fetching
+- ✳️ **[React Query](https://react-query.tanstack.com)** – Hooks for fetching, caching and updating asynchronous data in React
+- ❇️ **[SWR](https://swr.vercel.app)** (alternative for React Query) – A React Hooks library for data fetching
 - 🔄 **[Axios](https://github.com/axios/axios)** – Promise based HTTP client for the browser and Node.js
 
 ### State Management
@@ -192,6 +193,28 @@ $ yarn start
 ### ⚙️ Extra Configurations
 
 <details>
+ <summary>SWR</summary>
+
+ <h4>Swap to SWR</h4>
+
+Install the SWR on the project:
+
+```bash
+$ npm install swr
+# or
+$ yarn add swr
+```
+
+Remove all import lines, providers and code blocks of React Query located in `src/pages/_app.tsx` and `src/pages/[login].tsx`.
+
+That's it! Use the `useFetch` function to fetch your data in the application.
+
+Wanna see a demo? Uncomment all import lines and code blocks of SWR implementation on `src/pages/[login].tsx`.
+
+</details>
+
+<details>
+
  <summary>Why Did You Render</summary>
 
  <h4>How to Activate</h4>
@@ -204,7 +227,7 @@ That's it! Now you can monitore React re-renders!
 
  <h4>How to Uninstall</h4>
 
-Just delete the `babel.config.js` and `wdyr.ts` files, remove `wdyr` import line on `pages/_app.tsx` and uninstall it:
+Just delete the `babel.config.js` and `wdyr.ts` files, remove `wdyr` import line on `src/pages/_app.tsx` and uninstall it:
 
 ```bash
 $ npm uninstall @welldone-software/why-did-you-render

@@ -1,5 +1,4 @@
 import { useEffect, useRef } from 'react';
-import { NextPage } from 'next';
 import { useRouter } from 'next/router';
 import dynamic from 'next/dynamic';
 import { NextSeo } from 'next-seo';
@@ -7,8 +6,11 @@ import { NextSeo } from 'next-seo';
 // --- Interfaces ---
 import { IUser } from '@interfaces/IUser';
 
+// --- Services ---
+import { useUser } from '@services/users';
+
 // --- Hooks ---
-import { useFetch } from '@hooks/useFetch';
+// import { useFetch } from '@hooks/useFetch';
 
 // --- Chakra-UI---
 import { Alert, AlertIcon, Spinner } from '@chakra-ui/react';
@@ -24,7 +26,7 @@ const UserComponent = dynamic(() => import('@components/User'));
 import { slide } from '@animations';
 import useUserStore from '@stores/user';
 
-const UserPage: NextPage = () => {
+export default function UserPage() {
 	const { addUser } = useUserStore(state => state);
 
 	const router = useRouter();
@@ -32,18 +34,31 @@ const UserPage: NextPage = () => {
 
 	const constraintsRef = useRef(null);
 
-	const { data, error } = useFetch<IUser>(login ? `users/${login}` : null, {
-		refreshInterval: 30,
-	});
+	// --- Using React Query ---
+	//
+	const { data: user, isLoading, isError } = useUser(login as string, { retry: false });
+
+	// --- Using SWR ---
+	//
+	// const { data: user, error } = useFetch<IUser>(login ? `users/${login}` : null, {
+	// 	refreshInterval: 30,
+	// });
 
 	useEffect(() => {
-		if (data) addUser(data);
+		if (user) addUser(user);
 
 		return () => {};
-	}, [addUser, data, login]);
+	}, [addUser, user]);
 
-	const handleLogin = () =>
-		login && !error ? `👤 ${login} profile` : !error ? 'Loading...' : 'Not Found!';
+	const handleLogin = () => {
+		if (user) return `👤 ${login} profile`;
+		if (isLoading) return 'Loading...';
+		if (isError) return 'Not Found!';
+
+		// --- Using SWR ---
+		//
+		// return user && !error ? `👤 ${login} profile` : !error ? 'Loading...' : 'Not Found!';
+	};
 
 	return (
 		<>
@@ -66,20 +81,18 @@ const UserPage: NextPage = () => {
 					placeItems="center"
 					ref={constraintsRef}
 				>
-					{error && (
+					{isError && (
 						<Alert w="md" borderRadius="xl" status="error">
 							<AlertIcon />
 							Profile not found! Search another profile!
 						</Alert>
 					)}
 
-					{!data && !error && <Spinner color="white" size="xl" />}
+					{isLoading && <Spinner color="white" size="xl" />}
 
-					{data && <UserComponent user={data} constraintsRef={constraintsRef} />}
+					{user && <UserComponent user={user} constraintsRef={constraintsRef} />}
 				</MotionBox>
 			</MotionBox>
 		</>
 	);
-};
-
-export default UserPage;
+}

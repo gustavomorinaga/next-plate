@@ -84,7 +84,8 @@ Este projeto apresenta todas as ferramentas e boas práticas mais recentes em de
 
 ### Requisição de Dados
 
-- ❇️ **[SWR](https://swr.vercel.app)** – Uma biblioteca de React Hooks para busca de dados
+- ✳️ **[React Query](https://react-query.tanstack.com)** – Hooks para buscar, armazenar e atualizar dados assíncronos em cache no React
+- ❇️ **[SWR](https://swr.vercel.app)** (alternativa para o React Query) – Uma biblioteca de React Hooks para busca de dados
 - 🔄 **[Axios](https://github.com/axios/axios)** – Cliente HTTP baseado em Promise para o navegador e Node.js
 
 ### Gerenciamento de Estado
@@ -192,6 +193,27 @@ $ yarn start
 ### ⚙️ Configurações Extras
 
 <details>
+ <summary>SWR</summary>
+
+ <h4>Trocar para o SWR</h4>
+
+Instale o SWR no projeto:
+
+```bash
+$ npm install swr
+# ou
+$ yarn add swr
+```
+
+Remova todas as linhas de importação, provedores and blocos de códigos do React Query localizados em `src/pages/_app.tsx` e `src/pages/[login].tsx`.
+
+É isso! Use a função `useFetch` buscar os dados na aplicação.
+
+Quer ver uma demonstração? Descomente as linhas de importação e blocos de códigos de implementação do SWR em `src/pages/[login].tsx`.
+
+</details>
+
+<details>
  <summary>Why Did You Render</summary>
 
  <h4>Como Ativar</h4>
@@ -208,7 +230,7 @@ Apenas deleta os arquivos `babel.config.js` e `wdyr.ts`, remova a linha de impor
 
 ```bash
 $ npm uninstall @welldone-software/why-did-you-render
-# or
+# ou
 $ yarn remove @welldone-software/why-did-you-render
 ```
 

@@ -1,7 +1,7 @@
 import useSWR, { SWRConfiguration } from 'swr';
 
 // --- Services ---
-import { fetcher } from '@services/api';
+import { fetcher } from '@services/global/api';
 
 export function useFetch<Data = any, Error = any>(url: string, opts?: SWRConfiguration) {
 	const refreshInterval = opts?.refreshInterval

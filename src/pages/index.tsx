@@ -1,4 +1,3 @@
-import { NextPage } from 'next';
 import dynamic from 'next/dynamic';
 import { useRouter } from 'next/router';
 import { NextSeo } from 'next-seo';
@@ -15,7 +14,7 @@ import MotionContainer from '@components/Motion/MotionContainer';
 // -- Animations --
 import { slide } from '@animations';
 
-const HomePage: NextPage = () => {
+export default function HomePage() {
 	const router = useRouter();
 
 	const handleSearchLogin = (login?: string) => {
@@ -47,6 +46,4 @@ const HomePage: NextPage = () => {
 			</MotionContainer>
 		</>
 	);
-};
-
-export default HomePage;
+}
