@@ -9,6 +9,9 @@ import { IUser } from '@interfaces/IUser';
 // --- Services ---
 import { useUser } from '@services/users';
 
+// --- Stores ---
+import useUserStore from '@stores/user';
+
 // --- Hooks ---
 // import { useFetch } from '@hooks/useFetch';
 
@@ -24,7 +27,6 @@ const UserComponent = dynamic(() => import('@components/User'));
 
 // -- Animations --
 import { slide } from '@animations';
-import useUserStore from '@stores/user';
 
 const MINUTES_TO_REFETCH_DATA = 5 * 60 * 1000; // 5 minutes
 
