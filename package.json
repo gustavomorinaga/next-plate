@@ -31,8 +31,8 @@
 	"dependencies": {
 		"@chakra-ui/icons": "1.1.7",
 		"@chakra-ui/react": "1.8.6",
-		"@emotion/react": "11.7.1",
-		"@emotion/styled": "11.6.0",
+		"@emotion/react": "11.8.1",
+		"@emotion/styled": "11.8.1",
 		"@hookform/resolvers": "2.8.8",
 		"axios": "0.26.0",
 		"framer-motion": "6.2.8",
