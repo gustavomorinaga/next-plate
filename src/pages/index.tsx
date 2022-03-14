@@ -20,7 +20,7 @@ export default function HomePage() {
 	const handleSearchLogin = (login?: string) => {
 		login &&
 			router.push({
-				pathname: '/[login]',
+				pathname: '/user/[login]',
 				query: { login },
 			});
 	};
