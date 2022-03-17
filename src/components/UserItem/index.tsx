@@ -30,7 +30,7 @@ export default function UserItemComponent({
 	refPopover,
 }: UserItemProps): JSX.Element {
 	return (
-		<NextLink href={`/${user.login}`} passHref>
+		<NextLink href={`/user/${user.login}`} passHref>
 			<Box
 				className="user__item"
 				w="full"
