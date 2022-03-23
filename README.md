@@ -224,7 +224,7 @@ Wanna see a demo? Uncomment all import lines and code blocks of SWR implementati
 
  <h4>How to Activate</h4>
 
-Put the `babel.config.js` file (located in the path `src/scripts`) in the project root.
+Put the `babel.config.js` file (located in the path `src/scripts`) in the project root and delete `.babelrc` file.
 
 Uncomment the `wdyr` import line on `pages/_app.tsx`.
 

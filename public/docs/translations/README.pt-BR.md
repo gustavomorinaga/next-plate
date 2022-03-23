@@ -224,7 +224,7 @@ Quer ver uma demonstração? Descomente as linhas de importação e blocos de c�
 
  <h4>Como Ativar</h4>
 
-Coloque o arquivo `babel.config.js` (localizado no caminho `src/scripts`) na raiz do projeto.
+Coloque o arquivo `babel.config.js` (localizado no caminho `src/scripts`) na raiz do projeto e exclua o arquivo `.babelrc`.
 
 Descomente a linha de importação do `wdyr` em `pages/_app.tsx`.
 
