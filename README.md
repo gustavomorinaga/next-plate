@@ -60,6 +60,12 @@ Deploy your own copy of this template in just a few clicks!
  <a href="https://app.netlify.com/start/deploy?repository=https://github.com/gmatthewsfeuer/next-plate" title="Deploy to Netlify">
   <img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />
  </a>
+ <a href="https://stackblitz.com/fork/github/gmatthewsfeuer/next-plate" title="Open in StackBlitz">
+  <img
+    src="https://developer.stackblitz.com/img/open_in_stackblitz.svg"
+    alt="Open in StackBlitz"
+  />
+ </a>
 </div>
 
 <!-- Introduction Section -->

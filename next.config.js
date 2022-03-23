@@ -8,7 +8,7 @@ const isProduction = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
 	esModule: true,
-	swcMinify: true,
+	// swcMinify: true,
 	// images: {
 	// 	formats: ['image/avif', 'image/webp'],
 	// 	domains: ['avatars.githubusercontent.com'],
