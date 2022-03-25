@@ -1,5 +1,15 @@
 {
-	"extends": [
-		"config:base"
+	"enable": true,
+	"schedule": ["before 3am on Monday"],
+	"extends": ["config:base"],
+	"packageRules": [
+		{
+			"matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+			"automerge": true
+		},
+		{
+			"matchDepTypes": ["devDependencies"],
+			"automerge": true
+		}
 	]
 }
