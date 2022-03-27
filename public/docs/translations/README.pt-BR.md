@@ -264,7 +264,6 @@ $ yarn remove @welldone-software/why-did-you-render
 ┃ ┃ ┣ 📂 demo/                  # Demonstrações do projeto
 ┃ ┃ ┗ 📂 translations/          # Pasta de traduções
 ┃ ┣ 📃 favicon.ico              # Ícone das abas do aplicativo
-┃ ┣ 📃 robots.txt               # Configuração dos mecanismos de busca
 ┃ ┣ 📃 site.webmanifest         # Configuração do PWA
 ┣ 📂 src/
 ┃ ┣ 📂 animations/              # Animações com Framer Motion
