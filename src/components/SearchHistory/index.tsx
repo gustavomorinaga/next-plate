@@ -28,7 +28,7 @@ import { FiClock } from 'react-icons/fi';
 const UserItemComponent = dynamic(() => import('@components/UserItem'));
 
 export default function SearchHistoryComponent({ styleProps }): JSX.Element {
-	const users = useUserStore(({ users }) => users);
+	const users = useUserStore(state => state.users);
 
 	const initRef = useRef();
 
@@ -39,7 +39,7 @@ export default function SearchHistoryComponent({ styleProps }): JSX.Element {
 
 	return (
 		<Popover isLazy placement="bottom-start" offset={[56, 12]}>
-			{({ isOpen, onClose }) => (
+			{({ onClose }) => (
 				<>
 					<PopoverTrigger>
 						<IconButton

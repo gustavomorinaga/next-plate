@@ -1,9 +1,10 @@
 import Document, { DocumentProps, Html, Head, Main, NextScript } from 'next/document';
 import { ColorModeScript } from '@chakra-ui/react';
 
+// --- Styles ---
 import theme from '@styles/theme';
 
-class MyDocument extends Document<DocumentProps> {
+class _document extends Document<DocumentProps> {
 	render(): JSX.Element {
 		return (
 			<Html lang="en">
@@ -39,4 +40,4 @@ class MyDocument extends Document<DocumentProps> {
 	}
 }
 
-export default MyDocument;
+export default _document;

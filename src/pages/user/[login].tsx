@@ -3,9 +3,6 @@ import { useRouter } from 'next/router';
 import dynamic from 'next/dynamic';
 import { NextSeo } from 'next-seo';
 
-// --- Interfaces ---
-import { IUser } from '@interfaces/IUser';
-
 // --- Services ---
 import { useUser } from '@services/users';
 

@@ -24,15 +24,13 @@ const useUserStore = create<State>((set, get) => ({
 	},
 	getUser: (login: string) => {
 		const users = get().users;
-		const user = users.find(user => user.login === login);
 
-		return user;
+		return users.find(user => user.login === login);
 	},
 	getUserIndex: (login: string) => {
 		const users = get().users;
-		const userIndex = users.findIndex(user => user.login === login);
 
-		return userIndex;
+		return users.findIndex(user => user.login === login);
 	},
 	removeUser: (login: string) => {
 		const userIndex = get().getUserIndex(login);

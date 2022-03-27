@@ -1,6 +1,7 @@
 import { AppProps } from 'next/app';
 import { DefaultSeo } from 'next-seo';
 
+// --- React Query ---
 import { QueryClient, QueryClientProvider } from 'react-query';
 
 // --- Chakra-UI ---
@@ -18,7 +19,7 @@ import MainContentComponent from '@components/MainContent';
 
 const queryClient = new QueryClient();
 
-const MyApp: React.FC<AppProps> = ({ Component, pageProps, router: { route } }) => {
+export default function _app({ Component, pageProps, router: { route } }: AppProps) {
 	return (
 		<>
 			<DefaultSeo {...SEO} />
@@ -31,6 +32,4 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps, router: { route } }) 
 			</QueryClientProvider>
 		</>
 	);
-};
-
-export default MyApp;
+}

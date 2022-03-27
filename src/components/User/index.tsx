@@ -6,7 +6,6 @@ import {
 	Badge,
 	Center,
 	Divider,
-	Flex,
 	Heading,
 	HStack,
 	Link,
