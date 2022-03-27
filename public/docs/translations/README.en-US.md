@@ -131,6 +131,7 @@ This project features all the latest tools and good practices in web development
 - 🗃️ **[next-compose-plugins](https://github.com/cyrilwanner/next-compose-plugins)** – Provides a cleaner API for enabling and configuring plugins for Next.js
 - 📱 **[next-pwa](https://github.com/shadowwalker/next-pwa)** – A PWA plugin for Next.js
 - 📈 **[next-seo](https://github.com/garmeeh/next-seo)** – A plugin that makes managing your SEO easier in Next.js projects
+- 🤖 **[next-sitemap](https://github.com/iamvishnusankar/next-sitemap)** – Sitemap generator for Next.js
 
 <!-- Procedures Section -->
 
@@ -143,7 +144,7 @@ This project features all the latest tools and good practices in web development
 3. Now you can clone the generated repository to your local machine:
 
 ```bash
- $ git clone https://github.com/<your-github-login>/<name-of-your-generated-repository>.git
+ $ git clone https://github.com/<YOUR-GITHUB-LOGIN>/<NAME-OF-YOUR-GENERATED-REPOSITORY>.git
 ```
 
 ### 🛠️ Installation
@@ -153,7 +154,7 @@ Before you can start developing your super application, you need to install the 
 Move yourself to the root of the project:
 
 ```bash
-$ cd <name-of-your-generated-repository>
+$ cd <NAME-OF-YOUR-GENERATED-REPOSITORY>
 ```
 
 Install all dependencies of the project:

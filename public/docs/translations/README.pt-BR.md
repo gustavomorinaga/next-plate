@@ -131,6 +131,7 @@ Este projeto apresenta todas as ferramentas e boas práticas mais recentes em de
 - 🗃️ **[next-compose-plugins](https://github.com/cyrilwanner/next-compose-plugins)** – Fornece uma API mais limpa para ativar e configurar plugins para Next.js
 - 📱 **[next-pwa](https://github.com/shadowwalker/next-pwa)** – Um plugin de PWA para Next.js
 - 📈 **[next-seo](https://github.com/garmeeh/next-seo)** – Um plugin que facilita o gerenciamento do SEO de seus projetos em Next.js
+- 🤖 **[next-sitemap](https://github.com/iamvishnusankar/next-sitemap)** – Gerador de sitemap para Next.js
 
 <!-- Seção de Procedimentos -->
 
@@ -143,7 +144,7 @@ Este projeto apresenta todas as ferramentas e boas práticas mais recentes em de
 3. Agora você consegue clonar o repositório criado para a sua máquina local:
 
 ```bash
-$ git clone https://github.com/<seu-login-do-github>/<nome-do-seu-repositorio-gerado>.git
+$ git clone https://github.com/<SEU-LOGIN-DO-GITHUB>/<NOME-DO-SEU-REPOSITORIO-GERADO>.git
 ```
 
 ### 🛠️ Instalação
@@ -153,7 +154,7 @@ Antes de você poder começar a desenvolver sua super aplicação, você precisa
 Entre na raiz do projeto:
 
 ```bash
-$ cd <nome-do-seu-repositorio-gerado>
+$ cd <NOME-DO-SEU-REPOSITORIO-GERADO>
 ```
 
 Instale as dependências do projeto:
