@@ -243,6 +243,72 @@ $ yarn remove @welldone-software/why-did-you-render
 
 </details>
 
+<!-- Project Structure Section -->
+
+## 📁 Project Structure
+
+<details>
+ <summary>View project structure</summary>
+
+```txt
+📂 next-plate/
+┣ 📂 .husky/                    # Husky's folder
+┃ ┣ 📃 commit-msg               # Commitlint git hook
+┃ ┗ 📃 pre-commit               # Lint-staged git hook
+┣ 📂 public/                    # Public folder
+┃ ┣ 📂 assets/                  # Folder with all the assets
+┃ ┃ ┣ 📂 icons/                 # Icons folder
+┃ ┃ ┣ 📂 images/                # Images folder
+┃ ┃ ┣ 📂 sounds/                # Sounds folder
+┃ ┃ ┗ 📂 videos/                # Videos folder
+┃ ┣ 📂 docs/                    # Documentation folder
+┃ ┃ ┣ 📂 demo/                  # Demonstrations project
+┃ ┃ ┗ 📂 translations/          # Translations folder
+┃ ┣ 📃 favicon.ico              # Icon tab browser
+┃ ┣ 📃 robots.txt               # Search mechanism configuration
+┃ ┣ 📃 site.webmanifest         # PWA configuration
+┣ 📂 src/
+┃ ┣ 📂 animations/              # Framer Motion Animations
+┃ ┣ 📂 components/              # App Components
+┃ ┃ ┗ 📂 Motion/                # Chakra + Framer components
+┃ ┣ 📂 hooks/                   # React Hooks
+┃ ┃ ┗ 📃 useFetch.ts            # SWR fetch hook (optional)
+┃ ┣ 📂 interfaces/              # TypeScript Interfaces
+┃ ┣ 📂 pages/                   # App pages
+┃ ┣ 📂 scripts/                 # Additional scripts
+┃ ┃ ┣ 📃 babel.config.js        # Babel config with WDYR
+┃ ┃ ┗ 📃 wdyr.ts                # WDYR file
+┃ ┣ 📂 services/                # Services
+┃ ┃ ┣ 📂 global/
+┃ ┃ ┃ ┗ 📃 api.ts               # AXIOS configuration
+┃ ┃ ┗ 📂 users/
+┃ ┃   ┣ 📃 index.ts             # React Query Configuration
+┃ ┃   ┗ 📃 keys.ts              # React Query Key
+┃ ┣ 📂 stores/                  # Zustand stores
+┃ ┣ 📂 styles/                  # Styles folder
+┃ ┃ ┣ 📃 bgImages.ts            # SVG background images
+┃ ┃ ┗ 📃 theme.ts               # Chakra-UI theme
+┃ ┗ 📂 utils/                   # Useful functions
+┣ 📃 .babelrc                   # Default Babel configuration
+┣ 📃 .editorconfig              # Editor configuration
+┣ 📃 .eslintignore              # ESLint ignore
+┣ 📃 .eslintrc.js               # ESLint configuration
+┣ 📃 .gitignore                 # Git ignore
+┣ 📃 commitlint.config.js       # Commitlint configuration
+┣ 📃 jest.config.js             # Jest configuration
+┣ 📃 jest.setup.js              # Jest setup
+┣ 📃 LICENSE                    # License of the project
+┣ 📃 next-env.d.ts              # Next.js types to TypeScript
+┣ 📃 next-seo.config.js         # Next-SEO configuration
+┣ 📃 next.config.js             # Next.js configuration
+┣ 📃 prettier.config.js         # Prettier configuration
+┣ 📃 README.md                  # Main README
+┣ 📃 renovate.json              # Renovate Bot configuration
+┣ 📃 tsconfig.json              # TypeScript configuration
+```
+
+</details>
+
 <!-- License Section -->
 
 ## 📜 License
@@ -260,3 +326,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ### ❤️ Thanks for your attention!
 
 ### 👨‍💻 Good Hacking!
+
+---
+
+[!["Buy Me A Coffee"](https://cdn.buymeacoffee.com/buttons/default-red.png)](https://www.buymeacoffee.com/gmatthewsfeuer)

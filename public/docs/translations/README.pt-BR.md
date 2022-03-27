@@ -242,6 +242,72 @@ $ yarn remove @welldone-software/why-did-you-render
 
 </details>
 
+<!-- Seção da Estrutura do Projeto -->
+
+## 📁 Estrutura do Projeto
+
+<details>
+ <summary>Ver a estrutura do projeto</summary>
+
+```txt
+📂 next-plate/
+┣ 📂 .husky/                    # Pasta do Husky
+┃ ┣ 📃 commit-msg               # Git hook do ommitlint
+┃ ┗ 📃 pre-commit               # Git hook do lint-staged
+┣ 📂 public/                    # Pasta pública
+┃ ┣ 📂 assets/                  # Pasta para recursos de Front
+┃ ┃ ┣ 📂 icons/                 # Pasta para ícones
+┃ ┃ ┣ 📂 images/                # Pasta para imagens
+┃ ┃ ┣ 📂 sounds/                # Pasta para sons
+┃ ┃ ┗ 📂 videos/                # Pasta para vídeos
+┃ ┣ 📂 docs/                    # Pasta da documentação
+┃ ┃ ┣ 📂 demo/                  # Demonstrações do projeto
+┃ ┃ ┗ 📂 translations/          # Pasta de traduções
+┃ ┣ 📃 favicon.ico              # Ícone das abas do aplicativo
+┃ ┣ 📃 robots.txt               # Configuração dos mecanismos de busca
+┃ ┣ 📃 site.webmanifest         # Configuração do PWA
+┣ 📂 src/
+┃ ┣ 📂 animations/              # Animações com Framer Motion
+┃ ┣ 📂 components/              # Componentes do aplicativo
+┃ ┃ ┗ 📂 Motion/                # Componentes Chakra + Framer
+┃ ┣ 📂 hooks/                   # React Hooks
+┃ ┃ ┗ 📃 useFetch.ts            # SWR fetch hook (opcional)
+┃ ┣ 📂 interfaces/              # Interfaces do TypeScript
+┃ ┣ 📂 pages/                   # Páginas do aplicativo
+┃ ┣ 📂 scripts/                 # Scripts adicionais
+┃ ┃ ┣ 📃 babel.config.js        # Configuração do Babel com WDYR
+┃ ┃ ┗ 📃 wdyr.ts                # Arquivo do WDYR
+┃ ┣ 📂 services/                # Serviços
+┃ ┃ ┣ 📂 global/
+┃ ┃ ┃ ┗ 📃 api.ts               # Configurações AXIOS
+┃ ┃ ┗ 📂 users/
+┃ ┃   ┣ 📃 index.ts             # Configuração React Query
+┃ ┃   ┗ 📃 keys.ts              # Chaves do React Query
+┃ ┣ 📂 stores/                  # Gerenciamento de estados do Zustand
+┃ ┣ 📂 styles/                  # Pasta de estilos
+┃ ┃ ┣ 📃 bgImages.ts            # Imagens de plano de fundo em SVG
+┃ ┃ ┗ 📃 theme.ts               # Tema do Chakra-UI
+┃ ┗ 📂 utils/                   # Funções úteis
+┣ 📃 .babelrc                   # Configuração padrão do Babel
+┣ 📃 .editorconfig              # Configuração do editor
+┣ 📃 .eslintignore              # ESLint ignore
+┣ 📃 .eslintrc.js               # Configuração do ESLint
+┣ 📃 .gitignore                 # Git ignore
+┣ 📃 commitlint.config.js       # Configuração do commitlint
+┣ 📃 jest.config.js             # Configuração do Jest
+┣ 📃 jest.setup.js              # Setup do Jest
+┣ 📃 LICENSE                    # Licença do projeto
+┣ 📃 next-env.d.ts              # Tipos do Next.js para o TypeScript
+┣ 📃 next-seo.config.js         # Configuração Next-SEO
+┣ 📃 next.config.js             # Configuração Next.js
+┣ 📃 prettier.config.js         # Configuração Prettier
+┣ 📃 README.md                  # README principal
+┣ 📃 renovate.json              # Configuração Renovate Bot
+┣ 📃 tsconfig.json              # Configuração TypeScript
+```
+
+</details>
+
 <!-- Seção de Licença -->
 
 ## 📜 Licença
@@ -259,3 +325,7 @@ Este projeto está licenciado sob a **Licença MIT** - veja a página [LICENÇA]
 ### ❤️ Obrigado pela atenção!
 
 ### 👨‍💻 Bom Hackeamento!
+
+---
+
+[!["Buy Me A Coffee"](https://cdn.buymeacoffee.com/buttons/default-red.png)](https://www.buymeacoffee.com/gmatthewsfeuer)
