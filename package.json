@@ -1,6 +1,6 @@
 {
 	"name": "next-plate",
-	"version": "1.6.0",
+	"version": "1.7.0",
 	"private": true,
 	"author": "Gustavo Matheus <gustavo.morinaga27@gmail.com>",
 	"description": "A super template for Next.js with a pack of incredible tools",
