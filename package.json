@@ -19,14 +19,21 @@
 	},
 	"scripts": {
 		"dev": "next dev",
-		"lint": "next lint",
-		"lint:fix": "eslint --fix \"src/**/*.{js,jsx,ts,tsx,json}\"",
-		"prepare": "husky install",
-		"pre-commit": "yarn lint",
-		"build": "next build",
 		"start": "next start",
+		"build": "next build",
+		"lint": "next lint",
+		"type-check": "tsc --noEmit",
+		"lint:fix": "eslint src --fix && yarn format",
+		"format": "prettier --write src",
+		"up": "yarn upgrade-interactive",
+		"up-latest": "yarn up --latest",
+		"release": "standard-version",
+		"push-release": "git push --follow-tags origin main",
 		"test": "jest",
-		"test:watch": "jest --watch"
+		"test:watch": "jest --watch",
+		"pre-commit": "yarn lint",
+		"postbuild": "next-sitemap --config next-sitemap.config.js",
+		"prepare": "husky install"
 	},
 	"dependencies": {
 		"@chakra-ui/icons": "1.1.7",
@@ -72,6 +79,7 @@
 		"husky": "7.0.4",
 		"jest": "27.5.1",
 		"lint-staged": "12.3.7",
+		"next-sitemap": "^2.5.14",
 		"prettier": "2.6.0",
 		"typescript": "4.6.2"
 	}
