@@ -19,10 +19,6 @@
 
 <!-- Seção de Distintivos -->
 <p align="center">
-  <a href="https://vercel.com" title="Abrir Website da Vercel">
-    <img src="../../assets/images/powered-by-vercel.svg" width="175" alt="Powered by Vercel" />
-  </a>
-  <br>
   <a href="../../../LICENSE" title="Mostrar a Licença MIT">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License MIT">
   </a>
@@ -30,6 +26,26 @@
   <img src="https://forthebadge.com/images/badges/open-source.svg" alt="Open Source" />
   <img src="https://forthebadge.com/images/badges/made-with-typescript.svg" alt="Made with TypeScript" />
   <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Built with Love" />
+  <br>
+  <a href="https://vercel.com" title="Abrir Website da Vercel">
+    <img src="../../assets/images/powered-by-vercel.svg" width="175" alt="Powered by Vercel" />
+  </a>
+</p>
+
+---
+
+<p align="center">
+ <a href="https://sonarcloud.io/summary/new_code?id=gmatthewsfeuer_next-plate">
+   <img src="https://sonarcloud.io/api/project_badges/measure?project=gmatthewsfeuer_next-plate&metric=bugs" alt="Bugs" title="Bugs" />
+   <img src="https://sonarcloud.io/api/project_badges/measure?project=gmatthewsfeuer_next-plate&metric=sqale_rating" alt="Classificação de Manutenibilidade" title="Classificação de Manutenibilidade" />
+   <img src="https://sonarcloud.io/api/project_badges/measure?project=gmatthewsfeuer_next-plate&metric=alert_status" alt="Status de Portão Qualidade" title="Status de Portão Qualidade" />
+   <img src="https://sonarcloud.io/api/project_badges/measure?project=gmatthewsfeuer_next-plate&metric=reliability_rating" alt="Classificação de Confiabilidade" title="Classificação de Confiabilidade" />
+   <img src="https://sonarcloud.io/api/project_badges/measure?project=gmatthewsfeuer_next-plate&metric=security_rating" alt="Classificação de Segurança" title="Classificação de Segurança" />
+   <img src="https://sonarcloud.io/api/project_badges/measure?project=gmatthewsfeuer_next-plate&metric=vulnerabilities" alt="Vulnerabilidades" title="Vulnerabilidades" />
+ </a>
+ <a href="https://app.renovatebot.com/dashboard">
+   <img src="https://camo.githubusercontent.com/360c8015d9ce49450a3af7d9782f7035ef677763b800bea727b90c37f873433e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f72656e6f766174652d656e61626c65642d2532333141314636433f6c6f676f3d72656e6f76617465626f74" alt="Renovate" />
+ </a>
 </p>
 
 <!-- Desktop/Mobile GIF Demo Section -->
