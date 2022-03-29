@@ -121,6 +121,7 @@ Este projeto apresenta todas as ferramentas e boas práticas mais recentes em de
 - 🐺 **[Husky](https://github.com/typicode/husky)** – Git Hooks nativo e moderno de forma fácil
 - 💩 **[lint-staged](https://github.com/okonet/lint-staged)** – Execute linters em arquivos git e não deixe 💩 entrar em sua base de código
 - 📓 **[commitlint](https://commitlint.js.org)** – Ajuda sua equipe a aderir a uma convenção de commit
+- 🏷️ **[Standard Version](https://github.com/conventional-changelog/standard-version)** – Um utilitário para versionamento usando geração semver e CHANGELOG alimentado por Conventional Commits
 
 ### Análises
 
@@ -197,6 +198,107 @@ $ npm start
 $ yarn start
 ```
 
+<details>
+ <summary>Ver mais comandos para você usar</summary>
+
+ <h4>Lint</h4>
+
+```bash
+$ npm run lint
+# ou
+$ yarn lint
+```
+
+ <h4>Lint e Correção</h4>
+
+```bash
+$ npm run lint:fix
+# ou
+$ yarn lint:fix
+```
+
+ <h4>Testar</h4>
+
+```bash
+$ npm run test # ou npm run test:watch
+# ou
+$ yarn test # ou yarn test:watch
+```
+
+ <h4>Verificação de Tipagem</h4>
+
+```bash
+$ npm run type-check
+# ou
+$ yarn type-check
+```
+
+ <h4>Formatação</h4>
+
+```bash
+$ npm run format
+# ou
+$ yarn format
+```
+
+ <h4>Ferramenta de atualização interativa</h4>
+
+```bash
+$ npm run up
+# ou
+$ yarn up
+```
+
+ <h4>Atualizar Todas as Dependências</h4>
+
+```bash
+$ npm run up-latest
+# or
+$ yarn up-latest
+```
+
+ <h4>Lançar como Versão Principal</h4>
+
+```bash
+$ npm run release-as-major
+# or
+$ yarn release-as-major
+```
+
+ <h4>Lançar como Versão Secundária</h4>
+
+```bash
+$ npm run release-as-minor
+# or
+$ yarn release-as-minor
+```
+
+ <h4>Lançar como Versão de Patch</h4>
+
+```bash
+$ npm run release-as-patch
+# or
+$ yarn release-as-patch
+```
+
+ <h4>Publicar Versão</h4>
+
+```bash
+$ npm run push-release
+# or
+$ yarn push-release
+```
+
+ <h4>Obter Atualizações Remotas e Manter as Alterações Atuais</h4>
+
+```bash
+$ npm run pull
+# or
+$ yarn pull
+```
+
+</details>
+
 ### ⚙️ Configurações Extras
 
 <details>
@@ -243,40 +345,46 @@ $ yarn remove @welldone-software/why-did-you-render
 
 </details>
 
-<!-- Seção da Estrutura do Projeto -->
+<!-- Seção da Árvore de Arquivos -->
 
-## 📁 Estrutura do Projeto
+## 📁 Árvore de Arquivos
+
+Veja abaixo a árvore de arquivos para entender a estrutura do modelo de projeto.
 
 <details>
- <summary>Ver a estrutura do projeto</summary>
+ <summary>Ver a árvore de arquivos</summary>
+
+> Pastas e arquivos marcados com (`**`) são opcionais, você pode excluí-los.
 
 ```txt
 📂 next-plate/
+┣ 📂 .github/                   # Pasta do GitHub **
 ┣ 📂 .husky/                    # Pasta do Husky
 ┃ ┣ 📃 commit-msg               # Git hook do ommitlint
 ┃ ┗ 📃 pre-commit               # Git hook do lint-staged
+┣ 📂 .vscode/                   # Workspace do VSCode **
 ┣ 📂 public/                    # Pasta pública
-┃ ┣ 📂 assets/                  # Pasta para recursos de Front
-┃ ┃ ┣ 📂 icons/                 # Pasta para ícones
-┃ ┃ ┣ 📂 images/                # Pasta para imagens
-┃ ┃ ┣ 📂 sounds/                # Pasta para sons
-┃ ┃ ┗ 📂 videos/                # Pasta para vídeos
+┃ ┣ 📂 assets/                  # Pasta para recursos de Front **
+┃ ┃ ┣ 📂 icons/                 # Pasta para ícones **
+┃ ┃ ┣ 📂 images/                # Pasta para imagens **
+┃ ┃ ┣ 📂 sounds/                # Pasta para sons **
+┃ ┃ ┗ 📂 videos/                # Pasta para vídeos **
 ┃ ┣ 📂 docs/                    # Pasta da documentação
 ┃ ┃ ┣ 📂 demo/                  # Demonstrações do projeto
 ┃ ┃ ┗ 📂 translations/          # Pasta de traduções
 ┃ ┣ 📃 favicon.ico              # Ícone das abas do aplicativo
 ┃ ┣ 📃 site.webmanifest         # Configuração do PWA
 ┣ 📂 src/
-┃ ┣ 📂 animations/              # Animações com Framer Motion
+┃ ┣ 📂 animations/              # Animações com Framer Motion **
 ┃ ┣ 📂 components/              # Componentes do aplicativo
-┃ ┃ ┗ 📂 Motion/                # Componentes Chakra + Framer
-┃ ┣ 📂 hooks/                   # React Hooks
-┃ ┃ ┗ 📃 useFetch.ts            # SWR fetch hook (opcional)
+┃ ┃ ┗ 📂 Motion/                # Componentes Chakra + Framer **
+┃ ┣ 📂 hooks/                   # React Hooks **
+┃ ┃ ┗ 📃 useFetch.ts            # SWR fetch hook (opcional) **
 ┃ ┣ 📂 interfaces/              # Interfaces do TypeScript
 ┃ ┣ 📂 pages/                   # Páginas do aplicativo
-┃ ┣ 📂 scripts/                 # Scripts adicionais
-┃ ┃ ┣ 📃 babel.config.js        # Configuração do Babel com WDYR
-┃ ┃ ┗ 📃 wdyr.ts                # Arquivo do WDYR
+┃ ┣ 📂 scripts/                 # Scripts adicionais **
+┃ ┃ ┣ 📃 babel.config.js        # Configuração do Babel com WDYR **
+┃ ┃ ┗ 📃 wdyr.ts                # Arquivo do WDYR **
 ┃ ┣ 📂 services/                # Serviços
 ┃ ┃ ┣ 📂 global/
 ┃ ┃ ┃ ┗ 📃 api.ts               # Configurações AXIOS
@@ -287,22 +395,23 @@ $ yarn remove @welldone-software/why-did-you-render
 ┃ ┣ 📂 styles/                  # Pasta de estilos
 ┃ ┃ ┣ 📃 bgImages.ts            # Imagens de plano de fundo em SVG
 ┃ ┃ ┗ 📃 theme.ts               # Tema do Chakra-UI
-┃ ┗ 📂 utils/                   # Funções úteis
+┃ ┗ 📂 utils/                   # Funções úteis **
 ┣ 📃 .babelrc                   # Configuração padrão do Babel
 ┣ 📃 .editorconfig              # Configuração do editor
 ┣ 📃 .eslintignore              # ESLint ignore
-┣ 📃 .eslintrc.js               # Configuração do ESLint
+┣ 📃 .eslintrc                  # Configuração do ESLint
 ┣ 📃 .gitignore                 # Git ignore
-┣ 📃 commitlint.config.js       # Configuração do commitlint
+┣ 📃 .versionrc                 # Configuração de versionamento
+┣ 📃 .commitlintrc              # Configuração do commitlint
 ┣ 📃 jest.config.js             # Configuração do Jest
 ┣ 📃 jest.setup.js              # Setup do Jest
 ┣ 📃 LICENSE                    # Licença do projeto
 ┣ 📃 next-env.d.ts              # Tipos do Next.js para o TypeScript
 ┣ 📃 next-seo.config.js         # Configuração Next-SEO
 ┣ 📃 next.config.js             # Configuração Next.js
-┣ 📃 prettier.config.js         # Configuração Prettier
+┣ 📃 .prettierrc                # Configuração Prettier
 ┣ 📃 README.md                  # README principal
-┣ 📃 renovate.json              # Configuração Renovate Bot
+┣ 📃 renovate.json              # Configuração Renovate Bot **
 ┣ 📃 tsconfig.json              # Configuração TypeScript
 ```
 

@@ -55,8 +55,6 @@ export default function UserPage() {
 
 	useEffect(() => {
 		if (user) addUser(user);
-
-		return () => {};
 	}, [addUser, user]);
 
 	const handleLogin = () => {

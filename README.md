@@ -19,9 +19,6 @@
 
 <!-- Badges Section -->
 <p align="center">
-  <a href="https://vercel.com" title="Open Vercel Website">
-    <img src="./public/assets/images/powered-by-vercel.svg" width="175" alt="Powered by Vercel" />
-  </a>
   <br>
   <a href="./LICENSE" title="Show the MIT License">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License MIT">
@@ -30,6 +27,25 @@
   <img src="https://forthebadge.com/images/badges/open-source.svg" alt="Open Source" />
   <img src="https://forthebadge.com/images/badges/made-with-typescript.svg" alt="Made with TypeScript" />
   <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Built with Love" />
+  <a href="https://vercel.com" title="Open Vercel Website">
+    <img src="./public/assets/images/powered-by-vercel.svg" width="175" alt="Powered by Vercel" />
+  </a>
+</p>
+
+---
+
+<p align="center">
+ <a href="https://sonarcloud.io/summary/new_code?id=gmatthewsfeuer_next-plate">
+   <img src="https://sonarcloud.io/api/project_badges/measure?project=gmatthewsfeuer_next-plate&metric=bugs" alt="Bugs" title="Bugs" />
+   <img src="https://sonarcloud.io/api/project_badges/measure?project=gmatthewsfeuer_next-plate&metric=sqale_rating" alt="Maintainability Rating" title="Maintainability Rating" />
+   <img src="https://sonarcloud.io/api/project_badges/measure?project=gmatthewsfeuer_next-plate&metric=alert_status" alt="Quality Gate Status" title="Quality Gate Status" />
+   <img src="https://sonarcloud.io/api/project_badges/measure?project=gmatthewsfeuer_next-plate&metric=reliability_rating" alt="Reliability Rating" title="Reliability Rating" />
+   <img src="https://sonarcloud.io/api/project_badges/measure?project=gmatthewsfeuer_next-plate&metric=security_rating" alt="Security Rating" title="Security Rating" />
+   <img src="https://sonarcloud.io/api/project_badges/measure?project=gmatthewsfeuer_next-plate&metric=vulnerabilities" alt="Vulnerabilities" title="Vulnerabilities" />
+ </a>
+ <a href="https://app.renovatebot.com/dashboard">
+   <img src="https://camo.githubusercontent.com/360c8015d9ce49450a3af7d9782f7035ef677763b800bea727b90c37f873433e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f72656e6f766174652d656e61626c65642d2532333141314636433f6c6f676f3d72656e6f76617465626f74" alt="Renovate" />
+ </a>
 </p>
 
 <!-- Desktop/Mobile GIF Demo Section -->
@@ -121,6 +137,7 @@ This project features all the latest tools and good practices in web development
 - 🐺 **[Husky](https://github.com/typicode/husky)** – Modern native Git hooks made easy
 - 💩 **[lint-staged](https://github.com/okonet/lint-staged)** – Run linters against staged git files and don't let 💩 slip into your code base
 - 📓 **[commitlint](https://commitlint.js.org)** – Helps your team adhering to a commit convention
+- 🏷️ **[Standard Version](https://github.com/conventional-changelog/standard-version)** – A utility for versioning using semver and CHANGELOG generation powered by Conventional Commits
 
 ### Analysis
 
@@ -197,6 +214,107 @@ $ npm start
 $ yarn start
 ```
 
+<details>
+ <summary>View more commands you can use</summary>
+
+ <h4>Lint</h4>
+
+```bash
+$ npm run lint
+# or
+$ yarn lint
+```
+
+ <h4>Lint and Fix</h4>
+
+```bash
+$ npm run lint:fix
+# or
+$ yarn lint:fix
+```
+
+ <h4>Test</h4>
+
+```bash
+$ npm run test # or npm run test:watch
+# or
+$ yarn test # or yarn test:watch
+```
+
+ <h4>Type Checking</h4>
+
+```bash
+$ npm run type-check
+# or
+$ yarn type-check
+```
+
+ <h4>Format</h4>
+
+```bash
+$ npm run format
+# or
+$ yarn format
+```
+
+ <h4>Interactive Update Tool</h4>
+
+```bash
+$ npm run up
+# or
+$ yarn up
+```
+
+ <h4>Update All Dependencies</h4>
+
+```bash
+$ npm run up-latest
+# or
+$ yarn up-latest
+```
+
+ <h4>Release As Major Version</h4>
+
+```bash
+$ npm run release-as-major
+# or
+$ yarn release-as-major
+```
+
+ <h4>Release As Minor Version</h4>
+
+```bash
+$ npm run release-as-minor
+# or
+$ yarn release-as-minor
+```
+
+ <h4>Release As Patch Version</h4>
+
+```bash
+$ npm run release-as-patch
+# or
+$ yarn release-as-patch
+```
+
+ <h4>Publish Release</h4>
+
+```bash
+$ npm run push-release
+# or
+$ yarn push-release
+```
+
+ <h4>Get Updates From Remote and Maintain Current Changes</h4>
+
+```bash
+$ npm run pull
+# or
+$ yarn pull
+```
+
+</details>
+
 ### ⚙️ Extra Configurations
 
 <details>
@@ -243,67 +361,75 @@ $ yarn remove @welldone-software/why-did-you-render
 
 </details>
 
-<!-- Project Structure Section -->
+<!-- File Tree Section -->
 
-## 📁 Project Structure
+## 📁 File Tree
+
+See below the file tree to understand the project structure.
 
 <details>
- <summary>View project structure</summary>
+ <summary>View file tree</summary>
+
+> Folders and files marked with (`**`) are optional, so you can delete then.
 
 ```txt
 📂 next-plate/
+┣ 📂 .github/                   # GitHub's folder configs **
 ┣ 📂 .husky/                    # Husky's folder
 ┃ ┣ 📃 commit-msg               # Commitlint git hook
 ┃ ┗ 📃 pre-commit               # Lint-staged git hook
+┣ 📂 .vscode/                   # VSCode's workspace **
 ┣ 📂 public/                    # Public folder
-┃ ┣ 📂 assets/                  # Folder with all the assets
-┃ ┃ ┣ 📂 icons/                 # Icons folder
-┃ ┃ ┣ 📂 images/                # Images folder
-┃ ┃ ┣ 📂 sounds/                # Sounds folder
-┃ ┃ ┗ 📂 videos/                # Videos folder
+┃ ┣ 📂 assets/                  # Folder with all the assets **
+┃ ┃ ┣ 📂 icons/                 # Icons folder **
+┃ ┃ ┣ 📂 images/                # Images folder **
+┃ ┃ ┣ 📂 sounds/                # Sounds folder **
+┃ ┃ ┗ 📂 videos/                # Videos folder **
 ┃ ┣ 📂 docs/                    # Documentation folder
 ┃ ┃ ┣ 📂 demo/                  # Demonstrations project
 ┃ ┃ ┗ 📂 translations/          # Translations folder
 ┃ ┣ 📃 favicon.ico              # Icon tab browser
-┃ ┣ 📃 site.webmanifest         # PWA configuration
+┃ ┣ 📃 site.webmanifest         # PWA config
 ┣ 📂 src/
-┃ ┣ 📂 animations/              # Framer Motion Animations
+┃ ┣ 📂 animations/              # Framer Motion Animations **
 ┃ ┣ 📂 components/              # App Components
-┃ ┃ ┗ 📂 Motion/                # Chakra + Framer components
-┃ ┣ 📂 hooks/                   # React Hooks
-┃ ┃ ┗ 📃 useFetch.ts            # SWR fetch hook (optional)
+┃ ┃ ┗ 📂 Motion/                # Chakra + Framer components **
+┃ ┣ 📂 hooks/                   # React Hooks **
+┃ ┃ ┗ 📃 useFetch.ts            # SWR fetch hook (optional) **
 ┃ ┣ 📂 interfaces/              # TypeScript Interfaces
 ┃ ┣ 📂 pages/                   # App pages
-┃ ┣ 📂 scripts/                 # Additional scripts
-┃ ┃ ┣ 📃 babel.config.js        # Babel config with WDYR
-┃ ┃ ┗ 📃 wdyr.ts                # WDYR file
+┃ ┣ 📂 scripts/                 # Additional scripts **
+┃ ┃ ┣ 📃 babel.config.js        # Babel config with WDYR **
+┃ ┃ ┗ 📃 wdyr.ts                # WDYR file **
 ┃ ┣ 📂 services/                # Services
 ┃ ┃ ┣ 📂 global/
-┃ ┃ ┃ ┗ 📃 api.ts               # AXIOS configuration
+┃ ┃ ┃ ┗ 📃 api.ts               # AXIOS config
 ┃ ┃ ┗ 📂 users/
 ┃ ┃   ┣ 📃 index.ts             # React Query Configuration
 ┃ ┃   ┗ 📃 keys.ts              # React Query Key
 ┃ ┣ 📂 stores/                  # Zustand stores
 ┃ ┣ 📂 styles/                  # Styles folder
-┃ ┃ ┣ 📃 bgImages.ts            # SVG background images
+┃ ┃ ┣ 📃 bgImages.ts            # SVG background images **
 ┃ ┃ ┗ 📃 theme.ts               # Chakra-UI theme
-┃ ┗ 📂 utils/                   # Useful functions
-┣ 📃 .babelrc                   # Default Babel configuration
-┣ 📃 .editorconfig              # Editor configuration
+┃ ┗ 📂 utils/                   # Useful functions **
+┣ 📃 .babelrc                   # Default Babel config
+┣ 📃 .editorconfig              # Editor config
 ┣ 📃 .eslintignore              # ESLint ignore
-┣ 📃 .eslintrc.js               # ESLint configuration
+┣ 📃 .eslintrc                  # ESLint config
 ┣ 📃 .gitignore                 # Git ignore
-┣ 📃 commitlint.config.js       # Commitlint configuration
-┣ 📃 jest.config.js             # Jest configuration
+┣ 📃 .versionrc                 # Versioning config
+┣ 📃 .commitlintrc              # Commitlint config
+┣ 📃 jest.config.js             # Jest config
 ┣ 📃 jest.setup.js              # Jest setup
 ┣ 📃 LICENSE                    # License of the project
 ┣ 📃 next-env.d.ts              # Next.js types to TypeScript
-┣ 📃 next-seo.config.js         # Next-SEO configuration
-┣ 📃 next.config.js             # Next.js configuration
-┣ 📃 prettier.config.js         # Prettier configuration
+┣ 📃 next-seo.config.js         # Next-SEO config
+┣ 📃 next-sitemap.config.js     # Next-Sitemap config
+┣ 📃 next.config.js             # Next.js config
+┣ 📃 .prettierrc                # Prettier config
 ┣ 📃 README.md                  # Main README
-┣ 📃 renovate.json              # Renovate Bot configuration
-┣ 📃 tsconfig.json              # TypeScript configuration
+┣ 📃 renovate.json              # Renovate Bot config **
+┣ 📃 tsconfig.json              # TypeScript config
 ```
 
 </details>

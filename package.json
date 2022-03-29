@@ -5,11 +5,8 @@
 	"author": "Gustavo Matheus <gustavo.morinaga27@gmail.com>",
 	"description": "A super template for Next.js with a pack of incredible tools",
 	"lint-staged": {
-		"src/**/*.+(js|jsx|ts|tsx|json)": [
-			"eslint --fix"
-		],
-		"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
-			"prettier --write"
+		"src/**/*.+(js|jsx|ts|tsx|json|md)": [
+			"yarn lint:fix"
 		]
 	},
 	"husky": {
@@ -22,15 +19,19 @@
 		"start": "next start",
 		"build": "next build",
 		"lint": "next lint",
-		"type-check": "tsc --noEmit",
 		"lint:fix": "eslint src --fix && yarn format",
+		"test": "jest",
+		"test:watch": "jest --watch",
+		"type-check": "tsc --noEmit",
 		"format": "prettier --write src",
 		"up": "yarn upgrade-interactive",
 		"up-latest": "yarn up --latest",
 		"release": "standard-version",
+		"release-as-major": "yarn release --release-as major",
+		"release-as-minor": "yarn release --release-as minor",
+		"release-as-patch": "yarn release --release-as patch",
 		"push-release": "git push --follow-tags origin main",
-		"test": "jest",
-		"test:watch": "jest --watch",
+		"pull": "git rebase origin main -i",
 		"pre-commit": "yarn lint",
 		"postbuild": "next-sitemap --config next-sitemap.config.js",
 		"prepare": "husky install"
