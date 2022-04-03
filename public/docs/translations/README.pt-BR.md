@@ -9,7 +9,7 @@
 
 <!-- Seção do Banner -->
 <p align="center">
-  <img src="../../assets/images/banner.jpg" alt="Next-Plante Banner" width="512px" />
+  <img src="../../static/images/banner.jpg" alt="Next-Plante Banner" width="512px" />
 </p>
 <h3 align="center">
   🦸‍♀️ Um super modelo de projeto para Next.js com pacote de ferramentas incríveis
@@ -28,7 +28,7 @@
   <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Built with Love" />
   <br>
   <a href="https://vercel.com" title="Abrir Website da Vercel">
-    <img src="../../assets/images/powered-by-vercel.svg" width="175" alt="Powered by Vercel" />
+    <img src="../../static/images/powered-by-vercel.svg" width="175" alt="Powered by Vercel" />
   </a>
 </p>
 
@@ -380,14 +380,14 @@ Veja abaixo a árvore de arquivos para entender a estrutura do modelo de projeto
 ┃ ┗ 📃 pre-commit               # Git hook do lint-staged
 ┣ 📂 .vscode/                   # Workspace do VSCode **
 ┣ 📂 public/                    # Pasta pública
-┃ ┣ 📂 assets/                  # Pasta para recursos de Front **
+┃ ┣ 📂 static/                  # Pasta para arquivos estáticos **
 ┃ ┃ ┣ 📂 icons/                 # Pasta para ícones **
 ┃ ┃ ┣ 📂 images/                # Pasta para imagens **
 ┃ ┃ ┣ 📂 sounds/                # Pasta para sons **
 ┃ ┃ ┗ 📂 videos/                # Pasta para vídeos **
-┃ ┣ 📂 docs/                    # Pasta da documentação
-┃ ┃ ┣ 📂 demo/                  # Demonstrações do projeto
-┃ ┃ ┗ 📂 translations/          # Pasta de traduções
+┃ ┣ 📂 docs/                    # Pasta da documentação **
+┃ ┃ ┣ 📂 demo/                  # Demonstrações do projeto **
+┃ ┃ ┗ 📂 translations/          # Pasta de traduções **
 ┃ ┣ 📃 favicon.ico              # Ícone das abas do aplicativo
 ┃ ┣ 📃 site.webmanifest         # Configuração do PWA
 ┣ 📂 src/

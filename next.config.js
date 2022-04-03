@@ -22,7 +22,7 @@ module.exports = withPlugins(
 			withImages,
 			{
 				inlineImageLimit: false,
-				exclude: path.resolve(__dirname, 'src/assets/svg'),
+				exclude: path.resolve(__dirname, 'public/static/svg'),
 				webpack(config) {
 					config.module.rules.push({
 						test: /\.svg$/,

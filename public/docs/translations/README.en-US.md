@@ -9,7 +9,7 @@
 
 <!-- Banner Section -->
 <p align="center">
-  <img src="../../assets/images/banner.jpg" alt="Next-Plate Banner" width="512px" />
+  <img src="../../static/images/banner.jpg" alt="Next-Plate Banner" width="512px" />
 </p>
 <h3 align="center">
   🦸‍♀️ A super template for Next.js with a pack of incredible tools
@@ -28,7 +28,7 @@
   <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Built with Love" />
   <br>
   <a href="https://vercel.com" title="Open Vercel Website">
-    <img src="../../assets/images/powered-by-vercel.svg" width="175" alt="Powered by Vercel" />
+    <img src="../../static/images/powered-by-vercel.svg" width="175" alt="Powered by Vercel" />
   </a>
 </p>
 
@@ -380,14 +380,14 @@ See below the file tree to understand the template structure.
 ┃ ┗ 📃 pre-commit               # Lint-staged git hook
 ┣ 📂 .vscode/                   # VSCode's workspace **
 ┣ 📂 public/                    # Public folder
-┃ ┣ 📂 assets/                  # Folder with all the assets **
+┃ ┣ 📂 static/                  # Static files folder **
 ┃ ┃ ┣ 📂 icons/                 # Icons folder **
 ┃ ┃ ┣ 📂 images/                # Images folder **
 ┃ ┃ ┣ 📂 sounds/                # Sounds folder **
 ┃ ┃ ┗ 📂 videos/                # Videos folder **
-┃ ┣ 📂 docs/                    # Documentation folder
-┃ ┃ ┣ 📂 demo/                  # Demonstrations project
-┃ ┃ ┗ 📂 translations/          # Translations folder
+┃ ┣ 📂 docs/                    # Documentation folder **
+┃ ┃ ┣ 📂 demo/                  # Demonstrations project **
+┃ ┃ ┗ 📂 translations/          # Translations folder **
 ┃ ┣ 📃 favicon.ico              # Icon tab browser
 ┃ ┣ 📃 site.webmanifest         # PWA config
 ┣ 📂 src/

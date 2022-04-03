@@ -10,31 +10,31 @@
 	"start_url": "/",
 	"icons": [
 		{
-			"src": "./assets/icons/icon-16x16.png",
+			"src": "/static/icons/icon-16x16.png",
 			"sizes": "16x16",
 			"type": "image/png",
 			"purpose": "any maskable"
 		},
 		{
-			"src": "./assets/icons/icon-32x32.png",
+			"src": "/static/icons/icon-32x32.png",
 			"sizes": "32x32",
 			"type": "image/png",
 			"purpose": "any maskable"
 		},
 		{
-			"src": "./assets/icons/icon-128x128.png",
+			"src": "/static/icons/icon-128x128.png",
 			"sizes": "128x128",
 			"type": "image/png",
 			"purpose": "any maskable"
 		},
 		{
-			"src": "./assets/icons/icon-192x192.png",
+			"src": "/static/icons/icon-192x192.png",
 			"sizes": "192x192",
 			"type": "image/png",
 			"purpose": "any maskable"
 		},
 		{
-			"src": "./assets/icons/icon-512x512.png",
+			"src": "/static/icons/icon-512x512.png",
 			"sizes": "512x512",
 			"type": "image/png",
 			"purpose": "any maskable"

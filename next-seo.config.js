@@ -13,7 +13,7 @@ const defaultSEOConfig = {
 		description: '🦸‍♀️ A super template for Next.js with a pack of incredible tools',
 		images: [
 			{
-				url: 'https://next-plate.vercel.app/assets/images/banner.jpg',
+				url: 'https://next-plate.vercel.app/static/images/banner.jpg',
 				width: 512,
 				height: 256,
 				alt: 'Next-Plate Banner Image',

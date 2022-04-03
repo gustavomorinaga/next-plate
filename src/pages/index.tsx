@@ -28,7 +28,7 @@ export default function HomePage() {
 	return (
 		<>
 			<NextSeo
-				title="Next-Plate"
+				title="Search"
 				description="🦸‍♀️ A super template for Next.js with a pack of incredible tools"
 			/>
 
