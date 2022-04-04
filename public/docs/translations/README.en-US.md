@@ -94,6 +94,10 @@ This template have a bunch of folders, code examples and configurations. Feel fr
 
 **Customize and enjoy!**
 
+<!-- Documentation Section -->
+
+## 📚 [Documentation →](https://next-plate.vercel.app/docs)
+
 <!-- Features Section -->
 
 ## 🌟 Features

@@ -94,6 +94,10 @@ Este modelo possui muitas pastas, exemplos de código e configurações. Sinta-s
 
 **Customize e divirta-se!**
 
+<!-- Seção de Documentação -->
+
+## 📚 [Documentação →](https://next-plate.vercel.app/docs)
+
 <!-- Seção de Recursos -->
 
 ## 🌟 Recursos
