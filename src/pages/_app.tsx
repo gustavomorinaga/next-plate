@@ -12,7 +12,7 @@ import theme from '@styles/theme';
 // import '@scripts/wdyr';
 
 // --- Configs ---
-import SEO from '../../next-seo.config';
+import SEO from '@root/next-seo.config';
 
 // --- Components ---
 import MainContentComponent from '@components/MainContent';

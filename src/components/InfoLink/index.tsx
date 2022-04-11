@@ -1,10 +1,15 @@
 // --- Chakra-UI ---
-import { Box, Link, Text } from '@chakra-ui/react';
+import { BackgroundProps, Box, Link, Text } from '@chakra-ui/react';
 
 // --- Icons ---
 import { FiExternalLink } from 'react-icons/fi';
 
-export default function InfoLinkComponent({ bgColor }): JSX.Element {
+// --- Component Props Interface ---
+interface IInfoLinkProps {
+	bgColor?: BackgroundProps['bgColor'];
+}
+
+export default function InfoLinkComponent({ bgColor }: IInfoLinkProps): JSX.Element {
 	return (
 		<Box
 			w="full"

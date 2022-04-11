@@ -1,10 +1,23 @@
 // --- Chakra-UI ---
-import { IconButton, useColorMode } from '@chakra-ui/react';
+import {
+	ComponentDefaultProps,
+	ComponentWithAs,
+	IconButton,
+	IconButtonProps,
+	useColorMode,
+} from '@chakra-ui/react';
 
 // --- Icons ---
 import { FiMoon, FiSun } from 'react-icons/fi';
 
-export default function ThemeButtonComponent({ styleProps }): JSX.Element {
+// --- Component Props Interface ---
+interface IThemeButtonProps {
+	styleProps: ComponentDefaultProps | ComponentWithAs<'button', IconButtonProps>;
+}
+
+export default function ThemeButtonComponent({
+	styleProps,
+}: IThemeButtonProps): JSX.Element {
 	const { colorMode, toggleColorMode } = useColorMode();
 
 	return (

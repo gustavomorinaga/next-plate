@@ -9,13 +9,15 @@ const customJestConfig = {
 	testPathIgnorePatterns: ['<rootDir>/node_modules/', '<rootDir>/.next/'],
 	transformIgnorePatterns: ['/node_modules/'],
 	moduleNameMapper: {
+		'@/root/(.*)$': '<rootDir>/$1',
+
 		'@/docs/(.*)$': '<rootDir>/public/docs/$1',
 		'@/icons/(.*)$': '<rootDir>/public/static/icons/$1',
 		'@/images/(.*)$': '<rootDir>/public/static/images/$1',
 		'@/sounds/(.*)$': '<rootDir>/public/static/sounds/$1',
 		'@/videos/(.*)$': '<rootDir>/public/static/videos/$1',
+
 		'@/animations': '<rootDir>/src/animations',
-		'@/animations/(.*)$': '<rootDir>/src/animations/$1',
 		'@/components/(.*)$': '<rootDir>/src/components/$1',
 		'@/hooks/(.*)$': '<rootDir>/src/hooks/$1',
 		'@/interfaces/(.*)$': '<rootDir>/src/interfaces/$1',

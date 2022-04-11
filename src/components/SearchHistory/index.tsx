@@ -3,7 +3,10 @@ import dynamic from 'next/dynamic';
 
 // --- Chakra-UI ---
 import {
+	ComponentDefaultProps,
+	ComponentWithAs,
 	IconButton,
+	IconButtonProps,
 	Popover,
 	PopoverArrow,
 	PopoverBody,
@@ -27,7 +30,14 @@ import { FiClock } from 'react-icons/fi';
 // --- Components ---
 const UserItemComponent = dynamic(() => import('@components/UserItem'));
 
-export default function SearchHistoryComponent({ styleProps }): JSX.Element {
+// --- Component Props Interface ---
+interface ISearchHistoryProps {
+	styleProps: ComponentDefaultProps | ComponentWithAs<'button', IconButtonProps>;
+}
+
+export default function SearchHistoryComponent({
+	styleProps,
+}: ISearchHistoryProps): JSX.Element {
 	const users = useUserStore(state => state.users);
 
 	const initRef = useRef();
@@ -56,7 +66,7 @@ export default function SearchHistoryComponent({ styleProps }): JSX.Element {
 
 							<PopoverHeader>Search History</PopoverHeader>
 							<PopoverBody maxH="sm" overflow="overlay" padding="0">
-								<VStack divider={<StackDivider />} spacing={0}>
+								<VStack divider={<StackDivider />} spacing="unset">
 									{!users.length && (
 										<Text w="full" px="3" py="2" align="center" {...emptyUsersListText}>
 											It&apos;s empty here...

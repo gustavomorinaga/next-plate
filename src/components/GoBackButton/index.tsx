@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router';
+import { Url } from 'url';
 
 // --- Chakra-UI ---
 import { Button } from '@chakra-ui/react';
@@ -6,7 +7,12 @@ import { Button } from '@chakra-ui/react';
 // --- Icons ---
 import { FiArrowLeft } from 'react-icons/fi';
 
-export default function GoBackButtonComponent({ path }): JSX.Element {
+// --- Component Props Interface ---
+interface IGoBackButtonProps {
+	path?: Url['path'];
+}
+
+export default function GoBackButtonComponent({ path }: IGoBackButtonProps): JSX.Element {
 	const router = useRouter();
 
 	return (

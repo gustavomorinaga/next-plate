@@ -24,14 +24,13 @@ const UserComponent = dynamic(() => import('@components/User'));
 
 // -- Animations --
 import { slide } from '@animations';
-
-const MINUTES_TO_REFETCH_DATA = 5 * 60 * 1000; // 5 minutes
+import { AxiosError } from 'axios';
 
 export default function UserPage() {
 	const { addUser } = useUserStore(state => state);
 
 	const router = useRouter();
-	const { login } = router.query;
+	const login = router.query?.login as string;
 
 	const constraintsRef = useRef(null);
 
@@ -41,10 +40,9 @@ export default function UserPage() {
 		data: user,
 		isLoading,
 		isError,
+		error,
 	} = useUser(login as string, {
 		enabled: !!login,
-		refetchInterval: MINUTES_TO_REFETCH_DATA,
-		retry: false,
 	});
 
 	// --- Using SWR ---
@@ -91,7 +89,7 @@ export default function UserPage() {
 					{isError && (
 						<Alert w="md" borderRadius="xl" status="error">
 							<AlertIcon />
-							Profile not found! Search another profile!
+							{error.message}
 						</Alert>
 					)}
 

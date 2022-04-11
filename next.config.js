@@ -42,6 +42,9 @@ module.exports = withPlugins(
 					register: true,
 					skipWaiting: true,
 					runtimeCaching,
+
+					// Prevent Bad Pre-Caching Error:
+					// buildExcludes: [/middleware-manifest\.json$/],
 				},
 			},
 		],

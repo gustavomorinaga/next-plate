@@ -1,7 +1,15 @@
 import dynamic from 'next/dynamic';
 
 // --- Chakra-UI ---
-import { Box, Flex, useColorMode, useColorModeValue } from '@chakra-ui/react';
+import {
+	Box,
+	ComponentDefaultProps,
+	ComponentWithAs,
+	Flex,
+	IconButtonProps,
+	useColorMode,
+	useColorModeValue,
+} from '@chakra-ui/react';
 
 // --- Styles ---
 import { HERO_PATTERN } from '@styles/bgImages';
@@ -11,12 +19,21 @@ const SearchHistoryComponent = dynamic(() => import('@components/SearchHistory')
 const ThemeButtonComponent = dynamic(() => import('@components/ThemeButton'));
 const InfoLinkComponent = dynamic(() => import('@components/InfoLink'));
 
-export default function MainContentComponent({ children }): JSX.Element {
+// --- Component Props Interface ---
+interface IMainContentProps {
+	children: React.ReactNode;
+}
+
+export default function MainContentComponent({
+	children,
+}: IMainContentProps): JSX.Element {
 	const { colorMode } = useColorMode();
 
 	const bgColor = useColorModeValue('gray.50', 'gray.900');
 
-	const buttonStyleProps: any = {
+	const buttonStyleProps:
+		| ComponentDefaultProps
+		| ComponentWithAs<'button', IconButtonProps> = {
 		color: useColorModeValue('gray.50', 'gray.600'),
 		bgColor: useColorModeValue('gray.600', 'gray.50'),
 		borderRadius: 'xl',

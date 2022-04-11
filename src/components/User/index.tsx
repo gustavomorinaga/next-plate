@@ -22,9 +22,18 @@ const MotionBox = dynamic(() => import('@components/Motion/MotionBox'));
 import { FiBook, FiGithub, FiMapPin, FiUsers } from 'react-icons/fi';
 
 // --- Animations ---
-import zoom from '@animations/zoom';
+import { zoom } from '@animations';
 
-export default function UserComponent({ user, constraintsRef }): JSX.Element {
+// --- Interfaces ---
+import { IUser } from '@interfaces/IUser';
+
+// --- Component Props Interface ---
+interface IUserProps {
+	user: IUser;
+	constraintsRef?: React.MutableRefObject<any>;
+}
+
+export default function UserComponent({ user, constraintsRef }: IUserProps): JSX.Element {
 	return (
 		<MotionBox
 			maxW="2xl"

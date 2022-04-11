@@ -16,13 +16,15 @@
 		"jsx": "preserve",
 		"baseUrl": ".",
 		"paths": {
+			"@root/*": ["./*"],
+
 			"@docs/*": ["./public/docs/*"],
 			"@icons/*": ["./public/static/icons/*"],
 			"@images/*": ["./public/static/images/*"],
 			"@sounds/*": ["./public/static/sounds/*"],
 			"@videos/*": ["./public/static/videos/*"],
+
 			"@animations": ["./src/animations"],
-			"@animations/*": ["./src/animations/*"],
 			"@components/*": ["./src/components/*"],
 			"@hooks/*": ["./src/hooks/*"],
 			"@interfaces/*": ["./src/interfaces/*"],

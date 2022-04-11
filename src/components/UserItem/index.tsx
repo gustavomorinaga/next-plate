@@ -18,6 +18,7 @@ import { IUser } from '@interfaces/IUser';
 // --- Icons ---
 import { FiChevronRight, FiGithub } from 'react-icons/fi';
 
+// --- Component Props Interface ---
 interface UserItemProps {
 	user: IUser;
 	handleClosePopover: () => void;
@@ -32,7 +33,6 @@ export default function UserItemComponent({
 	return (
 		<NextLink href={`/user/${user.login}`} passHref>
 			<Box
-				className="user__item"
 				w="full"
 				display="flex"
 				justifyContent="flex-start"

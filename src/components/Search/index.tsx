@@ -23,18 +23,28 @@ import * as Yup from 'yup';
 // --- Icons ---
 import { FiGithub, FiSearch } from 'react-icons/fi';
 
+// --- Validation Schema and Type ---
 const validationSchema = Yup.object().shape({
 	login: Yup.string().required('Login is required!'),
 });
 
-export default function SearchComponent({ handleSearchLogin }): JSX.Element {
+type FormType = Yup.InferType<typeof validationSchema>;
+
+// --- Component Props Interface ---
+interface ISearchProps {
+	handleSearchLogin: (login?: string) => void;
+}
+
+export default function SearchComponent({
+	handleSearchLogin,
+}: ISearchProps): JSX.Element {
 	const {
 		handleSubmit,
 		register,
 		formState: { errors, isSubmitting },
 	} = useForm({ resolver: yupResolver(validationSchema), mode: 'onTouched' });
 
-	const onSubmit = ({ login }) =>
+	const onSubmit = ({ login }: FormType) =>
 		new Promise(() => setTimeout(() => handleSearchLogin(login), 500));
 
 	return (
