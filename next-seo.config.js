@@ -1,5 +1,4 @@
 /** @type {import('next-seo').DefaultSeoProps} */
-
 const defaultSEOConfig = {
 	type: 'website',
 	titleTemplate: '%s | Next-Plate',
