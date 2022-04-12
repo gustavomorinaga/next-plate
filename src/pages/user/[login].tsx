@@ -24,7 +24,6 @@ const UserComponent = dynamic(() => import('@components/User'));
 
 // -- Animations --
 import { slide } from '@animations';
-import { AxiosError } from 'axios';
 
 export default function UserPage() {
 	const { addUser } = useUserStore(state => state);
@@ -41,7 +40,7 @@ export default function UserPage() {
 		isLoading,
 		isError,
 		error,
-	} = useUser(login as string, {
+	} = useUser(login, {
 		enabled: !!login,
 	});
 
