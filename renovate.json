@@ -6,7 +6,6 @@
 		":pinVersions",
 		":separateMultipleMajorReleases",
 		":combinePatchMinorReleases",
-		":ignoreModulesAndTests",
 		":automergePatch",
 		":automergeMinor",
 		":pinSkipCi",
