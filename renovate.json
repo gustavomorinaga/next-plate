@@ -10,7 +10,7 @@
 		":automergePatch",
 		":automergeMinor",
 		":pinSkipCi",
-		"group:allNonMajor",
+		"group:allNonMajor"
 	],
 	"assignees": ["gmatthewsfeuer"],
 	"packageRules": [
