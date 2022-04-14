@@ -1,7 +1,18 @@
 {
 	"enabled": true,
 	"schedule": ["before 3am on Monday"],
-	"extends": ["config:base"],
+	"extends": [
+		"config:base",
+		":pinVersions",
+		":separateMultipleMajorReleases",
+		":combinePatchMinorReleases",
+		":ignoreModulesAndTests",
+		":automergePatch",
+		":automergeMinor",
+		":pinSkipCi",
+		"group:allNonMajor",
+	],
+	"assignees": ["gmatthewsfeuer"],
 	"packageRules": [
 		{
 			"matchUpdateTypes": ["minor", "patch", "pin", "digest"],
