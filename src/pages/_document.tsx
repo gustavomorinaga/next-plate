@@ -10,9 +10,9 @@ import { ColorModeScript } from '@chakra-ui/react';
 // --- Styles ---
 import theme from '@styles/theme';
 
-export default class _document extends NextDocument {
+export default class Document extends NextDocument {
 	static async getInitialProps(ctx: DocumentContext) {
-		return await NextDocument.getInitialProps(ctx);
+		return NextDocument.getInitialProps(ctx);
 	}
 
 	render() {
