@@ -33,6 +33,7 @@ export default function UserItemComponent({
 	return (
 		<NextLink href={`/user/${user.login}`} passHref>
 			<Box
+				className="user__item"
 				w="full"
 				display="flex"
 				justifyContent="flex-start"
