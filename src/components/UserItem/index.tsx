@@ -63,7 +63,7 @@ export default function UserItemComponent({
 					<GridItem>
 						<Flex direction="column" width="52" gap="1">
 							{user.name && (
-								<Text as="span" isTruncated lineHeight="normal">
+								<Text as="span" noOfLines={1} lineHeight="normal">
 									{user.name}
 								</Text>
 							)}
