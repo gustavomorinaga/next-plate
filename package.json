@@ -38,7 +38,7 @@
 	},
 	"dependencies": {
 		"@chakra-ui/icons": "2.0.0",
-		"@chakra-ui/react": "2.0.2",
+		"@chakra-ui/react": "2.1.0",
 		"@emotion/react": "11.9.0",
 		"@emotion/styled": "11.8.1",
 		"@hookform/resolvers": "2.8.10",
@@ -71,7 +71,7 @@
 		"@typescript-eslint/eslint-plugin": "5.25.0",
 		"@typescript-eslint/parser": "5.25.0",
 		"@welldone-software/why-did-you-render": "7.0.1",
-		"eslint": "8.15.0",
+		"eslint": "8.16.0",
 		"eslint-config-next": "12.1.6",
 		"eslint-config-prettier": "8.5.0",
 		"eslint-plugin-jest": "26.2.2",
