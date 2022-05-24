@@ -6,7 +6,7 @@
 	"description": "A super template for Next.js with a pack of incredible tools",
 	"lint-staged": {
 		"src/**/*.+(js|jsx|ts|tsx|json|md)": [
-			"yarn lint:fix"
+			"pnpm run lint:fix"
 		]
 	},
 	"husky": {
@@ -19,20 +19,20 @@
 		"start": "next start",
 		"build": "next build",
 		"lint": "next lint",
-		"lint:fix": "eslint src --fix && yarn format",
+		"lint:fix": "eslint src --fix && pnpm run format",
 		"test": "jest",
 		"test:watch": "jest --watch",
 		"type-check": "tsc --noEmit",
 		"format": "prettier --write src",
-		"up": "yarn upgrade-interactive",
-		"up-latest": "yarn up --latest",
+		"up": "pnpm run upgrade-interactive",
+		"up-latest": "pnpm run up --latest",
 		"release": "standard-version",
-		"release-as-major": "yarn release --release-as major",
-		"release-as-minor": "yarn release --release-as minor",
-		"release-as-patch": "yarn release --release-as patch",
+		"release-as-major": "pnpm run release --release-as major",
+		"release-as-minor": "pnpm run release --release-as minor",
+		"release-as-patch": "pnpm run release --release-as patch",
 		"push-release": "git push --follow-tags origin main",
 		"pull": "git rebase origin main -i",
-		"pre-commit": "yarn lint",
+		"pre-commit": "pnpm run lint",
 		"postbuild": "next-sitemap --config next-sitemap.config.js",
 		"prepare": "husky install"
 	},
@@ -59,9 +59,12 @@
 		"zustand": "3.7.2"
 	},
 	"devDependencies": {
+		"@babel/core": ">=7.0.0 <8.0.0",
+		"@chakra-ui/system": ">=2.0.0-next.0",
 		"@commitlint/cli": "17.0.0",
 		"@commitlint/config-conventional": "17.0.0",
 		"@next/eslint-plugin-next": "12.1.6",
+		"@testing-library/dom": ">=7.21.4",
 		"@testing-library/jest-dom": "5.16.4",
 		"@testing-library/react": "13.2.0",
 		"@testing-library/user-event": "14.2.0",
@@ -83,6 +86,7 @@
 		"next-sitemap": "2.5.20",
 		"prettier": "2.6.2",
 		"standard-version": "9.5.0",
-		"typescript": "4.6.4"
+		"typescript": "4.6.4",
+		"webpack": ">=5.9.0 <6.0.0"
 	}
 }
