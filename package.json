@@ -59,12 +59,11 @@
 		"zustand": "3.7.2"
 	},
 	"devDependencies": {
-		"@babel/core": ">=7.0.0 <8.0.0",
-		"@chakra-ui/system": ">=2.0.0-next.0",
+		"@babel/core": "7.18.0",
 		"@commitlint/cli": "17.0.0",
 		"@commitlint/config-conventional": "17.0.0",
 		"@next/eslint-plugin-next": "12.1.6",
-		"@testing-library/dom": ">=7.21.4",
+		"@testing-library/dom": "8.13.0",
 		"@testing-library/jest-dom": "5.16.4",
 		"@testing-library/react": "13.2.0",
 		"@testing-library/user-event": "14.2.0",
@@ -86,7 +85,6 @@
 		"next-sitemap": "2.5.21",
 		"prettier": "2.6.2",
 		"standard-version": "9.5.0",
-		"typescript": "4.6.4",
-		"webpack": ">=5.9.0 <6.0.0"
+		"typescript": "4.6.4"
 	}
 }
