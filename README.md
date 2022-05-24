@@ -178,11 +178,20 @@ Move yourself to the root of the project:
 $ cd <NAME-OF-YOUR-GENERATED-REPOSITORY>
 ```
 
+> For the next steps, choose a package manager of your choice and change the commands contained in the `package.json` scripts. See their documentation for more information:
+>
+> - [PNPM](https://pnpm.io/pt/cli/add)
+> - [NPM](https://docs.npmjs.com/cli/v6/commands)
+> - [Yarn](https://classic.yarnpkg.com/en/docs/cli)
+
 Install all dependencies of the project:
 
 ```bash
+# PNPM
+$ pnpm install
+# NPM
 $ npm install
-# or
+# Yarn
 $ yarn install
 ```
 
@@ -191,8 +200,11 @@ $ yarn install
 Once all dependencies have been installed, you can run the local development server:
 
 ```bash
+# PNPM
+$ pnpm run dev
+# NPM
 $ npm run dev
-# or
+# Yarn
 $ yarn dev
 ```
 
@@ -205,16 +217,22 @@ After applying the changes, you can generate a build to test and/or deploy to yo
 Make a production build:
 
 ```bash
+# PNPM
+$ pnpm run build
+# NPM
 $ npm run build
-# or
+# Yarn
 $ yarn build
 ```
 
 And then run the build:
 
 ```bash
+# PNPM
+$ pnpm start
+# NPM
 $ npm start
-# or
+# Yarn
 $ yarn start
 ```
 
@@ -224,96 +242,132 @@ $ yarn start
  <h4>Lint</h4>
 
 ```bash
+# PNPM
+$ pnpm run lint
+# NPM
 $ npm run lint
-# or
+# Yarn
 $ yarn lint
 ```
 
  <h4>Lint and Fix</h4>
 
 ```bash
+# PNPM
+$ pnpm run lint:fix
+# NPM
 $ npm run lint:fix
-# or
+# Yarn
 $ yarn lint:fix
 ```
 
  <h4>Test</h4>
 
 ```bash
+# PNPM
+$ pnpm run test # or pnpm run test:watch
+# NPM
 $ npm run test # or npm run test:watch
-# or
+# Yarn
 $ yarn test # or yarn test:watch
 ```
 
  <h4>Type Checking</h4>
 
 ```bash
+# PNPM
+$ pnpm run type-check
+# NPM
 $ npm run type-check
-# or
+# Yarn
 $ yarn type-check
 ```
 
  <h4>Format</h4>
 
 ```bash
+# PNPM
+$ pnpm run format
+# NPM
 $ npm run format
-# or
+# Yarn
 $ yarn format
 ```
 
  <h4>Interactive Update Tool</h4>
 
 ```bash
+# PNPM
+$ pnpm run up
+# NPM
 $ npm run up
-# or
+# Yarn
 $ yarn up
 ```
 
  <h4>Update All Dependencies</h4>
 
 ```bash
+# PNPM
+$ pnpm run up-latest
+# NPM
 $ npm run up-latest
-# or
+# Yarn
 $ yarn up-latest
 ```
 
  <h4>Release As Major Version</h4>
 
 ```bash
+# PNPM
+$ pnpm run release-as-major
+# NPM
 $ npm run release-as-major
-# or
+# Yarn
 $ yarn release-as-major
 ```
 
  <h4>Release As Minor Version</h4>
 
 ```bash
+# PNPM
+$ pnpm run release-as-minor
+# NPM
 $ npm run release-as-minor
-# or
+# Yarn
 $ yarn release-as-minor
 ```
 
  <h4>Release As Patch Version</h4>
 
 ```bash
+# PNPM
+$ pnpm run release-as-patch
+# NPM
 $ npm run release-as-patch
-# or
+# Yarn
 $ yarn release-as-patch
 ```
 
  <h4>Publish Release</h4>
 
 ```bash
+# PNPM
+$ pnpm run push-release
+# NPM
 $ npm run push-release
-# or
+# Yarn
 $ yarn push-release
 ```
 
  <h4>Get Updates From Remote and Maintain Current Changes</h4>
 
 ```bash
+# PNPM
+$ pnpm run pull
+# NPM
 $ npm run pull
-# or
+# Yarn
 $ yarn pull
 ```
 
@@ -329,8 +383,11 @@ $ yarn pull
 Install the SWR on the project:
 
 ```bash
+# PNPM
+$ pnpm install swr
+# NPM
 $ npm install swr
-# or
+# Yarn
 $ yarn add swr
 ```
 
@@ -358,8 +415,11 @@ That's it! Now you can monitore React re-renders!
 Just delete the `babel.config.js` and `wdyr.ts` files, remove `wdyr` import line on `pages/_app.tsx` and uninstall it:
 
 ```bash
+# PNPM
+$ pnpm uninstall @welldone-software/why-did-you-render
+# NPM
 $ npm uninstall @welldone-software/why-did-you-render
-# or
+# Yarn
 $ yarn remove @welldone-software/why-did-you-render
 ```
 

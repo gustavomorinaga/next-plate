@@ -178,11 +178,20 @@ Entre na raiz do projeto:
 $ cd <NOME-DO-SEU-REPOSITORIO-GERADO>
 ```
 
+> Para os próximos passos, escolha um gerenciador de pacotes de sua preferência e altere os comandos contidos nos scripts `package.json`. Consulte a documentação deles para obter mais informações:
+>
+> - [PNPM](https://pnpm.io/pt/cli/add)
+> - [NPM](https://docs.npmjs.com/cli/v6/commands)
+> - [Yarn](https://classic.yarnpkg.com/en/docs/cli)
+
 Instale as dependências do projeto:
 
 ```bash
+# PNPM
+$ pnpm install
+# NPM
 $ npm install
-# ou
+# Yarn
 $ yarn install
 ```
 
@@ -191,8 +200,11 @@ $ yarn install
 Depois que todas as dependências foram instaladas corretamente, você pode iniciar o servidor local de desenvolvimento:
 
 ```bash
+# PNPM
+$ pnpm run dev
+# NPM
 $ npm run dev
-# ou
+# Yarn
 $ yarn dev
 ```
 
@@ -205,16 +217,22 @@ Após aplicar as alterações, você pode gerar um pacote para testar e/ou envia
 Gere o pacote de produção:
 
 ```bash
+# PNPM
+$ pnpm run build
+# NPM
 $ npm run build
-# ou
+# Yarn
 $ yarn build
 ```
 
 E em seguida rode o pacote:
 
 ```bash
+# PNPM
+$ pnpm start
+# NPM
 $ npm start
-# ou
+# Yarn
 $ yarn start
 ```
 
@@ -224,96 +242,132 @@ $ yarn start
  <h4>Lint</h4>
 
 ```bash
+# PNPM
+$ pnpm run lint
+# NPM
 $ npm run lint
-# ou
+# Yarn
 $ yarn lint
 ```
 
  <h4>Lint e Correção</h4>
 
 ```bash
+# PNPM
+$ pnpm run lint:fix
+# NPM
 $ npm run lint:fix
-# ou
+# Yarn
 $ yarn lint:fix
 ```
 
  <h4>Testar</h4>
 
 ```bash
+# PNPM
+$ pnpm run test # ou pnpm run test:watch
+# NPM
 $ npm run test # ou npm run test:watch
-# ou
+# Yarn
 $ yarn test # ou yarn test:watch
 ```
 
  <h4>Verificação de Tipagem</h4>
 
 ```bash
+# PNPM
+$ pnpm run type-check
+# NPM
 $ npm run type-check
-# ou
+# Yarn
 $ yarn type-check
 ```
 
  <h4>Formatação</h4>
 
 ```bash
+# PNPM
+$ pnpm run format
+# NPM
 $ npm run format
-# ou
+# Yarn
 $ yarn format
 ```
 
  <h4>Ferramenta de atualização interativa</h4>
 
 ```bash
+# PNPM
+$ pnpm run up
+# NPM
 $ npm run up
-# ou
+# Yarn
 $ yarn up
 ```
 
  <h4>Atualizar Todas as Dependências</h4>
 
 ```bash
+# PNPM
+$ pnpm run up-latest
+# NPM
 $ npm run up-latest
-# or
+# Yarn
 $ yarn up-latest
 ```
 
  <h4>Lançar como Versão Principal</h4>
 
 ```bash
+# PNPM
+$ pnpm run release-as-major
+# NPM
 $ npm run release-as-major
-# or
+# Yarn
 $ yarn release-as-major
 ```
 
  <h4>Lançar como Versão Secundária</h4>
 
 ```bash
+# PNPM
+$ pnpm run release-as-minor
+# NPM
 $ npm run release-as-minor
-# or
+# Yarn
 $ yarn release-as-minor
 ```
 
  <h4>Lançar como Versão de Patch</h4>
 
 ```bash
+# PNPM
+$ pnpm run release-as-patch
+# NPM
 $ npm run release-as-patch
-# or
+# Yarn
 $ yarn release-as-patch
 ```
 
  <h4>Publicar Versão</h4>
 
 ```bash
+# PNPM
+$ pnpm run push-release
+# NPM
 $ npm run push-release
-# or
+# Yarn
 $ yarn push-release
 ```
 
  <h4>Obter Atualizações Remotas e Manter as Alterações Atuais</h4>
 
 ```bash
+# PNPM
+$ pnpm run pull
+# NPM
 $ npm run pull
-# or
+# Yarn
 $ yarn pull
 ```
 
@@ -329,8 +383,11 @@ $ yarn pull
 Instale o SWR no projeto:
 
 ```bash
+# PNPM
+$ pnpm install swr
+# NPM
 $ npm install swr
-# ou
+# Yarn
 $ yarn add swr
 ```
 
@@ -358,8 +415,11 @@ Descomente a linha de importação do `wdyr` em `pages/_app.tsx`.
 Apenas deleta os arquivos `babel.config.js` e `wdyr.ts`, remova a linha de importação `wdyr` em `pages/_app.tsx` e desinstale:
 
 ```bash
+# PNPM
+$ pnpm uninstall @welldone-software/why-did-you-render
+# NPM
 $ npm uninstall @welldone-software/why-did-you-render
-# ou
+# Yarn
 $ yarn remove @welldone-software/why-did-you-render
 ```
 

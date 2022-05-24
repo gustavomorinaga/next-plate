@@ -24,7 +24,7 @@
 		"test:watch": "jest --watch",
 		"type-check": "tsc --noEmit",
 		"format": "prettier --write src",
-		"up": "pnpm run upgrade-interactive",
+		"up": "pnpm run up --interactive",
 		"up-latest": "pnpm run up --latest",
 		"release": "standard-version",
 		"release-as-major": "pnpm run release --release-as major",
