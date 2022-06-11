@@ -7,14 +7,14 @@
 			2,
 			"always",
 			[
-				"docs",
 				"feat",
 				"fix",
-				"perf",
 				"refactor",
-				"revert",
 				"style",
-				"chore"
+				"docs",
+				"chore",
+				"test",
+				"revert"
 			]
 		]
 	}
