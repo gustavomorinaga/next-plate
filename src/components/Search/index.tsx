@@ -51,7 +51,7 @@ export default function SearchComponent({
 		<MotionBox w="full">
 			<form onSubmit={handleSubmit(onSubmit)}>
 				<HStack spacing="2" w="full" alignItems="flex-start" py="2">
-					<FormControl isInvalid={errors.login}>
+					<FormControl isInvalid={!!errors.login}>
 						<InputGroup size="lg" variant="outline" borderColor="gray.600">
 							<InputLeftElement
 								pointerEvents="none"
