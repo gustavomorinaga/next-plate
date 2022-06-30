@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.10.1](https://github.com/gmatthewsfeuer/next-plate/compare/v1.10.0...v1.10.1) (2022-06-30)
+
+
+### Features
+
+* added npmrc file ([1ac0768](https://github.com/gmatthewsfeuer/next-plate/commit/1ac0768e7f572f8bfb0d2c915c596839deef3046))
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([69c2b7a](https://github.com/gmatthewsfeuer/next-plate/commit/69c2b7ac2ab171ceea1a99193673a3bc67ed9783))
+* **deps:** update all non-major dependencies ([1ec3e07](https://github.com/gmatthewsfeuer/next-plate/commit/1ec3e076adea13ed12dfc12ec3c51e1a71829a1b))
+* **deps:** update dependency @emotion/styled to v11.9.3 ([ecd2b05](https://github.com/gmatthewsfeuer/next-plate/commit/ecd2b05b8b94bae153dbcbf4010d1ca739085cf0))
+* is invalid error type ([3cd8a9d](https://github.com/gmatthewsfeuer/next-plate/commit/3cd8a9df413a4b83306c87d02d06f1ee5d726b07))
+* type @testing-library/jest-dom ([b87c282](https://github.com/gmatthewsfeuer/next-plate/commit/b87c282aab1fbd403df1dc57155e1da4c923fee4))
+
+
+### Improvements
+
+* commilint configuration ([38faae6](https://github.com/gmatthewsfeuer/next-plate/commit/38faae669280ee980b34ba31dd95c5f51be3edf0))
+
 ## [1.10.0](https://github.com/gmatthewsfeuer/next-plate/compare/v1.9.0...v1.10.0) (2022-05-24)
 
 
