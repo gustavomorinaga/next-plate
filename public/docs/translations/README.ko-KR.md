@@ -12,7 +12,7 @@
   <img src="../../static/images/banner.jpg" alt="Next-Plate Banner" width="512px" />
 </p>
 <h3 align="center">
-  🦸‍♀️ A super template for Next.js with a pack of incredible tools
+  🦸‍♀️ 유용한 툴이 포함된 Next.js 템플릿
 </h3>
 
 ---
@@ -58,17 +58,17 @@
 
 <!-- Translations Section -->
 
-## 🌎 Translations
+## 🌎 번역
 
-<kbd>[<img title="English" alt="English" src="https://flagicons.lipis.dev/flags/4x3/us.svg" width="22">](./public/docs/translations/README.en-US.md)</kbd>
-<kbd>[<img title="Português Brasileiro" alt="Português Brasileiro" src="https://flagicons.lipis.dev/flags/4x3/br.svg" width="22">](./public/docs/translations/README.pt-BR.md)</kbd>
+<kbd>[<img title="English" alt="English" src="https://flagicons.lipis.dev/flags/4x3/us.svg" width="22">](./README.en-US.md)</kbd>
+<kbd>[<img title="Português Brasileiro" alt="Português Brasileiro" src="https://flagicons.lipis.dev/flags/4x3/br.svg" width="22">](./README.pt-BR.md)</kbd>
 <kbd>[<img title="Korean" alt="Korean" src="https://flagicons.lipis.dev/flags/4x3/kr.svg" width="22">](./README.ko-KR.md)</kbd>
 
 <!-- Link Demo Section -->
 
-## 🚀 [Demo →](https://next-plate.vercel.app)
+## 🚀 [데모 →](https://next-plate.vercel.app)
 
-Deploy your own copy of this template in just a few clicks!
+클릭 몇 번으로 이 템플릿의 복사본을 배포하세요!
 
 <div>
  <a href="https://vercel.com/import/project?template=https://github.com/gmatthewsfeuer/next-plate" title="Deploy to Vercel">
@@ -87,105 +87,105 @@ Deploy your own copy of this template in just a few clicks!
 
 <!-- Introduction Section -->
 
-## 📖 Introduction
+## 📖 소개
 
-This is a **complete template** with all you need for your **next React projects** and all the **best practices** of **[JAMStack](https://jamstack.org)**.
+이 템플릿은 당신의 **다음 React 프로젝트**에 필요한 모든 것과 **[JAMStack](https://jamstack.org)** 의 모든 **모범 예제**를 담고 있습니다.
 
-This template have a bunch of folders, code examples and configurations. Feel free to edit or remove them, including this README!
+이 템플릿에는 여러 폴더, 코드 예제 및 구성이 포함되어 있습니다. 이 README 파일을 포함해 자유롭게 편집하거나 삭제하세요!
 
-**Customize and enjoy!**
+**원하는대로 수정하고 즐기세요!**
 
 <!-- Documentation Section -->
 
-## 📚 [Documentation →](https://next-plate.vercel.app/docs)
+## 📚 [설명서 →](https://next-plate.vercel.app/docs)
 
 <!-- Features Section -->
 
-## 🌟 Features
+## 🌟 특징
 
-This project features all the latest tools and good practices in web development!
+이 프로젝트에는 최신 웹 개발 툴들과 예시들이 포함되어 있습니다!
 
-### Framework
+### 프레임워크
 
-- ⚛️ **[Next.js](https://nextjs.org)** – A complete React framework for hybrid and server rendering
+- ⚛️ **[Next.js](https://nextjs.org)** – 하이브리드 및 서버 렌더링을 위한 완벽한 React 프레임워크
 
-### Data Fetching
+### 데이터 가져오기
 
-- ✳️ **[React Query](https://react-query.tanstack.com)** – Hooks for fetching, caching and updating asynchronous data in React
-- ❇️ **[SWR](https://swr.vercel.app)** (alternative for React Query) – A React Hooks library for data fetching
-- 🔄 **[Axios](https://github.com/axios/axios)** – Promise based HTTP client for the browser and Node.js
+- ✳️ **[React Query](https://react-query.tanstack.com)** – React에서 비동기 데이터를 가져오고 캐싱하고 업데이트하기 위한 Hooks
+- ❇️ **[SWR](https://swr.vercel.app)** (React Query의 대안) – 데이터를 가져오기를 위한 React Hooks 라이브러리
+- 🔄 **[Axios](https://github.com/axios/axios)** – 브라우저 및 Node.js에 대한 Promise 기반 HTTP 클라이언트
 
-### State Management
+### 상태 관리
 
-- 🐻 **[Zustand](https://zustand-demo.pmnd.rs)** – A small, fast and scalable bearbones state-management solution using simplified flux principles
+- 🐻 **[Zustand](https://zustand-demo.pmnd.rs)** – 단순화된 플럭스(사용자 인터페이스 구축을 위한 애플리케이션 아키텍처) 원칙을 사용한 작고, 빠르고, 확장 가능한 상태 관리 솔루션
 
-### Design System and Animations
+### 디자인 시스템과 애니메이션
 
-- 🎨 **[Chakra-UI](https://chakra-ui.com)** – A simple, modular and accessible component library that gives you the building blocks to build your React applications
-- 🎞️ **[Framer Motion](https://www.framer.com/motion)** – A production-ready motion library for React
-- ✨ **[React Icons](https://react-icons.github.io/react-icons)** – A collection of popular icons to React projects
+- 🎨 **[Chakra-UI](https://chakra-ui.com)** – React 앱을 빌드하기 위한 빌딩 블록을 제공하는 간단한 모듈식 컴포넌트 라이브러리
+- 🎞️ **[Framer Motion](https://www.framer.com/motion)** – React용 프로덕션 준비 모션 라이브러리
+- ✨ **[React Icons](https://react-icons.github.io/react-icons)** – React 프로젝트에 자주 사용되는 아이콘 모음
 
-### Form Validation
+### 폼 유효성 검사
 
-- 📋 **[React Hook Form](https://react-hook-form.com)** – Performant, flexible and extensible forms with easy-to-use validation
-- 🚨 **[Yup](https://github.com/jquense/yup)** – A schema builder for runtime value parsing and validation
+- 📋 **[React Hook Form](https://react-hook-form.com)** – 사용하기 쉬운 검증을 통해 성능, 유연성 및 확장성이 뛰어난 폼
+- 🚨 **[Yup](https://github.com/jquense/yup)** – 폼 유효성 검사 런타임 값 구문 분석 및 유효성 검사를 위한 스키마 빌더
 
-### Tests
+### 테스트
 
-- 🃏 **[Jest](https://jestjs.io)** – A delightful JavaScript Testing Framework with a focus on simplicity
-- 🐙 **[Testing Library](https://testing-library.com)** – Simple and complete testing utilities that encourage good testing practices
+- 🃏 **[Jest](https://jestjs.io)** – 단순성에 초점을 맞춘 즐거운 JavaScript 테스트 프레임워크
+- 🐙 **[Testing Library](https://testing-library.com)** – 우수한 테스트를 제안하는 간단하고 완벽한 테스트 유틸리티
 
-### Design Patterns
+### 디자인 패턴
 
-- ⛔ **[ESLint](https://eslint.org)** – Find and fix problems in your JavaScript code
-- 🎀 **[Prettier](https://prettier.io)** – An opinionated code formatter, supporting multiple languages and code editors
-- 🐺 **[Husky](https://github.com/typicode/husky)** – Modern native Git hooks made easy
-- 💩 **[lint-staged](https://github.com/okonet/lint-staged)** – Run linters against staged git files and don't let 💩 slip into your code base
-- 📓 **[commitlint](https://commitlint.js.org)** – Helps your team adhering to a commit convention
-- 🏷️ **[Standard Version](https://github.com/conventional-changelog/standard-version)** – A utility for versioning using semver and CHANGELOG generation powered by Conventional Commits
+- ⛔ **[ESLint](https://eslint.org)** – JavaScript 코드 내 문제 찾기 및 해결
+- 🎀 **[Prettier](https://prettier.io)** – 다양한 언어 및 코드 편집기를 지원하는 코드 포맷터
+- 🐺 **[Husky](https://github.com/typicode/husky)** – 간편한 모던 네이티브 Git Hooks
+- 💩 **[lint-staged](https://github.com/okonet/lint-staged)** – 준비된 git 파일에 대해 린터를 실행하고 💩이 코드 베이스에 들어가지 않도록 지원
+- 📓 **[commitlint](https://commitlint.js.org)** – 팀이 커밋 규칙을 준수하도록 지원
+- 🏷️ **[Standard Version](https://github.com/conventional-changelog/standard-version)** – 기존 커밋으로 구동되는 sember 및 CHANGELOG 생성을 이용한 버전 관리 유틸리티
 
-### Analysis
+### 분석
 
-- 🕵🏻‍♂️ **[why-did-you-render](https://github.com/welldone-software/why-did-you-render)** (optional) – Notify you about potentially avoidable re-renders
+- 🕵🏻‍♂️ **[why-did-you-render](https://github.com/welldone-software/why-did-you-render)** (선택 사항) – 잠재적으로 피할 수 있는 재렌더에 대해 알림
 
-### Additional Plugins
+### 추가적인 플러그인
 
-- 🗃️ **[next-compose-plugins](https://github.com/cyrilwanner/next-compose-plugins)** – Provides a cleaner API for enabling and configuring plugins for Next.js
-- 📱 **[next-pwa](https://github.com/shadowwalker/next-pwa)** – A PWA plugin for Next.js
-- 📈 **[next-seo](https://github.com/garmeeh/next-seo)** – A plugin that makes managing your SEO easier in Next.js projects
-- 🤖 **[next-sitemap](https://github.com/iamvishnusankar/next-sitemap)** – Sitemap generator for Next.js
+- 🗃️ **[next-compose-plugins](https://github.com/cyrilwanner/next-compose-plugins)** – Next.js의 플러그인과 더 깨끗한 API를 제공
+- 📱 **[next-pwa](https://github.com/shadowwalker/next-pwa)** – Next.js 전용 PWA 플러그인
+- 📈 **[next-seo](https://github.com/garmeeh/next-seo)** – Next.js 프로젝트에서 SEO를 더 쉽게 관리할 수 있는 플러그인
+- 🤖 **[next-sitemap](https://github.com/iamvishnusankar/next-sitemap)** – Next.js 전용 사이트 맵 생성기
 
 <!-- Procedures Section -->
 
-## ▶️ Getting Started
+## ▶️ 시작하기
 
-### 📙 Creating a New Repository on GitHub
+### 📙 GitHub에서 새 레포지토리 만들기
 
-1. Click on "**Use this template**" button
-2. Configure your new repository and click on "**Create repository from template**" button
-3. Now you can clone the generated repository to your local machine:
+1. "**Use this template**" 버튼을 클릭합니다.
+2. 새 레포지토리를 구성하고 "**Create repository from template**" 버튼을 클릭합니다.
+3. 이제 생성된 레포지토리를 로컬에 복제할 수 있습니다. :
 
 ```bash
  $ git clone https://github.com/<YOUR-GITHUB-LOGIN>/<NAME-OF-YOUR-GENERATED-REPOSITORY>.git
 ```
 
-### 🛠️ Installation
+### 🛠️ 설치
 
-Before you can start developing your super application, you need to install the project's dependencies.
+슈퍼 앱 개발을 시작하기 전에 프로젝트의 종속성을 설치해야 합니다.
 
-Move yourself to the root of the project:
+프로젝트의 루트로 이동합니다. :
 
 ```bash
 $ cd <NAME-OF-YOUR-GENERATED-REPOSITORY>
 ```
 
-> For the next steps, choose a package manager of your choice and change the commands contained in the `package.json` scripts. See their documentation for more information:
+> 다음 단계에서는 패키지 관리자를 선택하고 `package.json` 스크립트에 포함된 명령어를 선택하고 변경합니다. 자세한 내용은 아래 설명서를 참조하세요.
 >
 > - [PNPM](https://pnpm.io/pt/cli/add)
 > - [NPM](https://docs.npmjs.com/cli/v6/commands)
 > - [Yarn](https://classic.yarnpkg.com/en/docs/cli)
 
-Install all dependencies of the project:
+프로젝트의 모든 종속성을 설치합니다. :
 
 ```bash
 # PNPM
@@ -196,9 +196,9 @@ $ npm install
 $ yarn install
 ```
 
-### ⌨️ Development
+### ⌨️ 개발
 
-Once all dependencies have been installed, you can run the local development server:
+모든 종속성이 설치되면 로컬 개발 서버를 실행할 수 있습니다. :
 
 ```bash
 # PNPM
@@ -209,13 +209,13 @@ $ npm run dev
 $ yarn dev
 ```
 
-Now just code!
+이제 코딩하면 됩니다!
 
-### 🖥️ Production
+### 🖥️ 배포
 
-After applying the changes, you can generate a build to test and/or deploy to your production environment.
+변경 내용을 적용한 후 프로덕션 환경에 테스트 및/또는 배포할 빌드를 생성할 수 있습니다.
 
-Make a production build:
+프로덕션 빌드 만들기 :
 
 ```bash
 # PNPM
@@ -226,7 +226,7 @@ $ npm run build
 $ yarn build
 ```
 
-And then run the build:
+그런 다음 빌드를 실행합니다. :
 
 ```bash
 # PNPM
@@ -238,9 +238,9 @@ $ yarn start
 ```
 
 <details>
- <summary>View more commands you can use</summary>
+ <summary>사용할 수 있는 추가 명령 보기</summary>
 
- <h4>Lint</h4>
+ <h4>린트</h4>
 
 ```bash
 # PNPM
@@ -251,7 +251,7 @@ $ npm run lint
 $ yarn lint
 ```
 
- <h4>Lint and Fix</h4>
+ <h4>린트와 버그 해결</h4>
 
 ```bash
 # PNPM
@@ -262,7 +262,7 @@ $ npm run lint:fix
 $ yarn lint:fix
 ```
 
- <h4>Test</h4>
+ <h4>테스트</h4>
 
 ```bash
 $ pnpm run test # or pnpm run test:watch
@@ -272,7 +272,7 @@ $ npm run test # or npm run test:watch
 $ yarn test # or yarn test:watch
 ```
 
- <h4>Type Checking</h4>
+ <h4>타입 검사</h4>
 
 ```bash
 # PNPM
@@ -283,7 +283,7 @@ $ npm run type-check
 $ yarn type-check
 ```
 
- <h4>Format</h4>
+ <h4>포맷(서식)</h4>
 
 ```bash
 # PNPM
@@ -294,7 +294,7 @@ $ npm run format
 $ yarn format
 ```
 
- <h4>Interactive Update Tool</h4>
+ <h4>상호작용 업데이트 도구</h4>
 
 ```bash
 # PNPM
@@ -305,7 +305,7 @@ $ npm run up
 $ yarn up
 ```
 
- <h4>Update All Dependencies</h4>
+ <h4>모든 종속성 업데이트</h4>
 
 ```bash
 # PNPM
@@ -316,7 +316,7 @@ $ npm run up-latest
 $ yarn up-latest
 ```
 
- <h4>Release As Major Version</h4>
+ <h4>메이저 버전으로 릴리즈</h4>
 
 ```bash
 # PNPM
@@ -327,7 +327,7 @@ $ npm run release-as-major
 $ yarn release-as-major
 ```
 
- <h4>Release As Minor Version</h4>
+ <h4>마이너 버전으로 릴리즈</h4>
 
 ```bash
 # PNPM
@@ -338,7 +338,7 @@ $ npm run release-as-minor
 $ yarn release-as-minor
 ```
 
- <h4>Release As Patch Version</h4>
+ <h4>패치 버전으로 릴리즈</h4>
 
 ```bash
 # PNPM
@@ -349,7 +349,7 @@ $ npm run release-as-patch
 $ yarn release-as-patch
 ```
 
- <h4>Publish Release</h4>
+ <h4>릴리즈 퍼블리시</h4>
 
 ```bash
 # PNPM
@@ -360,7 +360,7 @@ $ npm run push-release
 $ yarn push-release
 ```
 
- <h4>Get Updates From Remote and Maintain Current Changes</h4>
+ <h4>원격에서 업데이트 가져오기 및 현재 변경 내용 유지</h4>
 
 ```bash
 # PNPM
@@ -373,14 +373,14 @@ $ yarn pull
 
 </details>
 
-### ⚙️ Extra Configurations
+### ⚙️ 추가 구성
 
 <details>
  <summary>SWR</summary>
 
- <h4>Swap to SWR</h4>
+ <h4>SWR로 전환</h4>
 
-Install the SWR on the project:
+프로젝트에 SWR 설치 :
 
 ```bash
 # PNPM
@@ -391,28 +391,28 @@ $ npm install swr
 $ yarn add swr
 ```
 
-Remove all import lines, providers and code blocks of React Query located in `src/pages/_app.tsx` and `src/pages/[login].tsx`.
+`src/pages/_app.tsx` 및 `src/pages/[login].tsx`에 있는 React Query의 모든 import 라인, provider 및 코드 블록을 제거합니다.
 
-That's it! Use the `useFetch` function to fetch your data in the application.
+바로 그겁니다! 앱에서 데이터를 가져오려면 `useFetch` 함수를 사용합니다.
 
-Wanna see a demo? Uncomment all import lines and code blocks of SWR implementation on `src/pages/[login].tsx`.
+데모를 보고싶다면 `src/pages/[login].tsx`에서 SWR 구현의 모든 import 라인 및 코드 블록의 주석을 해제합니다.
 
 </details>
 
 <details>
- <summary>Why Did You Render</summary>
+ <summary>렌더링한 이유</summary>
 
- <h4>How to Activate</h4>
+ <h4>활성화 방법</h4>
 
-Put the `babel.config.js` file (located in the path `src/scripts`) in the project root and delete `.babelrc` file.
+프로젝트 루트에 `src/scripts` 경로의 `babel.config.js` 파일을 넣고 `.babelrc` 파일을 삭제합니다.
 
-Uncomment the `wdyr` import line on `pages/_app.tsx`.
+`pages/_app.tsx`에서 `wdyr` import 라인의 주석을 해제합니다.
 
-That's it! Now you can monitore React re-renders!
+바로 그겁니다! 이제 React 재렌더를 모니터링할 수 있습니다!
 
- <h4>How to Uninstall</h4>
+ <h4>제거하는 방법</h4>
 
-Just delete the `babel.config.js` and `wdyr.ts` files, remove `wdyr` import line on `pages/_app.tsx` and uninstall it:
+`babel.config.js`, `wdyr.ts` 파일을 삭제하고 `pages/_app.tsx`에서 `wdyr` import 라인을 삭제합니다. :
 
 ```bash
 # PNPM
@@ -427,14 +427,14 @@ $ yarn remove @welldone-software/why-did-you-render
 
 <!-- File Tree Section -->
 
-## 📁 File Tree
+## 📁 파일 트리
 
-See below the file tree to understand the template structure.
+템플릿의 구조에 대해서는 아래 파일 트리를 참조하세요.
 
 <details>
- <summary>View file tree</summary>
+ <summary>파일 트리 보기</summary>
 
-> Folders and files marked with (`**`) are optional, so you can delete then.
+> (`**`)로 표시된 폴더와 파일은 선택 사항이므로 삭제할 수 있습니다.
 
 ```txt
 📂 next-plate/
@@ -500,21 +500,21 @@ See below the file tree to understand the template structure.
 
 <!-- License Section -->
 
-## 📜 License
+## 📜 라이센스
 
-Although you don't have to, if you reuse this template for your projects I would appreciate it if you would **credit me and provide a link to my GitHub profile in the footer of your project**. Thanks!
+만약 이 템플릿을 프로젝트에 재사용하신다면 **프로젝트 바닥글에 제 GitHub 프로필에 대한 링크를 추가해주세요.** 감사합니다!
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) page for details.
+이 프로젝트는 **MIT 라이센스**에 따라 라이센스가 부여됩니다. 자세한 내용은 [라이센스](LICENSE) 페이지를 참조하세요.
 
 <!-- Acknowledgment Section -->
 
 ---
 
-### ⭐ Give a star to maintain this project!
+### ⭐ 이 프로젝트의 유지를 위해 별을 눌러주세요!
 
-### ❤️ Thanks for your attention!
+### ❤️ 당신의 관심에 감사드립니다!
 
-### 👨‍💻 Good Hacking!
+### 👨‍💻 즐거운 코딩되세요!
 
 ---
 
