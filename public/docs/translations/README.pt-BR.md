@@ -62,6 +62,7 @@
 
 <kbd>[<img title="English" alt="English" src="https://flagicons.lipis.dev/flags/4x3/us.svg" width="22">](./README.en-US.md)</kbd>
 <kbd>[<img title="Português Brasileiro" alt="Português Brasileiro" src="https://flagicons.lipis.dev/flags/4x3/br.svg" width="22">](./README.pt-BR.md)</kbd>
+<kbd>[<img title="Korean" alt="Korean" src="https://flagicons.lipis.dev/flags/4x3/kr.svg" width="22">](./README.ko-KR.md)</kbd>
 
 <!-- Seção do Link de Demonstração -->
 
