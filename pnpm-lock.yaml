@@ -8,13 +8,13 @@ specifiers:
   '@commitlint/config-conventional': 17.0.3
   '@emotion/react': 11.9.3
   '@emotion/styled': 11.9.3
-  '@hookform/resolvers': 2.9.5
+  '@hookform/resolvers': 2.9.6
   '@next/eslint-plugin-next': 12.1.6
   '@testing-library/dom': 8.14.1
   '@testing-library/jest-dom': 5.16.4
   '@testing-library/react': 13.3.0
-  '@testing-library/user-event': 14.2.3
-  '@types/jest': 28.1.5
+  '@testing-library/user-event': 14.2.5
+  '@types/jest': 28.1.6
   '@types/node': 17.0.42
   '@types/react': 18.0.15
   '@typescript-eslint/eslint-plugin': 5.28.0
@@ -36,25 +36,25 @@ specifiers:
   next-images: 1.8.4
   next-pwa: 5.5.4
   next-seo: 5.4.0
-  next-sitemap: 3.1.10
+  next-sitemap: 3.1.11
   prettier: 2.7.1
   react: 18.2.0
   react-dom: 18.2.0
   react-hook-form: 7.32.2
   react-icons: 4.4.0
-  react-query: 3.39.1
+  react-query: 3.39.2
   sharp: 0.30.7
   standard-version: 9.5.0
   typescript: 4.7.4
   yup: 0.32.11
-  zustand: 4.0.0-rc.1
+  zustand: 4.0.0-rc.2
 
 dependencies:
   '@chakra-ui/icons': 2.0.4_yvhl5ql2jypczm6naccxme2hbi
   '@chakra-ui/react': 2.2.4_4ze5eq5wvb2kmarapoe6ls5oam
   '@emotion/react': 11.9.3_dlcr7kzjh265l7kenqxjsvuiz4
   '@emotion/styled': 11.9.3_xorl7rqfpn4gtnla4dfecagcw4
-  '@hookform/resolvers': 2.9.5_react-hook-form@7.32.2
+  '@hookform/resolvers': 2.9.6_react-hook-form@7.32.2
   axios: 0.27.2
   framer-motion: 6.3.16_biqbaboplfbrettd7655fr4n2y
   next: 12.1.6_beenoklgwfttvph5dgxj7na7aq
@@ -66,10 +66,10 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
   react-hook-form: 7.32.2_react@18.2.0
   react-icons: 4.4.0_react@18.2.0
-  react-query: 3.39.1_biqbaboplfbrettd7655fr4n2y
+  react-query: 3.39.2_biqbaboplfbrettd7655fr4n2y
   sharp: 0.30.7
   yup: 0.32.11
-  zustand: 4.0.0-rc.1_react@18.2.0
+  zustand: 4.0.0-rc.2_react@18.2.0
 
 devDependencies:
   '@babel/core': 7.18.6
@@ -79,8 +79,8 @@ devDependencies:
   '@testing-library/dom': 8.14.1
   '@testing-library/jest-dom': 5.16.4
   '@testing-library/react': 13.3.0_biqbaboplfbrettd7655fr4n2y
-  '@testing-library/user-event': 14.2.3_tqxcvevrce5yj65bmtjesujwlq
-  '@types/jest': 28.1.5
+  '@testing-library/user-event': 14.2.5_tqxcvevrce5yj65bmtjesujwlq
+  '@types/jest': 28.1.6
   '@types/node': 17.0.42
   '@types/react': 18.0.15
   '@typescript-eslint/eslint-plugin': 5.28.0_py5roj3ykd3sga4gtxlmfvv4pa
@@ -95,7 +95,7 @@ devDependencies:
   husky: 8.0.1
   jest: 28.1.3_@types+node@17.0.42
   lint-staged: 13.0.3
-  next-sitemap: 3.1.10_nlwwphh5s5ggdfer3ji4ymvzrq
+  next-sitemap: 3.1.11_nlwwphh5s5ggdfer3ji4ymvzrq
   prettier: 2.7.1
   standard-version: 9.5.0
   typescript: 4.7.4
@@ -2399,8 +2399,8 @@ packages:
       - supports-color
     dev: true
 
-  /@hookform/resolvers/2.9.5_react-hook-form@7.32.2:
-    resolution: {integrity: sha512-4XABrKdE4GpX6v2RZ+Ij1Wrl9qPEl5ZvVhFxROY+SZhP/6TU8gPw0LO4ZS9/GgIbTx3Pw1U8HmcXVAoGOq+7iA==}
+  /@hookform/resolvers/2.9.6_react-hook-form@7.32.2:
+    resolution: {integrity: sha512-f4VxF8w9rdX0WsDCk3FW1dGPj/Sj8+1Ulcgtm5ymgWEpbA/fjY+NUDh+L9hftmxDgP8+EJFtF+qFK4gPEXVrVQ==}
     peerDependencies:
       react-hook-form: ^7.0.0
     dependencies:
@@ -2584,13 +2584,6 @@ packages:
       v8-to-istanbul: 9.0.1
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /@jest/schemas/28.0.2:
-    resolution: {integrity: sha512-YVDJZjd4izeTDkij00vHHAymNXQ6WWsdChFRK86qck6Jpr3DCL5W3Is3vslviRlP+bLuMYRLbdp98amMvqudhA==}
-    engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
-    dependencies:
-      '@sinclair/typebox': 0.23.5
     dev: true
 
   /@jest/schemas/28.1.3:
@@ -2895,10 +2888,6 @@ packages:
     resolution: {integrity: sha512-WiBSI6JBIhC6LRIsB2Kwh8DsGTlbBU+mLRxJmAe3LjHTdkDpwIbEOZgoXBbZilk/vlfjK8i6nKRAvIRn1XaIMw==}
     dev: true
 
-  /@sinclair/typebox/0.23.5:
-    resolution: {integrity: sha512-AFBVi/iT4g20DHoujvMH1aEDn8fGJh4xsRGCP6d8RpLPMqsNPvW01Jcn0QysXTsg++/xj25NmJsGyH9xug/wKg==}
-    dev: true
-
   /@sinclair/typebox/0.24.19:
     resolution: {integrity: sha512-gHJu8cdYTD5p4UqmQHrxaWrtb/jkH5imLXzuBypWhKzNkW0qfmgz+w1xaJccWVuJta1YYUdlDiPHXRTR4Ku0MQ==}
     dev: true
@@ -2967,8 +2956,8 @@ packages:
       react-dom: 18.2.0_react@18.2.0
     dev: true
 
-  /@testing-library/user-event/14.2.3_tqxcvevrce5yj65bmtjesujwlq:
-    resolution: {integrity: sha512-07Ly+NsFDTvjNdvl5bLBA5oHeGIIHCKc7CniGuKnHrjvqcTPVqPEo4z6a8iYydZ0WvDA6ZA0fnhYrqCLbsm0+A==}
+  /@testing-library/user-event/14.2.5_tqxcvevrce5yj65bmtjesujwlq:
+    resolution: {integrity: sha512-xcSw47H8JidxQPAqPlHp4l51EYJx+2TlHgYBW9i+noNlgUMMrhgtefnrWcpZ1k9ep6SMhJVyx3N7F4tIKTuJ9w==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
       '@testing-library/dom': '>=7.21.4'
@@ -3076,11 +3065,11 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest/28.1.5:
-    resolution: {integrity: sha512-TLAC2zXxGnohSP3GxgIyJn7yrTeRPDEyVFyCY1NE2wzg392auI+69uk5EPGjUXuhkq/K208J/TWpLG7J8ebIEQ==}
+  /@types/jest/28.1.6:
+    resolution: {integrity: sha512-0RbGAFMfcBJKOmqRazM8L98uokwuwD5F8rHrv/ZMbrZBwVOWZUyPG6VFNscjYr/vjM3Vu4fRrCPbOs42AfemaQ==}
     dependencies:
-      jest-matcher-utils: 28.1.1
-      pretty-format: 28.1.1
+      jest-matcher-utils: 28.1.3
+      pretty-format: 28.1.3
     dev: true
 
   /@types/json-schema/7.0.11:
@@ -3154,7 +3143,7 @@ packages:
   /@types/testing-library__jest-dom/5.14.3:
     resolution: {integrity: sha512-oKZe+Mf4ioWlMuzVBaXQ9WDnEm1+umLx0InILg+yvZVBBDmzV5KfZyLrCvadtWcx8+916jLmHafcmqqffl+iIw==}
     dependencies:
-      '@types/jest': 28.1.5
+      '@types/jest': 28.1.6
     dev: true
 
   /@types/trusted-types/2.0.2:
@@ -6050,16 +6039,6 @@ packages:
       - supports-color
     dev: true
 
-  /jest-diff/28.1.1:
-    resolution: {integrity: sha512-/MUUxeR2fHbqHoMMiffe/Afm+U8U4olFRJ0hiVG2lZatPJcnGxx292ustVu7bULhjV65IYMxRdploAKLbcrsyg==}
-    engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
-    dependencies:
-      chalk: 4.1.2
-      diff-sequences: 28.1.1
-      jest-get-type: 28.0.2
-      pretty-format: 28.1.3
-    dev: true
-
   /jest-diff/28.1.3:
     resolution: {integrity: sha512-8RqP1B/OXzjjTWkqMX67iqgwBVJRgCyKD3L9nq+6ZqJMdvjE8RgHktqZ6jNrkdMT+dJuYNI3rhQpxaz7drJHfw==}
     engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
@@ -6130,16 +6109,6 @@ packages:
     dependencies:
       jest-get-type: 28.0.2
       pretty-format: 28.1.3
-    dev: true
-
-  /jest-matcher-utils/28.1.1:
-    resolution: {integrity: sha512-NPJPRWrbmR2nAJ+1nmnfcKKzSwgfaciCCrYZzVnNoxVoyusYWIjkBMNvu0RHJe7dNj4hH3uZOPZsQA+xAYWqsw==}
-    engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
-    dependencies:
-      chalk: 4.1.2
-      jest-diff: 28.1.1
-      jest-get-type: 28.0.2
-      pretty-format: 28.1.1
     dev: true
 
   /jest-matcher-utils/28.1.3:
@@ -6826,7 +6795,7 @@ packages:
     dev: true
 
   /nano-time/1.0.0:
-    resolution: {integrity: sha1-sFVPaa2J4i0JB/ehKwmTpdlhN+8=}
+    resolution: {integrity: sha512-flnngywOoQ0lLQOTRNexn2gGSNuM9bKj9RZAWSzhQ+UJYaAFG9bac4DW9VHjUAzrOaIcajHybCTHe/bkvozQqA==}
     dependencies:
       big-integer: 1.6.51
     dev: false
@@ -6899,8 +6868,8 @@ packages:
       react-dom: 18.2.0_react@18.2.0
     dev: false
 
-  /next-sitemap/3.1.10_nlwwphh5s5ggdfer3ji4ymvzrq:
-    resolution: {integrity: sha512-IslH1nxY5p/3+cdjFiXDFSfchUJ0R+Flvm/T/01y7xokA/hd4rnuU+Jh0ZEZ92j7zBgwPUp1KTg0B41zuSpVHw==}
+  /next-sitemap/3.1.11_nlwwphh5s5ggdfer3ji4ymvzrq:
+    resolution: {integrity: sha512-qHq/nVzqEL3Sd5N+1ZnqoY2xN4BSmgEkIlvCjFOtMMIyl8Tr/xmVZgVau/8aZsDtxoXPKG/NzdonZssvpK4Jdw==}
     engines: {node: '>=14.18'}
     hasBin: true
     peerDependencies:
@@ -7349,16 +7318,6 @@ packages:
       react-is: 17.0.2
     dev: true
 
-  /pretty-format/28.1.1:
-    resolution: {integrity: sha512-wwJbVTGFHeucr5Jw2bQ9P+VYHyLdAqedFLEkdQUVaBF/eiidDwH5OpilINq4mEfhbCjLnirt6HTTDhv1HaTIQw==}
-    engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
-    dependencies:
-      '@jest/schemas': 28.0.2
-      ansi-regex: 5.0.1
-      ansi-styles: 5.2.0
-      react-is: 18.1.0
-    dev: true
-
   /pretty-format/28.1.3:
     resolution: {integrity: sha512-8gFb/To0OmxHR9+ZTb14Df2vNxdGCX8g1xWGUTqUw5TiZvcQf5sHKObd5UcPyLLyowNwDAMTF3XWOG1B6mxl1Q==}
     engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
@@ -7501,8 +7460,8 @@ packages:
     resolution: {integrity: sha512-Fl7FuabXsJnV5Q1qIOQwx/sagGF18kogb4gpfcG4gjLBWO0WDiiz1ko/ExayuxE7InyQkBLkxRFG5oxY6Uu3Kg==}
     dev: true
 
-  /react-query/3.39.1_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-qYKT1bavdDiQZbngWZyPotlBVzcBjDYEJg5RQLBa++5Ix5jjfbEYJmHSZRZD+USVHUSvl/ey9Hu+QfF1QAK80A==}
+  /react-query/3.39.2_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-F6hYDKyNgDQfQOuR1Rsp3VRzJnWHx6aRnnIZHMNGGgbL3SBgpZTDg8MQwmxOgpCAoqZJA+JSNCydF1xGJqKOCA==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: '*'
@@ -7699,7 +7658,7 @@ packages:
     dev: false
 
   /remove-accents/0.4.2:
-    resolution: {integrity: sha1-CkPTqq4egNuRngeuJUsoXZ4ce7U=}
+    resolution: {integrity: sha512-7pXIJqJOq5tFgG1A2Zxti3Ht8jJF337m4sowbuHsW30ZnkQFnDzy9qBNhgzX8ZLW4+UBcXiiR7SwR6pokHsxiA==}
     dev: false
 
   /require-directory/2.1.1:
@@ -8660,8 +8619,8 @@ packages:
       tslib: 2.4.0
     dev: false
 
-  /use-sync-external-store/1.1.0_react@18.2.0:
-    resolution: {integrity: sha512-SEnieB2FPKEVne66NpXPd1Np4R1lTNKfjuy3XdIoPQKYBAFdzbzSZlSn1KJZUiihQLQC5Znot4SBz1EOTBwQAQ==}
+  /use-sync-external-store/1.2.0_react@18.2.0:
+    resolution: {integrity: sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
@@ -9072,8 +9031,8 @@ packages:
       toposort: 2.0.2
     dev: false
 
-  /zustand/4.0.0-rc.1_react@18.2.0:
-    resolution: {integrity: sha512-qgcs7zLqBdHu0PuT3GW4WCIY5SgXdsv30GQMu9Qpp1BA2aS+sNS8l4x0hWuyEhjXkN+701aGWawhKDv6oWJAcw==}
+  /zustand/4.0.0-rc.2_react@18.2.0:
+    resolution: {integrity: sha512-eGDJHNmubDTggkMyZciCfI0H+NptOKQICpliJ4hd/XAjEvYp5h525CVJZ8uDfwd9P5JfSFjpBo14Z0qv04NWJA==}
     engines: {node: '>=12.7.0'}
     peerDependencies:
       immer: '>=9.0'
@@ -9085,5 +9044,5 @@ packages:
         optional: true
     dependencies:
       react: 18.2.0
-      use-sync-external-store: 1.1.0_react@18.2.0
+      use-sync-external-store: 1.2.0_react@18.2.0
     dev: false
