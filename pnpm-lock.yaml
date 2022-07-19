@@ -40,7 +40,7 @@ specifiers:
   prettier: 2.7.1
   react: 18.2.0
   react-dom: 18.2.0
-  react-hook-form: 7.33.1
+  react-hook-form: 7.32.2
   react-icons: 4.4.0
   react-query: 3.39.2
   sharp: 0.30.7
@@ -54,7 +54,7 @@ dependencies:
   '@chakra-ui/react': 2.2.4_tij2njokttso6734ktuzwjh5a4
   '@emotion/react': 11.9.3_dlcr7kzjh265l7kenqxjsvuiz4
   '@emotion/styled': 11.9.3_xorl7rqfpn4gtnla4dfecagcw4
-  '@hookform/resolvers': 2.9.6_react-hook-form@7.33.1
+  '@hookform/resolvers': 2.9.6_react-hook-form@7.32.2
   axios: 0.27.2
   framer-motion: 6.5.1_biqbaboplfbrettd7655fr4n2y
   next: 12.2.2_beenoklgwfttvph5dgxj7na7aq
@@ -64,7 +64,7 @@ dependencies:
   next-seo: 5.4.0_7gpduzaz4csxytrukenoyuq3te
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
-  react-hook-form: 7.33.1_react@18.2.0
+  react-hook-form: 7.32.2_react@18.2.0
   react-icons: 4.4.0_react@18.2.0
   react-query: 3.39.2_biqbaboplfbrettd7655fr4n2y
   sharp: 0.30.7
@@ -2399,12 +2399,12 @@ packages:
       - supports-color
     dev: true
 
-  /@hookform/resolvers/2.9.6_react-hook-form@7.33.1:
+  /@hookform/resolvers/2.9.6_react-hook-form@7.32.2:
     resolution: {integrity: sha512-f4VxF8w9rdX0WsDCk3FW1dGPj/Sj8+1Ulcgtm5ymgWEpbA/fjY+NUDh+L9hftmxDgP8+EJFtF+qFK4gPEXVrVQ==}
     peerDependencies:
       react-hook-form: ^7.0.0
     dependencies:
-      react-hook-form: 7.33.1_react@18.2.0
+      react-hook-form: 7.32.2_react@18.2.0
     dev: false
 
   /@humanwhocodes/config-array/0.9.5:
@@ -7555,8 +7555,8 @@ packages:
       use-sidecar: 1.1.2_3hx2ussxxho4jajbwrd6gq34qe
     dev: false
 
-  /react-hook-form/7.33.1_react@18.2.0:
-    resolution: {integrity: sha512-ydTfTxEJdvgjCZBj5DDXRc58oTEfnFupEwwTAQ9FSKzykEJkX+3CiAkGtAMiZG7IPWHuzgT6AOBfogiKhUvKgg==}
+  /react-hook-form/7.32.2_react@18.2.0:
+    resolution: {integrity: sha512-F1A6n762xaRhvtQH5SkQQhMr19cCkHZYesTcKJJeNmrphiZp/cYFTIzC05FnQry0SspM54oPJ9tXFXlzya8VNQ==}
     engines: {node: '>=12.22.0'}
     peerDependencies:
       react: ^16.8.0 || ^17 || ^18
