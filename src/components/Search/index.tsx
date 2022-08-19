@@ -75,7 +75,7 @@ export default function SearchComponent({
 								Insert a valid GitHub Profile to get the data
 							</FormHelperText>
 						) : (
-							<FormErrorMessage>{errors?.login?.message}</FormErrorMessage>
+							<FormErrorMessage>{errors.login?.message as string}</FormErrorMessage>
 						)}
 					</FormControl>
 
