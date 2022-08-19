@@ -34,7 +34,7 @@ specifiers:
   next: 12.2.5
   next-compose-plugins: 2.2.1
   next-images: 1.8.4
-  next-pwa: 5.5.5
+  next-pwa: 5.5.4
   next-seo: 5.5.0
   next-sitemap: 3.1.17
   prettier: 2.7.1
@@ -60,7 +60,7 @@ dependencies:
   next: 12.2.5_twoewwu6sg7cdf3ao6njtbftne
   next-compose-plugins: 2.2.1
   next-images: 1.8.4_webpack@5.74.0
-  next-pwa: 5.5.5_ac5rnokcvlkvrycdj6o5wxczke
+  next-pwa: 5.5.4_ac5rnokcvlkvrycdj6o5wxczke
   next-seo: 5.5.0_3xcjr4wz26biff45sz3jtokgje
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -6968,8 +6968,8 @@ packages:
       webpack: 5.74.0
     dev: false
 
-  /next-pwa/5.5.5_ac5rnokcvlkvrycdj6o5wxczke:
-    resolution: {integrity: sha512-EdheDzxr3V7piAeW2qAeH0uJW5iouSt7s/Fzz6xuvkmRPgbyqQeRY/3ZOWbhfgbPBuzGjdbBWzVurWJPH8bY5w==}
+  /next-pwa/5.5.4_ac5rnokcvlkvrycdj6o5wxczke:
+    resolution: {integrity: sha512-EgB2MQWGR8oZDzY6US+/D0LOCUhPZYCgeqRVBYDxQWNi0N6XfQOoZPw2COIrg/eMt/rB0M+/mquhAQACs5v4Ag==}
     peerDependencies:
       next: '>=9.0.0'
     dependencies:
