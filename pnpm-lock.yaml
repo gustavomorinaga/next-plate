@@ -14,7 +14,7 @@ specifiers:
   '@testing-library/jest-dom': 5.16.5
   '@testing-library/react': 13.3.0
   '@testing-library/user-event': 14.4.3
-  '@types/jest': 28.1.6
+  '@types/jest': 28.1.7
   '@types/node': 17.0.42
   '@types/react': 18.0.17
   '@typescript-eslint/eslint-plugin': 5.33.1
@@ -24,7 +24,7 @@ specifiers:
   eslint: 8.22.0
   eslint-config-next: 12.2.5
   eslint-config-prettier: 8.5.0
-  eslint-plugin-jest: 26.8.3
+  eslint-plugin-jest: 26.8.7
   eslint-plugin-prettier: 4.2.1
   eslint-plugin-testing-library: 5.6.0
   framer-motion: 7.2.0
@@ -34,9 +34,9 @@ specifiers:
   next: 12.2.5
   next-compose-plugins: 2.2.1
   next-images: 1.8.4
-  next-pwa: 5.5.4
+  next-pwa: 5.5.5
   next-seo: 5.5.0
-  next-sitemap: 3.1.17
+  next-sitemap: 3.1.21
   prettier: 2.7.1
   react: 18.2.0
   react-dom: 18.2.0
@@ -47,7 +47,7 @@ specifiers:
   standard-version: 9.5.0
   typescript: 4.7.4
   yup: 0.32.11
-  zustand: 4.1.0
+  zustand: 4.1.1
 
 dependencies:
   '@chakra-ui/icons': 2.0.8_hsmxbru7kh4m4fkmapdkd6vvgu
@@ -60,7 +60,7 @@ dependencies:
   next: 12.2.5_twoewwu6sg7cdf3ao6njtbftne
   next-compose-plugins: 2.2.1
   next-images: 1.8.4_webpack@5.74.0
-  next-pwa: 5.5.4_ac5rnokcvlkvrycdj6o5wxczke
+  next-pwa: 5.5.5_ac5rnokcvlkvrycdj6o5wxczke
   next-seo: 5.5.0_3xcjr4wz26biff45sz3jtokgje
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -69,7 +69,7 @@ dependencies:
   react-query: 3.39.2_biqbaboplfbrettd7655fr4n2y
   sharp: 0.30.7
   yup: 0.32.11
-  zustand: 4.1.0_react@18.2.0
+  zustand: 4.1.1_react@18.2.0
 
 devDependencies:
   '@babel/core': 7.18.10
@@ -80,7 +80,7 @@ devDependencies:
   '@testing-library/jest-dom': 5.16.5
   '@testing-library/react': 13.3.0_biqbaboplfbrettd7655fr4n2y
   '@testing-library/user-event': 14.4.3_wl4iynrlixafokvgqnhzlvigei
-  '@types/jest': 28.1.6
+  '@types/jest': 28.1.7
   '@types/node': 17.0.42
   '@types/react': 18.0.17
   '@typescript-eslint/eslint-plugin': 5.33.1_vsoshirnpb7xw6mr7xomgfas2i
@@ -89,13 +89,13 @@ devDependencies:
   eslint: 8.22.0
   eslint-config-next: 12.2.5_4rv7y5c6xz3vfxwhbrcxxi73bq
   eslint-config-prettier: 8.5.0_eslint@8.22.0
-  eslint-plugin-jest: 26.8.3_6a2ng3hwt6ghrcpeyx2leikxhu
+  eslint-plugin-jest: 26.8.7_6a2ng3hwt6ghrcpeyx2leikxhu
   eslint-plugin-prettier: 4.2.1_i2cojdczqdiurzgttlwdgf764e
   eslint-plugin-testing-library: 5.6.0_4rv7y5c6xz3vfxwhbrcxxi73bq
   husky: 8.0.1
   jest: 28.1.3_@types+node@17.0.42
   lint-staged: 13.0.3
-  next-sitemap: 3.1.17_gzpnnaylvtfluxe3m63vhk6hhm
+  next-sitemap: 3.1.21_gzpnnaylvtfluxe3m63vhk6hhm
   prettier: 2.7.1
   standard-version: 9.5.0
   typescript: 4.7.4
@@ -3217,10 +3217,10 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest/28.1.6:
-    resolution: {integrity: sha512-0RbGAFMfcBJKOmqRazM8L98uokwuwD5F8rHrv/ZMbrZBwVOWZUyPG6VFNscjYr/vjM3Vu4fRrCPbOs42AfemaQ==}
+  /@types/jest/28.1.7:
+    resolution: {integrity: sha512-acDN4VHD40V24tgu0iC44jchXavRNVFXQ/E6Z5XNsswgoSO/4NgsXoEYmPUGookKldlZQyIpmrEXsHI9cA3ZTA==}
     dependencies:
-      jest-matcher-utils: 28.1.3
+      expect: 28.1.3
       pretty-format: 28.1.3
     dev: true
 
@@ -3295,7 +3295,7 @@ packages:
   /@types/testing-library__jest-dom/5.14.5:
     resolution: {integrity: sha512-SBwbxYoyPIvxHbeHxTZX2Pe/74F/tX2/D3mMvzabdeJ25bBojfW0TyB8BHrbq/9zaaKICJZjLP+8r6AeZMFCuQ==}
     dependencies:
-      '@types/jest': 28.1.6
+      '@types/jest': 28.1.7
     dev: true
 
   /@types/trusted-types/2.0.2:
@@ -4990,8 +4990,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-jest/26.8.3_6a2ng3hwt6ghrcpeyx2leikxhu:
-    resolution: {integrity: sha512-2roWu1MkEiihQ/qEszPPoaoqVI1x2D8Jtadk5AmoXTdEeNVPMu01Dtz7jIuTOAmdW3L+tSkPZOtEtQroYJDt0A==}
+  /eslint-plugin-jest/26.8.7_6a2ng3hwt6ghrcpeyx2leikxhu:
+    resolution: {integrity: sha512-nJJVv3VY6ZZvJGDMC8h1jN/TIGT4We1JkNn1lvstPURicr/eZPVnlFULQ4W2qL9ByCuCr1hPmlBOc2aZ1ktw4Q==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       '@typescript-eslint/eslint-plugin': ^5.0.0
@@ -5004,7 +5004,7 @@ packages:
         optional: true
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.33.1_vsoshirnpb7xw6mr7xomgfas2i
-      '@typescript-eslint/utils': 5.31.0_4rv7y5c6xz3vfxwhbrcxxi73bq
+      '@typescript-eslint/utils': 5.33.1_4rv7y5c6xz3vfxwhbrcxxi73bq
       eslint: 8.22.0
       jest: 28.1.3_@types+node@17.0.42
     transitivePeerDependencies:
@@ -6968,8 +6968,8 @@ packages:
       webpack: 5.74.0
     dev: false
 
-  /next-pwa/5.5.4_ac5rnokcvlkvrycdj6o5wxczke:
-    resolution: {integrity: sha512-EgB2MQWGR8oZDzY6US+/D0LOCUhPZYCgeqRVBYDxQWNi0N6XfQOoZPw2COIrg/eMt/rB0M+/mquhAQACs5v4Ag==}
+  /next-pwa/5.5.5_ac5rnokcvlkvrycdj6o5wxczke:
+    resolution: {integrity: sha512-EdheDzxr3V7piAeW2qAeH0uJW5iouSt7s/Fzz6xuvkmRPgbyqQeRY/3ZOWbhfgbPBuzGjdbBWzVurWJPH8bY5w==}
     peerDependencies:
       next: '>=9.0.0'
     dependencies:
@@ -7002,8 +7002,8 @@ packages:
       react-dom: 18.2.0_react@18.2.0
     dev: false
 
-  /next-sitemap/3.1.17_gzpnnaylvtfluxe3m63vhk6hhm:
-    resolution: {integrity: sha512-xop7KgEbWsqOe4Fr50g9RQ1UGb1bAEJoKYVVynbUqietpSltAnCIzvq/StL2gZcNyFW9K+9tZV7EpcD+72gRrA==}
+  /next-sitemap/3.1.21_gzpnnaylvtfluxe3m63vhk6hhm:
+    resolution: {integrity: sha512-8upGCtI91FvjNBpeKDZzrzRBlY4BH6qjG7dMe89sdBzJ9B++PVLTzRPlpLHJYOEPukBROsxi2zVuAvePBtsrdw==}
     engines: {node: '>=14.18'}
     hasBin: true
     peerDependencies:
@@ -9171,8 +9171,8 @@ packages:
       toposort: 2.0.2
     dev: false
 
-  /zustand/4.1.0_react@18.2.0:
-    resolution: {integrity: sha512-ba39yDM90wFHiCO5AuoP2Tr1vSY5Eggduk0ou91mWL/qKnz2sBq8AcdFoticOftt7AfIHRBENI7WfjkUrqB3vA==}
+  /zustand/4.1.1_react@18.2.0:
+    resolution: {integrity: sha512-h4F3WMqsZgvvaE0n3lThx4MM81Ls9xebjvrABNzf5+jb3/03YjNTSgZXeyrvXDArMeV9untvWXRw1tY+ntPYbA==}
     engines: {node: '>=12.7.0'}
     peerDependencies:
       immer: '>=9.0'
