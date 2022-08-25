@@ -53,14 +53,12 @@ module.exports = async _phase => {
 			[
 				withPWA,
 				{
-					pwa: {
-						dest: 'public',
-						register: true,
-						skipWaiting: true,
-						runtimeCaching,
-						buildExcludes: [/middleware-manifest.json$/],
-						disable: !isProduction,
-					},
+					dest: 'public',
+					register: true,
+					skipWaiting: true,
+					runtimeCaching,
+					buildExcludes: [/middleware-manifest.json$/],
+					disable: !isProduction,
 				},
 			],
 		],
