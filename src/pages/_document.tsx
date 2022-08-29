@@ -5,6 +5,11 @@ import NextDocument, {
 	NextScript,
 	DocumentContext,
 } from 'next/document';
+
+// --- Partytown ---
+import { Partytown } from '@builder.io/partytown/react';
+
+// --- Chakra-UI ---
 import { ColorModeScript } from '@chakra-ui/react';
 
 // --- Styles ---
@@ -39,6 +44,7 @@ export default class Document extends NextDocument {
 						href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap"
 						rel="stylesheet"
 					/>
+					<Partytown debug={true} forward={['dataLayer.push']} />
 				</Head>
 				<body>
 					<ColorModeScript initialColorMode={theme.config.initialColorMode} />

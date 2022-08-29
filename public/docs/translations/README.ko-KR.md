@@ -154,6 +154,7 @@
 - 📱 **[next-pwa](https://github.com/shadowwalker/next-pwa)** – Next.js 전용 PWA 플러그인
 - 📈 **[next-seo](https://github.com/garmeeh/next-seo)** – Next.js 프로젝트에서 SEO를 더 쉽게 관리할 수 있는 플러그인
 - 🤖 **[next-sitemap](https://github.com/iamvishnusankar/next-sitemap)** – Next.js 전용 사이트 맵 생성기
+- 🎉 **[Partytown](https://partytown.builder.io/)** – 리소스 집약적인 타사 스크립트를 메인 스레드에서 웹 작업자로 재배치
 
 <!-- Procedures Section -->
 

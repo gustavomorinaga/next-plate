@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@babel/core': 7.18.13
+  '@builder.io/partytown': ^0.6.4
   '@chakra-ui/icons': 2.0.9
   '@chakra-ui/react': 2.2.9
   '@commitlint/cli': 17.1.1
@@ -50,6 +51,7 @@ specifiers:
   zustand: 4.1.1
 
 dependencies:
+  '@builder.io/partytown': 0.6.4
   '@chakra-ui/icons': 2.0.9_q4a3cbcpctftsvshrietnfkwtq
   '@chakra-ui/react': 2.2.9_udjjtelqitool72t346rfzq46a
   '@emotion/react': 11.10.0_tu23i5xxn6kbev62oblybgbdem
@@ -1280,6 +1282,11 @@ packages:
   /@bcoe/v8-coverage/0.2.3:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
     dev: true
+
+  /@builder.io/partytown/0.6.4:
+    resolution: {integrity: sha512-W6C7O0eSg6YNujHYZozXK5iJ+V69QVLLLRv+NlmYh1vFe0PUJ3kmAhRCx7rUqI3XAA/KpdyfdxLoopBg3GlfVA==}
+    hasBin: true
+    dev: false
 
   /@chakra-ui/accordion/2.0.11_eqctf5hbx6ajziygh4lbkyo3uy:
     resolution: {integrity: sha512-KTMli2m/piZROhtY9zynfW7h49dkpS4n8Ny3uBcVFCtRg7zUOklMyUKX8I7KqAPAUROPiwT/5kE9hui3XpksQg==}

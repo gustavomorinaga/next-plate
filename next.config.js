@@ -38,8 +38,6 @@ module.exports = async _phase => {
 			[
 				withImages,
 				{
-					inlineImageLimit: false,
-					exclude: path.resolve(__dirname, 'public/static/svg'),
 					webpack(config) {
 						config.module.rules.push({
 							test: /\.svg$/,
