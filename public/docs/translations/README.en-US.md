@@ -154,6 +154,7 @@ This project features all the latest tools and good practices in web development
 - 📱 **[next-pwa](https://github.com/shadowwalker/next-pwa)** – A PWA plugin for Next.js
 - 📈 **[next-seo](https://github.com/garmeeh/next-seo)** – A plugin that makes managing your SEO easier in Next.js projects
 - 🤖 **[next-sitemap](https://github.com/iamvishnusankar/next-sitemap)** – Sitemap generator for Next.js
+- 🎉 **[Partytown](https://partytown.builder.io/)** – Relocate resource intensive third-party scripts off of the main thread and into a web worker
 
 <!-- Procedures Section -->
 

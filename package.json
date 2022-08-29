@@ -17,7 +17,8 @@
 	"scripts": {
 		"dev": "next dev",
 		"start": "next start",
-		"build": "next build",
+		"build": "pnpm run partytown && next build",
+		"partytown": "partytown copylib public/~partytown",
 		"lint": "next lint",
 		"lint:fix": "eslint src --fix && pnpm run format",
 		"test": "jest",
@@ -37,6 +38,7 @@
 		"prepare": "husky install"
 	},
 	"dependencies": {
+		"@builder.io/partytown": "^0.6.4",
 		"@chakra-ui/icons": "2.0.9",
 		"@chakra-ui/react": "2.2.9",
 		"@emotion/react": "11.10.0",
