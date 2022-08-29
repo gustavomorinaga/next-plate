@@ -14,6 +14,41 @@
 	"assignees": ["gmatthewsfeuer"],
 	"packageRules": [
 		{
+			"matchPackagePatterns": ["@emotion", "@chakra-ui", "framer-motion"],
+			"groupName": "chakra-ui"
+		},
+		{
+			"matchPackagePatterns": ["next", "sharp"],
+			"groupName": "next"
+		},
+		{
+			"matchPackagePatterns": [
+				"react",
+				"axios",
+				"yup",
+				"hookform",
+				"zustand",
+				"partytown"
+			],
+			"groupName": "react"
+		},
+		{
+			"matchPackagePatterns": ["@testing-library", "jest"],
+			"groupName": "tests"
+		},
+		{
+			"matchPackagePatterns": ["^eslint", "prettier"],
+			"groupName": "lint"
+		},
+		{
+			"matchPackagePatterns": ["@types", "typescript"],
+			"groupName": "typescript"
+		},
+		{
+			"matchPackagePatterns": ["@commitlint", "husky", "lint-staged", "standard-version"],
+			"groupName": "pattern"
+		},
+		{
 			"matchUpdateTypes": ["minor", "patch", "pin", "digest"],
 			"automerge": true
 		},
