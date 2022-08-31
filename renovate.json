@@ -14,7 +14,7 @@
 	"assignees": ["gmatthewsfeuer"],
 	"packageRules": [
 		{
-			"matchPackagePatterns": ["@emotion", "@chakra-ui", "framer-motion"],
+			"matchPackagePatterns": ["emotion", "chakra-ui", "framer-motion"],
 			"groupName": "chakra-ui"
 		},
 		{
@@ -33,7 +33,7 @@
 			"groupName": "react"
 		},
 		{
-			"matchPackagePatterns": ["@testing-library", "jest"],
+			"matchPackagePatterns": ["testing-library", "jest"],
 			"groupName": "tests"
 		},
 		{
@@ -41,11 +41,11 @@
 			"groupName": "lint"
 		},
 		{
-			"matchPackagePatterns": ["@types", "typescript"],
+			"matchPackagePatterns": ["types", "typescript"],
 			"groupName": "typescript"
 		},
 		{
-			"matchPackagePatterns": ["@commitlint", "husky", "lint-staged", "standard-version"],
+			"matchPackagePatterns": ["commitlint", "husky", "lint-staged", "standard-version"],
 			"groupName": "pattern"
 		},
 		{
