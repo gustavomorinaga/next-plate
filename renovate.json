@@ -30,6 +30,10 @@
       "groupName": "chakra-ui monorepo"
     },
 		{
+      "extends": "monorepo:emotion",
+      "groupName": "emotion monorepo"
+    },
+		{
       "extends": "packages:linters",
       "groupName": "linters"
     },
