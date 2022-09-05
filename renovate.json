@@ -14,47 +14,38 @@
 	"assignees": ["gmatthewsfeuer"],
 	"packageRules": [
 		{
-			"matchPackagePatterns": ["emotion", "chakra-ui", "framer-motion"],
-			"groupName": "chakra-ui"
-		},
-		{
-			"matchPackagePatterns": ["next", "sharp"],
-			"groupName": "next"
-		},
-		{
-			"matchPackagePatterns": [
-				"react",
-				"axios",
-				"yup",
-				"hookform",
-				"zustand",
-				"partytown"
-			],
-			"groupName": "react"
-		},
-		{
-			"matchPackagePatterns": ["testing-library", "jest"],
-			"groupName": "tests"
-		},
-		{
-			"matchPackagePatterns": ["^eslint", "prettier"],
-			"groupName": "lint"
-		},
-		{
-			"matchPackagePatterns": ["types", "typescript"],
-			"groupName": "typescript"
-		},
-		{
-			"matchPackagePatterns": ["commitlint", "husky", "lint-staged", "standard-version"],
-			"groupName": "pattern"
-		},
-		{
 			"matchUpdateTypes": ["minor", "patch", "pin", "digest"],
 			"automerge": true
 		},
 		{
 			"matchDepTypes": ["devDependencies"],
 			"automerge": true
-		}
+		},
+		{
+      "extends": "monorepo:nextjs",
+      "groupName": "nextjs monorepo"
+    },
+		{
+      "extends": "monorepo:chakra-ui",
+      "groupName": "chakra-ui monorepo"
+    },
+		{
+      "extends": "packages:linters",
+      "groupName": "linters"
+    },
+		{
+      "extends": "packages:test",
+      "groupName": "test packages"
+    },
+		{
+      "extends": "monorepo:typescript-eslint",
+      "groupName": "typescript-eslint monorepo"
+    },
+		{
+      "groupName": "definitelyTyped",
+      "matchPackagePrefixes": [
+        "@types/"
+      ]
+    }
 	]
 }
