@@ -38,9 +38,9 @@
 		"prepare": "husky install"
 	},
 	"dependencies": {
-		"@builder.io/partytown": "^0.6.4",
+		"@builder.io/partytown": "0.6.4",
 		"@chakra-ui/icons": "2.0.9",
-		"@chakra-ui/react": "2.2.9",
+		"@chakra-ui/react": "2.3.1",
 		"@emotion/react": "11.10.0",
 		"@emotion/styled": "11.10.0",
 		"@hookform/resolvers": "2.9.7",
