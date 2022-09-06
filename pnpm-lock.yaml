@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@babel/core': 7.18.13
-  '@builder.io/partytown': ^0.6.4
+  '@builder.io/partytown': 0.6.4
   '@chakra-ui/icons': 2.0.9
   '@chakra-ui/react': 2.3.1
   '@commitlint/cli': 17.1.1
