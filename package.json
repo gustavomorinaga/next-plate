@@ -38,7 +38,7 @@
 		"prepare": "husky install"
 	},
 	"dependencies": {
-		"@builder.io/partytown": "^0.6.4",
+		"@builder.io/partytown": "0.7.0",
 		"@chakra-ui/icons": "2.0.9",
 		"@chakra-ui/react": "2.3.1",
 		"@emotion/react": "11.10.4",
@@ -56,12 +56,12 @@
 		"react-hook-form": "7.34.2",
 		"react-icons": "4.4.0",
 		"react-query": "3.39.2",
-		"sharp": "0.30.7",
+		"sharp": "0.31.0",
 		"yup": "0.32.11",
 		"zustand": "4.1.1"
 	},
 	"devDependencies": {
-		"@babel/core": "7.18.13",
+		"@babel/core": "7.19.0",
 		"@commitlint/cli": "17.1.1",
 		"@commitlint/config-conventional": "17.1.0",
 		"@next/eslint-plugin-next": "12.2.5",
