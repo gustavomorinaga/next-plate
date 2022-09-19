@@ -45,7 +45,7 @@
 		"@emotion/styled": "11.10.4",
 		"@hookform/resolvers": "2.9.8",
 		"axios": "0.27.2",
-		"framer-motion": "7.3.2",
+		"framer-motion": "7.3.5",
 		"next": "12.3.0",
 		"next-compose-plugins": "2.2.1",
 		"next-images": "1.8.4",
@@ -61,7 +61,7 @@
 		"zustand": "4.1.1"
 	},
 	"devDependencies": {
-		"@babel/core": "7.19.0",
+		"@babel/core": "7.19.1",
 		"@commitlint/cli": "17.1.2",
 		"@commitlint/config-conventional": "17.1.0",
 		"@next/eslint-plugin-next": "12.3.0",
