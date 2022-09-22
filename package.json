@@ -45,7 +45,7 @@
 		"@emotion/styled": "11.10.4",
 		"@hookform/resolvers": "2.9.8",
 		"axios": "0.27.2",
-		"framer-motion": "7.3.5",
+		"framer-motion": "7.3.6",
 		"next": "12.3.1",
 		"next-compose-plugins": "2.2.1",
 		"next-images": "1.8.4",
