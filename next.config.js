@@ -35,8 +35,7 @@ module.exports = async _phase => {
 	return withPlugins(
 		[
 			[
-				withImages,
-				{
+				withImages({
 					webpack(config) {
 						config.module.rules.push({
 							test: /\.svg$/,
@@ -45,18 +44,17 @@ module.exports = async _phase => {
 
 						return config;
 					},
-				},
+				}),
 			],
 			[
-				withPWA,
-				{
+				withPWA({
 					dest: 'public',
 					register: true,
 					skipWaiting: true,
 					runtimeCaching,
 					buildExcludes: [/middleware-manifest.json$/],
 					disable: !isProduction,
-				},
+				}),
 			],
 		],
 		nextConfig
