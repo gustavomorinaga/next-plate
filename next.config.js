@@ -9,7 +9,7 @@ module.exports = async _phase => {
 	/** @type {import('next').NextConfig} */
 	const nextConfig = {
 		reactStrictMode: true,
-		swcMinify: false,
+		swcMinify: true,
 		// extends: [],
 		// images: {
 		// 	formats: ['image/avif', 'image/webp'],
