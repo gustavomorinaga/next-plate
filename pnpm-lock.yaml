@@ -47,7 +47,7 @@ specifiers:
   standard-version: 9.5.0
   typescript: 4.8.4
   yup: 0.32.11
-  zustand: 4.1.1
+  zustand: 4.1.2
 
 dependencies:
   '@builder.io/partytown': 0.7.1
@@ -70,7 +70,7 @@ dependencies:
   react-query: 3.39.2_biqbaboplfbrettd7655fr4n2y
   sharp: 0.31.1
   yup: 0.32.11
-  zustand: 4.1.1_react@18.2.0
+  zustand: 4.1.2_react@18.2.0
 
 devDependencies:
   '@commitlint/cli': 17.1.2
@@ -9335,8 +9335,8 @@ packages:
       toposort: 2.0.2
     dev: false
 
-  /zustand/4.1.1_react@18.2.0:
-    resolution: {integrity: sha512-h4F3WMqsZgvvaE0n3lThx4MM81Ls9xebjvrABNzf5+jb3/03YjNTSgZXeyrvXDArMeV9untvWXRw1tY+ntPYbA==}
+  /zustand/4.1.2_react@18.2.0:
+    resolution: {integrity: sha512-gcRaKchcxFPbImrBb/BKgujOhHhik9YhVpIeP87ETT7uokEe2Szu7KkuZ9ghjtD+/KKkcrRNktR2AiLXPIbKIQ==}
     engines: {node: '>=12.7.0'}
     peerDependencies:
       immer: '>=9.0'
