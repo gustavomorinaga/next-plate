@@ -35,13 +35,13 @@ specifiers:
   next-compose-plugins: 2.2.1
   next-images: 1.8.4
   next-pwa: 5.6.0
-  next-seo: 5.5.0
+  next-seo: 5.6.0
   next-sitemap: 3.1.25
   prettier: 2.7.1
   react: 18.2.0
   react-dom: 18.2.0
   react-hook-form: 7.37.0
-  react-icons: 4.4.0
+  react-icons: 4.6.0
   react-query: 3.39.2
   sharp: 0.31.1
   standard-version: 9.5.0
@@ -62,11 +62,11 @@ dependencies:
   next-compose-plugins: 2.2.1
   next-images: 1.8.4_webpack@5.74.0
   next-pwa: 5.6.0_r4fnhujxxwelquxkfzi3g5np24
-  next-seo: 5.5.0_azq6kxkn3od7qdylwkyksrwopy
+  next-seo: 5.6.0_azq6kxkn3od7qdylwkyksrwopy
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-hook-form: 7.37.0_react@18.2.0
-  react-icons: 4.4.0_react@18.2.0
+  react-icons: 4.6.0_react@18.2.0
   react-query: 3.39.2_biqbaboplfbrettd7655fr4n2y
   sharp: 0.31.1
   yup: 0.32.11
@@ -7147,8 +7147,8 @@ packages:
       - webpack
     dev: false
 
-  /next-seo/5.5.0_azq6kxkn3od7qdylwkyksrwopy:
-    resolution: {integrity: sha512-5ouBHFtx8YrSDW44lj0qIEQ+oMcz6stgoITB+SqHUZbhgizoJsyLmq73gJ0lxtEKpcN8vG2QgRIJfdb8OAPChw==}
+  /next-seo/5.6.0_azq6kxkn3od7qdylwkyksrwopy:
+    resolution: {integrity: sha512-6o7OJq+/V7ZrijayG94BvNOYLQg9xQp0OAwLpA5kdlSei3mYsVbSB32UBIqSxT6uqRf55Jmd56ScG65IDnJShw==}
     peerDependencies:
       next: ^8.1.1-canary.54 || >=9.0.0
       react: '>=16.0.0'
@@ -7738,8 +7738,8 @@ packages:
       react: 18.2.0
     dev: false
 
-  /react-icons/4.4.0_react@18.2.0:
-    resolution: {integrity: sha512-fSbvHeVYo/B5/L4VhB7sBA1i2tS8MkT0Hb9t2H1AVPkwGfVHLJCqyr2Py9dKMxsyM63Eng1GkdZfbWj+Fmv8Rg==}
+  /react-icons/4.6.0_react@18.2.0:
+    resolution: {integrity: sha512-rR/L9m9340yO8yv1QT1QurxWQvWpbNHqVX0fzMln2HEb9TEIrQRGsqiNFQfiv9/JEUbyHmHPlNTB2LWm2Ttz0g==}
     peerDependencies:
       react: '*'
     dependencies:
