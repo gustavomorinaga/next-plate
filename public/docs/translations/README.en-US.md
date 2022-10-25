@@ -111,13 +111,14 @@ This project features all the latest tools and good practices in web development
 
 ### Data Fetching
 
-- ✳️ **[React Query](https://react-query.tanstack.com)** – Hooks for fetching, caching and updating asynchronous data in React
+- ✳️ **[React Query](https://tanstack.com/query)** – Hooks for fetching, caching and updating asynchronous data in React
 - ❇️ **[SWR](https://swr.vercel.app)** (alternative for React Query) – A React Hooks library for data fetching
 - 🔄 **[Axios](https://github.com/axios/axios)** – Promise based HTTP client for the browser and Node.js
 
-### State Management
+### State Management and Hooks
 
 - 🐻 **[Zustand](https://zustand-demo.pmnd.rs)** – A small, fast and scalable bearbones state-management solution using simplified flux principles
+- 👍 **[react-use](https://github.com/streamich/react-use)** – Collection of essential React Hooks
 
 ### Design System and Animations
 

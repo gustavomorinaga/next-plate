@@ -2,7 +2,7 @@ import { AppProps } from 'next/app';
 import { DefaultSeo } from 'next-seo';
 
 // --- React Query ---
-import { QueryClient, QueryClientProvider } from 'react-query';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
 // --- Chakra-UI ---
 import { ChakraProvider } from '@chakra-ui/react';

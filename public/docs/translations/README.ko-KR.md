@@ -111,13 +111,14 @@
 
 ### 데이터 가져오기
 
-- ✳️ **[React Query](https://react-query.tanstack.com)** – React에서 비동기 데이터를 가져오고 캐싱하고 업데이트하기 위한 Hooks
+- ✳️ **[React Query](https://tanstack.com/query)** – React에서 비동기 데이터를 가져오고 캐싱하고 업데이트하기 위한 Hooks
 - ❇️ **[SWR](https://swr.vercel.app)** (React Query의 대안) – 데이터를 가져오기를 위한 React Hooks 라이브러리
 - 🔄 **[Axios](https://github.com/axios/axios)** – 브라우저 및 Node.js에 대한 Promise 기반 HTTP 클라이언트
 
 ### 상태 관리
 
 - 🐻 **[Zustand](https://zustand-demo.pmnd.rs)** – 단순화된 플럭스(사용자 인터페이스 구축을 위한 애플리케이션 아키텍처) 원칙을 사용한 작고, 빠르고, 확장 가능한 상태 관리 솔루션
+- 👍 **[react-use](https://github.com/streamich/react-use)** – 필수 React Hook 컬렉션
 
 ### 디자인 시스템과 애니메이션
 

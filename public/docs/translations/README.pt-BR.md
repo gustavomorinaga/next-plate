@@ -111,13 +111,14 @@ Este projeto apresenta todas as ferramentas e boas práticas mais recentes em de
 
 ### Requisição de Dados
 
-- ✳️ **[React Query](https://react-query.tanstack.com)** – Hooks para buscar, armazenar e atualizar dados assíncronos em cache no React
+- ✳️ **[React Query](https://tanstack.com/query)** – Hooks para buscar, armazenar e atualizar dados assíncronos em cache no React
 - ❇️ **[SWR](https://swr.vercel.app)** (alternativa para o React Query) – Uma biblioteca de React Hooks para busca de dados
 - 🔄 **[Axios](https://github.com/axios/axios)** – Cliente HTTP baseado em Promise para o navegador e Node.js
 
-### Gerenciamento de Estado
+### Gerenciamento de Estado e Hooks
 
 - 🐻 **[Zustand](https://zustand-demo.pmnd.rs)** – Uma solução de gerenciamento de estado de bearbones pequena, rápida e escalável usando princípios de fluxo simplificados
+- 👍 **[react-use](https://github.com/streamich/react-use)** – Coleção essencial de React Hooks
 
 ### Design System e Estilização
 
