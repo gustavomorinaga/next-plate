@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.11.0](https://github.com/gmatthewsfeuer/next-plate/compare/v1.10.2...v1.11.0) (2022-10-25)
+
+
+### Bug Fixes
+
+* **deps:** pin dependencies ([100242d](https://github.com/gmatthewsfeuer/next-plate/commit/100242d653c89c23257ec55b37570ba1cd979e44))
+* **deps:** update all non-major dependencies ([663669a](https://github.com/gmatthewsfeuer/next-plate/commit/663669a4d45a99ff974bfea9a68061c33a550740))
+* **deps:** update all non-major dependencies ([b4f237f](https://github.com/gmatthewsfeuer/next-plate/commit/b4f237f5b69dbb65037449256ba17cfb8d7b4f26))
+* **deps:** update all non-major dependencies ([694d829](https://github.com/gmatthewsfeuer/next-plate/commit/694d82940d1ffd1d6386435a2e401d3d6d41e337))
+* **deps:** update all non-major dependencies ([33570f0](https://github.com/gmatthewsfeuer/next-plate/commit/33570f0ccf98da53a72919020e2f954a69d78e5a))
+* **deps:** update all non-major dependencies ([a831a54](https://github.com/gmatthewsfeuer/next-plate/commit/a831a545340dbe1e3b7f707c051af4526785f407))
+* **deps:** update dependency @chakra-ui/react to v2.3.6 ([09dab84](https://github.com/gmatthewsfeuer/next-plate/commit/09dab848406bc0006d468bb96e4b227b97419c7f))
+* **deps:** update dependency framer-motion to v7.6.1 ([178239c](https://github.com/gmatthewsfeuer/next-plate/commit/178239c4d28a7e4669d172ff82e6576b43006f16))
+* **deps:** update dependency zustand to v4.1.2 ([13c79ae](https://github.com/gmatthewsfeuer/next-plate/commit/13c79aeeb174202b7b0a29c54fbc26c6b6165831))
+
+
+### Improvements
+
+* canonical link seo ([449fdda](https://github.com/gmatthewsfeuer/next-plate/commit/449fdda8e3aeec770c6f2666725b04f993b587e0))
+* react-query package and react-use ([8d47d3d](https://github.com/gmatthewsfeuer/next-plate/commit/8d47d3d1ea5432f12b70a64d4f5c87df59210a25))
+
 ### [1.10.2](https://github.com/gmatthewsfeuer/next-plate/compare/v1.10.1...v1.10.2) (2022-10-08)
 
 
