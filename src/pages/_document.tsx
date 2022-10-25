@@ -25,6 +25,7 @@ export default class Document extends NextDocument {
 			<Html lang="en">
 				<Head>
 					<link rel="manifest" href="/site.webmanifest" />
+					<link rel="canonical" href="https://next-plate.vercel.app" />
 					<link
 						href="/static/icons/icon-16x16.png"
 						rel="icon"

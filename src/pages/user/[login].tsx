@@ -55,13 +55,13 @@ export default function UserPage() {
 	}, [addUser, user]);
 
 	const handleLogin = () => {
-		if (user) return `👤 ${login} profile`;
+		if (user) return `${login} profile`;
 		if (isLoading) return 'Loading...';
 		if (isError) return 'Not Found!';
 
 		// --- Using SWR ---
 		//
-		// return user && !error ? `👤 ${login} profile` : !error ? 'Loading...' : 'Not Found!';
+		// return user && !error ? `${login} profile` : !error ? 'Loading...' : 'Not Found!';
 	};
 
 	return (

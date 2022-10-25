@@ -91,7 +91,7 @@ export default function UserComponent({ user, constraintsRef }: IUserProps): JSX
 						<WrapItem>
 							<Badge
 								variant="solid"
-								colorScheme="green"
+								bgColor="green.700"
 								display="flex"
 								alignItems="center"
 								gap="1"
@@ -100,7 +100,7 @@ export default function UserComponent({ user, constraintsRef }: IUserProps): JSX
 								<FiUsers />
 								<HStack divider={<Text mx="1">·</Text>}>
 									<HStack>
-										<Text fontSize="sm">
+										<Text fontSize="sm" color="white">
 											<Text as="strong">{user.followers}</Text>
 											<Text as="span" textTransform="none" fontWeight="normal" ml="1">
 												followers
@@ -108,7 +108,7 @@ export default function UserComponent({ user, constraintsRef }: IUserProps): JSX
 										</Text>
 									</HStack>
 									<HStack>
-										<Text fontSize="sm">
+										<Text fontSize="sm" color="white">
 											<Text as="strong">{user.following}</Text>
 											<Text as="span" textTransform="none" fontWeight="normal" ml="1">
 												following
@@ -121,14 +121,14 @@ export default function UserComponent({ user, constraintsRef }: IUserProps): JSX
 						<WrapItem>
 							<Badge
 								variant="solid"
-								colorScheme="yellow"
+								bgColor="yellow.700"
 								display="flex"
 								alignItems="center"
 								gap="1"
 								borderRadius="md"
 							>
 								<FiBook />
-								<Text as="strong" fontSize="sm">
+								<Text as="strong" fontSize="sm" color="white">
 									{user.public_repos}
 								</Text>
 							</Badge>
@@ -137,14 +137,19 @@ export default function UserComponent({ user, constraintsRef }: IUserProps): JSX
 							<WrapItem>
 								<Badge
 									variant="solid"
-									colorScheme="blue"
+									bgColor="blue.700"
 									display="flex"
 									alignItems="center"
 									gap="1"
 									borderRadius="md"
 								>
 									<FiMapPin />
-									<Text fontSize="sm" textTransform="none" fontWeight="normal">
+									<Text
+										fontSize="sm"
+										color="white"
+										textTransform="none"
+										fontWeight="normal"
+									>
 										{user.location}
 									</Text>
 								</Badge>
