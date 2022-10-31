@@ -10,7 +10,7 @@ specifiers:
   '@emotion/styled': 11.10.5
   '@hookform/resolvers': 2.9.10
   '@next/eslint-plugin-next': 13.0.0
-  '@tanstack/react-query': 4.13.4
+  '@tanstack/react-query': 4.13.5
   '@testing-library/dom': 8.19.0
   '@testing-library/jest-dom': 5.16.5
   '@testing-library/react': 13.4.0
@@ -56,7 +56,7 @@ dependencies:
   '@emotion/react': 11.10.5_g3uafwwmmkqasdhtdzusvxmmfe
   '@emotion/styled': 11.10.5_i24hg746u7l66ftcfjvgop42ay
   '@hookform/resolvers': 2.9.10_react-hook-form@7.38.0
-  '@tanstack/react-query': 4.13.4_biqbaboplfbrettd7655fr4n2y
+  '@tanstack/react-query': 4.13.5_biqbaboplfbrettd7655fr4n2y
   axios: 1.1.3
   framer-motion: 7.6.2_biqbaboplfbrettd7655fr4n2y
   next: 13.0.0_6tziyx3dehkoeijunclpkpolha
@@ -3233,8 +3233,8 @@ packages:
     resolution: {integrity: sha512-DMIy6tgGehYoRUFyoR186+pQspOicyZNSGvBWxPc2CinHjWOQ7DPnGr9zmn/kE9xK4Zd3GXd25Nj3X20+TF6Lw==}
     dev: false
 
-  /@tanstack/react-query/4.13.4_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-OHkUulPorHDiWNcUrcSUNxedeZ28z9kCKRG3JY+aJ8dFH/o4fixtac4ys0lwCP/n/VL1XMPnu+/CXEhbXHyJZA==}
+  /@tanstack/react-query/4.13.5_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-p2HcWGuqfvG7Pz04un4phWZeXzlITD7Ue0gMXjD56g8y3rP1r5qEYC/BckffrZLf4dZtQeVPCWOa8RYAqx036g==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
