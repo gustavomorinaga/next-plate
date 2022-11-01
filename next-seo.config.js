@@ -4,7 +4,6 @@ const defaultSEOConfig = {
 	titleTemplate: '%s | Next-Plate',
 	defaultTitle: 'Next-Plate',
 	description: '🦸‍♀️ A super template for Next.js with a pack of incredible tools',
-	canonical: 'https://next-plate.vercel.app',
 	site_name: 'Next-Plate',
 	openGraph: {
 		url: 'https://next-plate.vercel.app',
