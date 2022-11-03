@@ -10,7 +10,7 @@ specifiers:
   '@emotion/styled': 11.10.5
   '@hookform/resolvers': 2.9.10
   '@next/eslint-plugin-next': 13.0.1
-  '@tanstack/react-query': 4.13.5
+  '@tanstack/react-query': 4.14.1
   '@testing-library/dom': 8.19.0
   '@testing-library/jest-dom': 5.16.5
   '@testing-library/react': 13.4.0
@@ -40,7 +40,7 @@ specifiers:
   prettier: 2.7.1
   react: 18.2.0
   react-dom: 18.2.0
-  react-hook-form: 7.38.0
+  react-hook-form: 7.39.1
   react-icons: 4.6.0
   react-use: 17.4.0
   sharp: 0.31.1
@@ -55,8 +55,8 @@ dependencies:
   '@chakra-ui/react': 2.3.7_xvvq5h3dk2kufubnppcho6bcbq
   '@emotion/react': 11.10.5_g3uafwwmmkqasdhtdzusvxmmfe
   '@emotion/styled': 11.10.5_i24hg746u7l66ftcfjvgop42ay
-  '@hookform/resolvers': 2.9.10_react-hook-form@7.38.0
-  '@tanstack/react-query': 4.13.5_biqbaboplfbrettd7655fr4n2y
+  '@hookform/resolvers': 2.9.10_react-hook-form@7.39.1
+  '@tanstack/react-query': 4.14.1_biqbaboplfbrettd7655fr4n2y
   axios: 1.1.3
   framer-motion: 7.6.2_biqbaboplfbrettd7655fr4n2y
   next: 13.0.1_6tziyx3dehkoeijunclpkpolha
@@ -66,7 +66,7 @@ dependencies:
   next-seo: 5.13.0_cuttyyug54cjzme6dhlgj6veu4
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
-  react-hook-form: 7.38.0_react@18.2.0
+  react-hook-form: 7.39.1_react@18.2.0
   react-icons: 4.6.0_react@18.2.0
   react-use: 17.4.0_biqbaboplfbrettd7655fr4n2y
   sharp: 0.31.1
@@ -2643,12 +2643,12 @@ packages:
       - supports-color
     dev: true
 
-  /@hookform/resolvers/2.9.10_react-hook-form@7.38.0:
+  /@hookform/resolvers/2.9.10_react-hook-form@7.39.1:
     resolution: {integrity: sha512-JIL1DgJIlH9yuxcNGtyhsWX/PgNltz+5Gr6+8SX9fhXc/hPbEIk6wPI82nhgvp3uUb6ZfAM5mqg/x7KR7NAb+A==}
     peerDependencies:
       react-hook-form: ^7.0.0
     dependencies:
-      react-hook-form: 7.38.0_react@18.2.0
+      react-hook-form: 7.39.1_react@18.2.0
     dev: false
 
   /@humanwhocodes/config-array/0.11.6:
@@ -3228,12 +3228,12 @@ packages:
     dependencies:
       tslib: 2.4.0
 
-  /@tanstack/query-core/4.13.4:
-    resolution: {integrity: sha512-DMIy6tgGehYoRUFyoR186+pQspOicyZNSGvBWxPc2CinHjWOQ7DPnGr9zmn/kE9xK4Zd3GXd25Nj3X20+TF6Lw==}
+  /@tanstack/query-core/4.14.1:
+    resolution: {integrity: sha512-mUejKoFDe4NZB8jQJR1uuAl6IwvkUpOD2m8NcuTVPOu0pcxeeFPdrnHaljwOEFPtlqXoiiIIQGYy6whjCMN+iQ==}
     dev: false
 
-  /@tanstack/react-query/4.13.5_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-p2HcWGuqfvG7Pz04un4phWZeXzlITD7Ue0gMXjD56g8y3rP1r5qEYC/BckffrZLf4dZtQeVPCWOa8RYAqx036g==}
+  /@tanstack/react-query/4.14.1_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-cRgNzigw4GSPwGlTEkXi8hi/xgUnSEt9jCkiC8oAT3PEIdsQ50onZcpXd+JNJcZk2RTh8KM1fGyWz6xYLiY8bg==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -3244,7 +3244,7 @@ packages:
       react-native:
         optional: true
     dependencies:
-      '@tanstack/query-core': 4.13.4
+      '@tanstack/query-core': 4.14.1
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       use-sync-external-store: 1.2.0_react@18.2.0
@@ -7806,8 +7806,8 @@ packages:
       use-sidecar: 1.1.2_bbvjflvjoibwhtpmedigb26h6y
     dev: false
 
-  /react-hook-form/7.38.0_react@18.2.0:
-    resolution: {integrity: sha512-gxWW1kMeru9xR1GoR+Iw4hA+JBOM3SHfr4DWCUKY0xc7Vv1MLsF109oHtBeWl9shcyPFx67KHru44DheN0XY5A==}
+  /react-hook-form/7.39.1_react@18.2.0:
+    resolution: {integrity: sha512-MiF9PCILN5KulhSGbnjohMiTOrB47GerDTichMNP0y2cPUu1GTRFqbunOxCE9N1499YTLMV/ne4gFzqCp1rxrQ==}
     engines: {node: '>=12.22.0'}
     peerDependencies:
       react: ^16.8.0 || ^17 || ^18
