@@ -35,7 +35,7 @@ specifiers:
   next-compose-plugins: 2.2.1
   next-images: 1.8.4
   next-pwa: 5.6.0
-  next-seo: 5.13.0
+  next-seo: 5.14.0
   next-sitemap: 3.1.30
   prettier: 2.7.1
   react: 18.2.0
@@ -63,7 +63,7 @@ dependencies:
   next-compose-plugins: 2.2.1
   next-images: 1.8.4_webpack@5.74.0
   next-pwa: 5.6.0_kjyjxdmxnj7eai3d6sxart3pse
-  next-seo: 5.13.0_pknogjuzx4bv7zxtatcb2ahtsq
+  next-seo: 5.14.0_pknogjuzx4bv7zxtatcb2ahtsq
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-hook-form: 7.39.1_react@18.2.0
@@ -7290,8 +7290,8 @@ packages:
       - webpack
     dev: false
 
-  /next-seo/5.13.0_pknogjuzx4bv7zxtatcb2ahtsq:
-    resolution: {integrity: sha512-3n6cOjXydxXlrbMIWcU+D6TllKj72C2rg7IdgoxoKOnfC8ah3U0VUIGRApKXK0wi5ME1m+TBq9isAFFbFdbWXQ==}
+  /next-seo/5.14.0_pknogjuzx4bv7zxtatcb2ahtsq:
+    resolution: {integrity: sha512-VpbVFXbDzy31qoKBH7xoxtzh+nDhEWYOBnlc18zkXmypRd3X9vxdwh7rlr3q2BQTfbfk2J/a6Y2vEb+oTcCW0w==}
     peerDependencies:
       next: ^8.1.1-canary.54 || >=9.0.0
       react: '>=16.0.0'
