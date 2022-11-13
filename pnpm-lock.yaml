@@ -10,7 +10,7 @@ specifiers:
   '@emotion/styled': 11.10.5
   '@hookform/resolvers': 2.9.10
   '@next/eslint-plugin-next': 13.0.3
-  '@tanstack/react-query': 4.14.6
+  '@tanstack/react-query': 4.15.0
   '@testing-library/dom': 8.19.0
   '@testing-library/jest-dom': 5.16.5
   '@testing-library/react': 13.4.0
@@ -56,7 +56,7 @@ dependencies:
   '@emotion/react': 11.10.5_fcxl4uyvzs2eogfa5th2sufska
   '@emotion/styled': 11.10.5_o2vjmkf2gyv5vbgtzvemhi32qq
   '@hookform/resolvers': 2.9.10_react-hook-form@7.39.3
-  '@tanstack/react-query': 4.14.6_biqbaboplfbrettd7655fr4n2y
+  '@tanstack/react-query': 4.15.0_biqbaboplfbrettd7655fr4n2y
   axios: 1.1.3
   framer-motion: 7.6.6_biqbaboplfbrettd7655fr4n2y
   next: 13.0.3_6tziyx3dehkoeijunclpkpolha
@@ -3228,12 +3228,12 @@ packages:
     dependencies:
       tslib: 2.4.0
 
-  /@tanstack/query-core/4.14.5:
-    resolution: {integrity: sha512-Su1AyrPb6xnm7wXTvpN5tt+B7LViYSh9k04vvuc6+eMVH0HkE9ktZTXibRrTvV83BI1KP5MG7v/k90ne/4zQzw==}
+  /@tanstack/query-core/4.15.0:
+    resolution: {integrity: sha512-zEZ7AuQRb8Ts+WXw9TtGtqydxmcOSRsWkFYxxH8dykPcumsV49BcNDLhHtYqVGPQpMjqMS4RoVYQP+budT6WbA==}
     dev: false
 
-  /@tanstack/react-query/4.14.6_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-ubx49AeV0SXfbt4mZmb0JlJa1PRXynGm+uorJhM50HVDppt/SjcOUNK5kptEWBRzTjKVS9KhpoMkKKJ/ZzuBFQ==}
+  /@tanstack/react-query/4.15.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-WQZCSxZgYGkQUx2TRiGVcfxh0dsrP1qU7IYK/kbY1QbcWF2cQJsj80owgjpXBCRSk/nxpZ6j65Xi8TB5OTT5Vw==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -3244,7 +3244,7 @@ packages:
       react-native:
         optional: true
     dependencies:
-      '@tanstack/query-core': 4.14.5
+      '@tanstack/query-core': 4.15.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       use-sync-external-store: 1.2.0_react@18.2.0
