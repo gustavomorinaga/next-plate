@@ -22,7 +22,7 @@ specifiers:
   '@typescript-eslint/parser': 5.45.0
   axios: 1.2.0
   eslint: 8.28.0
-  eslint-config-next: 13.0.5
+  eslint-config-next: 13.0.6
   eslint-config-prettier: 8.5.0
   eslint-plugin-jest: 27.1.6
   eslint-plugin-prettier: 4.2.1
@@ -87,7 +87,7 @@ devDependencies:
   '@typescript-eslint/eslint-plugin': 5.45.0_czs5uoqkd3podpy6vgtsxfc7au
   '@typescript-eslint/parser': 5.45.0_hsf322ms6xhhd4b5ne6lb74y4a
   eslint: 8.28.0
-  eslint-config-next: 13.0.5_hsf322ms6xhhd4b5ne6lb74y4a
+  eslint-config-next: 13.0.6_hsf322ms6xhhd4b5ne6lb74y4a
   eslint-config-prettier: 8.5.0_eslint@8.28.0
   eslint-plugin-jest: 27.1.6_g4s445ihmht4kpk3znm26xsocm
   eslint-plugin-prettier: 4.2.1_cwlo2dingkvfydnaculr42urve
@@ -3020,6 +3020,12 @@ packages:
       glob: 7.1.7
     dev: true
 
+  /@next/eslint-plugin-next/13.0.6:
+    resolution: {integrity: sha512-JUANdYNCddhmQBjQQPxEJYL7GMCqYtbfrdmtX7c013srig7waNCG69Aoql7CgAgjdy8jn1ovHVdcF/NB46XN3Q==}
+    dependencies:
+      glob: 7.1.7
+    dev: true
+
   /@next/swc-android-arm-eabi/13.0.5:
     resolution: {integrity: sha512-YO691dxHlviy6H0eghgwqn+5kU9J3iQnKERHTDSppqjjGDBl6ab4wz9XfI5AhljjkaTg3TknHoIEWFDoZ4Ve8g==}
     engines: {node: '>= 10'}
@@ -5161,8 +5167,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  /eslint-config-next/13.0.5_hsf322ms6xhhd4b5ne6lb74y4a:
-    resolution: {integrity: sha512-lge94W7ME6kNCO96eCykq5GbKbllzmcDNDhh1/llMCRgNPl0+GIQ8dOoM0I7uRQVW56VmTXFybJFXgow11a5pg==}
+  /eslint-config-next/13.0.6_hsf322ms6xhhd4b5ne6lb74y4a:
+    resolution: {integrity: sha512-Tfn/0lirhkEuoGxKMtDQNtQuC7P3eHcyUyhIJY/OHtjU9ExHFtcge/Fe8Ou/Jd7DIC71vN3CT72oszVwia71cg==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0
       typescript: '>=3.3.1'
@@ -5170,7 +5176,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@next/eslint-plugin-next': 13.0.5
+      '@next/eslint-plugin-next': 13.0.6
       '@rushstack/eslint-patch': 1.1.4
       '@typescript-eslint/parser': 5.45.0_hsf322ms6xhhd4b5ne6lb74y4a
       eslint: 8.28.0
