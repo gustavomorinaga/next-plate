@@ -10,7 +10,7 @@ specifiers:
   '@emotion/styled': 11.10.5
   '@hookform/resolvers': 2.9.10
   '@next/eslint-plugin-next': 13.0.6
-  '@tanstack/react-query': 4.18.0
+  '@tanstack/react-query': 4.19.1
   '@testing-library/dom': 8.19.0
   '@testing-library/jest-dom': 5.16.5
   '@testing-library/react': 13.4.0
@@ -30,17 +30,17 @@ specifiers:
   framer-motion: 7.6.18
   husky: 8.0.2
   jest: 29.3.1
-  lint-staged: 13.0.4
+  lint-staged: 13.1.0
   next: 13.0.6
   next-compose-plugins: 2.2.1
   next-images: 1.8.4
   next-pwa: 5.6.0
-  next-seo: 5.14.1
+  next-seo: 5.15.0
   next-sitemap: 3.1.32
   prettier: 2.8.0
   react: 18.2.0
   react-dom: 18.2.0
-  react-hook-form: 7.39.7
+  react-hook-form: 7.40.0
   react-icons: 4.7.1
   react-use: 17.4.0
   sharp: 0.31.2
@@ -55,18 +55,18 @@ dependencies:
   '@chakra-ui/react': 2.4.2_di5sk4iix36hlutnofytxi3lwe
   '@emotion/react': 11.10.5_weohr3svf6vrfbybzz2cheulci
   '@emotion/styled': 11.10.5_u3btsfesflhlskmx36hju4sgdu
-  '@hookform/resolvers': 2.9.10_react-hook-form@7.39.7
-  '@tanstack/react-query': 4.18.0_biqbaboplfbrettd7655fr4n2y
+  '@hookform/resolvers': 2.9.10_react-hook-form@7.40.0
+  '@tanstack/react-query': 4.19.1_biqbaboplfbrettd7655fr4n2y
   axios: 1.2.0
   framer-motion: 7.6.18_biqbaboplfbrettd7655fr4n2y
   next: 13.0.6_6tziyx3dehkoeijunclpkpolha
   next-compose-plugins: 2.2.1
   next-images: 1.8.4_webpack@5.74.0
   next-pwa: 5.6.0_tlnu2vkn2dfbqmtzaqdvou3gzi
-  next-seo: 5.14.1_6jx7hpii6hgsrmhxgqrmo3277u
+  next-seo: 5.15.0_6jx7hpii6hgsrmhxgqrmo3277u
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
-  react-hook-form: 7.39.7_react@18.2.0
+  react-hook-form: 7.40.0_react@18.2.0
   react-icons: 4.7.1_react@18.2.0
   react-use: 17.4.0_biqbaboplfbrettd7655fr4n2y
   sharp: 0.31.2
@@ -94,7 +94,7 @@ devDependencies:
   eslint-plugin-testing-library: 5.9.1_s5ps7njkmjlaqajutnox5ntcla
   husky: 8.0.2
   jest: 29.3.1_j5wyyouvf5aixckc7ltaxrydha
-  lint-staged: 13.0.4
+  lint-staged: 13.1.0
   next-sitemap: 3.1.32_2x7vdsltqnntkvmayxgsj26u5i
   prettier: 2.8.0
   standard-version: 9.5.0
@@ -2656,12 +2656,12 @@ packages:
       - supports-color
     dev: true
 
-  /@hookform/resolvers/2.9.10_react-hook-form@7.39.7:
+  /@hookform/resolvers/2.9.10_react-hook-form@7.40.0:
     resolution: {integrity: sha512-JIL1DgJIlH9yuxcNGtyhsWX/PgNltz+5Gr6+8SX9fhXc/hPbEIk6wPI82nhgvp3uUb6ZfAM5mqg/x7KR7NAb+A==}
     peerDependencies:
       react-hook-form: ^7.0.0
     dependencies:
-      react-hook-form: 7.39.7_react@18.2.0
+      react-hook-form: 7.40.0_react@18.2.0
     dev: false
 
   /@humanwhocodes/config-array/0.11.6:
@@ -3246,12 +3246,12 @@ packages:
     dependencies:
       tslib: 2.4.0
 
-  /@tanstack/query-core/4.18.0:
-    resolution: {integrity: sha512-PP4mG8MD08sq64RZCqMfXMYfaj7+Oulwg7xZ/fJoEOdTZNcPIgaOkHajZvUBsNLbi/0ViMvJB4cFkL2Jg2WPbw==}
+  /@tanstack/query-core/4.19.1:
+    resolution: {integrity: sha512-Zp0aIose5C8skBzqbVFGk9HJsPtUhRVDVNWIqVzFbGQQgYSeLZMd3Sdb4+EnA5wl1J7X+bre2PJGnQg9x/zHOA==}
     dev: false
 
-  /@tanstack/react-query/4.18.0_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-s1kdbGMdVcfUIllzsHUqVUdktBT5uuIRgnvrqFNLjl9TSOXEoBSDrhjsGjao0INQZv8cMpQlgOh3YH9YtN6cKw==}
+  /@tanstack/react-query/4.19.1_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-5dvHvmc0vrWI03AJugzvKfirxCyCLe+qawrWFCXdu8t7dklIhJ7D5ZhgTypv7mMtIpdHPcECtCiT/+V74wCn2A==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -3262,7 +3262,7 @@ packages:
       react-native:
         optional: true
     dependencies:
-      '@tanstack/query-core': 4.18.0
+      '@tanstack/query-core': 4.19.1
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       use-sync-external-store: 1.2.0_react@18.2.0
@@ -6993,8 +6993,8 @@ packages:
   /lines-and-columns/1.2.4:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
 
-  /lint-staged/13.0.4:
-    resolution: {integrity: sha512-HxlHCXoYRsq9QCby5wFozmZW00hMs/9e3l+/dz6Qr8Kle4UH0kJTdABAbqhzG+3pcG6QjL9kz7NgGBfph+a5dw==}
+  /lint-staged/13.1.0:
+    resolution: {integrity: sha512-pn/sR8IrcF/T0vpWLilih8jmVouMlxqXxKuAojmbiGX5n/gDnz+abdPptlj0vYnbfE0SQNl3CY/HwtM0+yfOVQ==}
     engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -7394,8 +7394,8 @@ packages:
       - webpack
     dev: false
 
-  /next-seo/5.14.1_6jx7hpii6hgsrmhxgqrmo3277u:
-    resolution: {integrity: sha512-NiJeQbxYP3z+EMp52q8k3Q+OfX2+Yv2WehERDj98r2wjXxL+woKpRBdsSVYolTD0Hm8IWs42SzaISE93RoQdOw==}
+  /next-seo/5.15.0_6jx7hpii6hgsrmhxgqrmo3277u:
+    resolution: {integrity: sha512-LGbcY91yDKGMb7YI+28n3g+RuChUkt6pXNpa8FkfKkEmNiJkeRDEXTnnjVtwT9FmMhG6NH8qwHTelGrlYm9rgg==}
     peerDependencies:
       next: ^8.1.1-canary.54 || >=9.0.0
       react: '>=16.0.0'
@@ -7971,8 +7971,8 @@ packages:
       use-sidecar: 1.1.2_kzbn2opkn2327fwg5yzwzya5o4
     dev: false
 
-  /react-hook-form/7.39.7_react@18.2.0:
-    resolution: {integrity: sha512-RT0NE1uW1bY3nAuMdzfqHrpv2+sICVFaxBOvNJsCva4if2sxPxcyJy/CSqU56UXqAdRg724CNDhjMYPSHSF3rg==}
+  /react-hook-form/7.40.0_react@18.2.0:
+    resolution: {integrity: sha512-0rokdxMPJs0k9bvFtY6dbcSydyNhnZNXCR49jgDr/aR03FDHFOK6gfh8ccqB3fl696Mk7lqh04xdm+agqWXKSw==}
     engines: {node: '>=12.22.0'}
     peerDependencies:
       react: ^16.8.0 || ^17 || ^18
