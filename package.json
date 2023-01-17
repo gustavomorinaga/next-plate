@@ -39,8 +39,8 @@
 	},
 	"dependencies": {
 		"@builder.io/partytown": "0.7.4",
-		"@chakra-ui/icons": "2.0.15",
-		"@chakra-ui/react": "2.4.6",
+		"@chakra-ui/icons": "2.0.16",
+		"@chakra-ui/react": "2.4.9",
 		"@emotion/react": "11.10.5",
 		"@emotion/styled": "11.10.5",
 		"@hookform/resolvers": "2.9.10",
