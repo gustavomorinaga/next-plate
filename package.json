@@ -58,7 +58,7 @@
 		"react-icons": "4.8.0",
 		"react-use": "17.4.0",
 		"sharp": "0.31.3",
-		"yup": "0.32.11",
+		"yup": "1.0.2",
 		"zustand": "4.3.6"
 	},
 	"devDependencies": {
