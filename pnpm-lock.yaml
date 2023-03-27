@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@builder.io/partytown': 0.7.5
+  '@builder.io/partytown': 0.7.6
   '@chakra-ui/icons': 2.0.17
   '@chakra-ui/react': 2.5.3
   '@commitlint/cli': 17.4.4
@@ -40,7 +40,7 @@ specifiers:
   prettier: 2.8.4
   react: 18.2.0
   react-dom: 18.2.0
-  react-hook-form: 7.43.7
+  react-hook-form: 7.43.8
   react-icons: 4.8.0
   react-use: 17.4.0
   sharp: 0.31.3
@@ -50,12 +50,12 @@ specifiers:
   zustand: 4.3.6
 
 dependencies:
-  '@builder.io/partytown': 0.7.5
+  '@builder.io/partytown': 0.7.6
   '@chakra-ui/icons': 2.0.17_thyk6nyf37hg4lwwpztb4hw6uu
   '@chakra-ui/react': 2.5.3_fortawjrm7vnlhxb3l7mns3tpa
   '@emotion/react': 11.10.6_pmekkgnqduwlme35zpnqhenc34
   '@emotion/styled': 11.10.6_oouaibmszuch5k64ms7uxp2aia
-  '@hookform/resolvers': 2.9.11_react-hook-form@7.43.7
+  '@hookform/resolvers': 2.9.11_react-hook-form@7.43.8
   '@tanstack/react-query': 4.28.0_biqbaboplfbrettd7655fr4n2y
   axios: 1.3.4
   framer-motion: 10.7.0_biqbaboplfbrettd7655fr4n2y
@@ -66,7 +66,7 @@ dependencies:
   next-seo: 5.15.0_ld2jel3hspngo3u5lti2kgl2sq
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
-  react-hook-form: 7.43.7_react@18.2.0
+  react-hook-form: 7.43.8_react@18.2.0
   react-icons: 4.8.0_react@18.2.0
   react-use: 17.4.0_biqbaboplfbrettd7655fr4n2y
   sharp: 0.31.3
@@ -1281,8 +1281,8 @@ packages:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
     dev: true
 
-  /@builder.io/partytown/0.7.5:
-    resolution: {integrity: sha512-Zbr2Eo0AQ4yzmQr/36/h+6LKjmdVBB3Q5cGzO6rtlIKB/IOpbQVUZW+XAnhpJmJr9sIF97OZjgbhG9k7Sjn4yw==}
+  /@builder.io/partytown/0.7.6:
+    resolution: {integrity: sha512-snXIGNiZpqjno3XYQN2lbBB+05hsQR/LSttbtIW1c0gmZ7Kh/DIo0YrxlDxCDulAMFPFM8J+4voLwvYepSj3sw==}
     hasBin: true
     dev: false
 
@@ -2703,12 +2703,12 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@hookform/resolvers/2.9.11_react-hook-form@7.43.7:
+  /@hookform/resolvers/2.9.11_react-hook-form@7.43.8:
     resolution: {integrity: sha512-bA3aZ79UgcHj7tFV7RlgThzwSSHZgvfbt2wprldRkYBcMopdMvHyO17Wwp/twcJasNFischFfS7oz8Katz8DdQ==}
     peerDependencies:
       react-hook-form: ^7.0.0
     dependencies:
-      react-hook-form: 7.43.7_react@18.2.0
+      react-hook-form: 7.43.8_react@18.2.0
     dev: false
 
   /@humanwhocodes/config-array/0.11.8:
@@ -8058,8 +8058,8 @@ packages:
       use-sidecar: 1.1.2_pmekkgnqduwlme35zpnqhenc34
     dev: false
 
-  /react-hook-form/7.43.7_react@18.2.0:
-    resolution: {integrity: sha512-38yehQkQQ5uufaPKFScs7jhLE8n3+LG9H/BZfFAiBL2+7piDmw/BrdNJV4irzMaPnWZGhmGLHVICHXNVGIuXZg==}
+  /react-hook-form/7.43.8_react@18.2.0:
+    resolution: {integrity: sha512-BQm+Ge5KjTk1EchDBRhdP8Pkb7MArO2jFF+UWYr3rtvh6197khi22uloLqlWeuY02ItlCzPunPsFt1/q9wQKnw==}
     engines: {node: '>=12.22.0'}
     peerDependencies:
       react: ^16.8.0 || ^17 || ^18
