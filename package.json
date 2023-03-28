@@ -38,7 +38,7 @@
 		"prepare": "husky install"
 	},
 	"dependencies": {
-		"@builder.io/partytown": "0.7.5",
+		"@builder.io/partytown": "0.7.6",
 		"@chakra-ui/icons": "2.0.17",
 		"@chakra-ui/react": "2.5.3",
 		"@emotion/react": "11.10.6",
@@ -54,7 +54,7 @@
 		"next-seo": "5.15.0",
 		"react": "18.2.0",
 		"react-dom": "18.2.0",
-		"react-hook-form": "7.43.7",
+		"react-hook-form": "7.43.8",
 		"react-icons": "4.8.0",
 		"react-use": "17.4.0",
 		"sharp": "0.31.3",
