@@ -20,11 +20,11 @@ dependencies:
     specifier: 2.9.11
     version: 2.9.11(react-hook-form@7.43.9)
   '@tanstack/react-query':
-    specifier: 4.29.1
-    version: 4.29.1(react-dom@18.2.0)(react@18.2.0)
+    specifier: 4.29.5
+    version: 4.29.5(react-dom@18.2.0)(react@18.2.0)
   axios:
-    specifier: 1.3.5
-    version: 1.3.5
+    specifier: 1.3.6
+    version: 1.3.6
   framer-motion:
     specifier: 10.11.6
     version: 10.11.6(react-dom@18.2.0)(react@18.2.0)
@@ -35,8 +35,8 @@ dependencies:
     specifier: 2.2.1
     version: 2.2.1
   next-images:
-    specifier: 1.8.4
-    version: 1.8.4(webpack@5.74.0)
+    specifier: 1.8.5
+    version: 1.8.5(webpack@5.74.0)
   next-pwa:
     specifier: 5.6.0
     version: 5.6.0(@babel/core@7.19.3)(next@13.2.4)(webpack@5.74.0)
@@ -62,19 +62,19 @@ dependencies:
     specifier: 0.32.0
     version: 0.32.0
   yup:
-    specifier: 1.1.0
-    version: 1.1.0
+    specifier: 1.1.1
+    version: 1.1.1
   zustand:
     specifier: 4.3.7
     version: 4.3.7(react@18.2.0)
 
 devDependencies:
   '@commitlint/cli':
-    specifier: 17.6.0
-    version: 17.6.0
+    specifier: 17.6.1
+    version: 17.6.1
   '@commitlint/config-conventional':
-    specifier: 17.6.0
-    version: 17.6.0
+    specifier: 17.6.1
+    version: 17.6.1
   '@next/eslint-plugin-next':
     specifier: 13.2.4
     version: 13.2.4
@@ -2403,13 +2403,13 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@commitlint/cli@17.6.0:
-    resolution: {integrity: sha512-JaZeZ1p6kfkSiZlDoQjK09AuiI9zYQMiIUJzTOM8qNRHFOXOPmiTM56nI67yzeUSNTFu6M/DRqjmdjtA5q3hEg==}
+  /@commitlint/cli@17.6.1:
+    resolution: {integrity: sha512-kCnDD9LE2ySiTnj/VPaxy4/oRayRcdv4aCuVxtoum8SxIU7OADHc0nJPQfheE8bHcs3zZdWzDMWltRosuT13bg==}
     engines: {node: '>=v14'}
     hasBin: true
     dependencies:
       '@commitlint/format': 17.4.4
-      '@commitlint/lint': 17.6.0
+      '@commitlint/lint': 17.6.1
       '@commitlint/load': 17.5.0
       '@commitlint/read': 17.5.1
       '@commitlint/types': 17.4.4
@@ -2423,8 +2423,8 @@ packages:
       - '@swc/wasm'
     dev: true
 
-  /@commitlint/config-conventional@17.6.0:
-    resolution: {integrity: sha512-2Y9M7MN942bTK5h70fJGknhXA02+OtWCkKeIzTSwsdwz1V7y6bxYv24x052E9XHKtZHJfvM3iLuTOsjRvLqWtA==}
+  /@commitlint/config-conventional@17.6.1:
+    resolution: {integrity: sha512-ng/ybaSLuTCH9F+7uavSOnEQ9EFMl7lHEjfAEgRh1hwmEe8SpLKpQeMo2aT1IWvHaGMuTb+gjfbzoRf2IR23NQ==}
     engines: {node: '>=v14'}
     dependencies:
       conventional-changelog-conventionalcommits: 5.0.0
@@ -2471,13 +2471,13 @@ packages:
       semver: 7.3.8
     dev: true
 
-  /@commitlint/lint@17.6.0:
-    resolution: {integrity: sha512-6cEXxpxZd7fbtYMxeosOum/Nnwu3VdSuZcrFSqP9lWNsrHRv4ijVsnLeomvo6WHPchGOeEWAazAI7Q6Ap22fJw==}
+  /@commitlint/lint@17.6.1:
+    resolution: {integrity: sha512-VARJ9kxH64isgwVnC+ABPafCYzqxpsWJIpDaTuI0gh8aX4GQ0i7cn9tvxtFNfJj4ER2BAJeWJ0vURdNYjK2RQQ==}
     engines: {node: '>=v14'}
     dependencies:
       '@commitlint/is-ignored': 17.4.4
       '@commitlint/parse': 17.4.4
-      '@commitlint/rules': 17.6.0
+      '@commitlint/rules': 17.6.1
       '@commitlint/types': 17.4.4
     dev: true
 
@@ -2541,8 +2541,8 @@ packages:
       resolve-global: 1.0.0
     dev: true
 
-  /@commitlint/rules@17.6.0:
-    resolution: {integrity: sha512-Ka7AsRFvkKMYYE7itgo7hddRGCiV+0BgbTIAq4PWmnkHAECxYpdqMVzW5jaATmXZfwfRRTB57e7KZWj6EPmK1A==}
+  /@commitlint/rules@17.6.1:
+    resolution: {integrity: sha512-lUdHw6lYQ1RywExXDdLOKxhpp6857/4c95Dc/1BikrHgdysVUXz26yV0vp1GL7Gv+avx9WqZWTIVB7pNouxlfw==}
     engines: {node: '>=v14'}
     dependencies:
       '@commitlint/ensure': 17.4.4
@@ -3298,12 +3298,12 @@ packages:
     dependencies:
       tslib: 2.4.0
 
-  /@tanstack/query-core@4.29.1:
-    resolution: {integrity: sha512-vkPewLEG8ua0efo3SsVT0BcBtkq5RZX8oPhDAyKL+k/rdOYSQTEocfGEXSaBwIwsXeOGBUpfKqI+UmHvNqdWXg==}
+  /@tanstack/query-core@4.29.5:
+    resolution: {integrity: sha512-xXIiyQ/4r9KfaJ3k6kejqcaqFXXBTzN2aOJ5H1J6aTJE9hl/nbgAdfF6oiIu0CD5xowejJEJ6bBg8TO7BN4NuQ==}
     dev: false
 
-  /@tanstack/react-query@4.29.1(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-/crv1v+OeuGG6EOvaQmyeo9GCKtH4jbmuhZkvk9ulufRiHcTr/A9+YP9GevEAZzUTdzXMwenpTbyxBGvG2xXvw==}
+  /@tanstack/react-query@4.29.5(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-F87cibC3s3eG0Q90g2O+hqntpCrudKFnR8P24qkH9uccEhXErnJxBC/AAI4cJRV2bfMO8IeGZQYf3WyYgmSg0w==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -3314,7 +3314,7 @@ packages:
       react-native:
         optional: true
     dependencies:
-      '@tanstack/query-core': 4.29.1
+      '@tanstack/query-core': 4.29.5
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       use-sync-external-store: 1.2.0(react@18.2.0)
@@ -4198,8 +4198,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /axios@1.3.5:
-    resolution: {integrity: sha512-glL/PvG/E+xCWwV8S6nCHcrfg1exGx7vxyUIivIA1iL7BIh6bePylCfVHwp6k13ao7SATxB6imau2kqY+I67kw==}
+  /axios@1.3.6:
+    resolution: {integrity: sha512-PEcdkk7JcdPiMDkvM4K6ZBRYq9keuVJsToxm2zQIM70Qqo2WHTdJZMXcG9X+RmRp2VPNUQC8W1RAGbgt6b1yMg==}
     dependencies:
       follow-redirects: 1.15.1
       form-data: 4.0.0
@@ -7479,8 +7479,8 @@ packages:
     resolution: {integrity: sha512-OjJ+fV15FXO2uQXQagLD4C0abYErBjyjE0I0FHpOEIB8upw0hg1ldFP6cqHTJBH1cZqy96OeR3u1dJ+Ez2D4Bg==}
     dev: false
 
-  /next-images@1.8.4(webpack@5.74.0):
-    resolution: {integrity: sha512-E6JV+aMxeUCh8A+cwn1xgmlh/zINSW4JC/XLNbM+PWQd5LBdfB+m1IDCAfNnGOKMo96kzw+4LsKxnX/Kldw78Q==}
+  /next-images@1.8.5(webpack@5.74.0):
+    resolution: {integrity: sha512-YLBERp92v+Nu2EVxI9+wa32KRuxyxTC8ItbiHUWVPlatUoTl0yRqsNtP39c2vYv27VRvY4LlYcUGjNRBSMUIZA==}
     peerDependencies:
       webpack: ^4.0.0 || ^5.0.0
     dependencies:
@@ -9765,8 +9765,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /yup@1.1.0:
-    resolution: {integrity: sha512-CtpEHWiIMwWJBJ+zX8xWImXXdvJ10X/sKkYYTXfVocHj087e9zhP0GNkU7HlXBBI4T9BtHQxs8n2jLzmo/X8Yg==}
+  /yup@1.1.1:
+    resolution: {integrity: sha512-KfCGHdAErqFZWA5tZf7upSUnGKuTOnsI3hUsLr7fgVtx+DK04NPV01A68/FslI4t3s/ZWpvXJmgXhd7q6ICnag==}
     dependencies:
       property-expr: 2.0.5
       tiny-case: 1.0.3
